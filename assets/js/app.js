@@ -24,17 +24,20 @@ $(document).ready(function() {
     //var sNum = $('section').length;
     TweenMax.set('#osrChart, #osr-core, #osr-core-2, #osr-core-main2, #osr-core-main3, #label-purple-highlight, #purple-label-marker, #osrchart-blue-png, #osrchart-blue2-png, #floor-ring, #blue-ring-big, #purple-label-marker, #ring1, #ring2, #panel1, #panel2, #panel2-head, #panel2-para, #panel2-box, #dots1, #dots2, #dots3, #dots4, #panel3-head, #panel3-head2, #panel3-div, #panel3-pg1, #panel3-para2, #panel3-para3, #panel3-para4, #hcm-blue, #erp-blue, #crm-blue', { opacity: 0 });
     
-
+    TweenMax.set('#oGrid', { opacity: .5}, 0)
+        
+        
         
 /* SCENE INTRO
         ++++++++++++++++++++++++++++++++++++++++++++++++++++
         ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
     var tl = new TimelineMax();
         tl
-        
-            .add(TweenMax.to('#oGrid', 1, { rotation: -360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 0)
+            //.add(TweenMax.to('#oGrid', 0, { opacity: .5 }), 0)
+            .add(TweenMax.to('#oGrid', 1, { opacity: 1 }), 1)
+            .add(TweenMax.to('#oGrid', 1, { rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 2)
                 ////////////  TEXT
-            .add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 1, { opacity:0, x:'+=150', y:'+=20', ease:Expo.easeNone }, .2), 1);
+            //.add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 1, { opacity:0, x:'+=150', y:'+=20', ease:Expo.easeNone }, .2), 1);
                 // Operational...
                 // The Engine That Runs...
         
@@ -46,7 +49,7 @@ $(document).ready(function() {
         triggerHook: 0
 
     })
-.addIndicators({ name: "--> introScene --> Duration 1700%" })    
+//.addindicators({ name: "--> introScene --> Duration 1700%" })    
         .setPin('#anim1-container')
         .addTo(animController);
 
@@ -56,7 +59,7 @@ $(document).ready(function() {
         triggerHook: 0
 
     })
-.addIndicators({ name: "--> introAnimScene --> Duration 400" })   
+//.addindicators({ name: "--> introAnimScene --> Duration 400" })   
         .setTween(tl) 
         .addTo(animController);
 
@@ -70,16 +73,17 @@ $(document).ready(function() {
             .add(TweenMax.to('#oGrid', 1, { rotation: '+=360', transformOrigin:"center center", ease: Linear.easeNone }).timeScale(0.1), 0)
 
                 ////////////  TEXT
-            //.add(TweenMax.staggerFrom('#scene1-pin h1', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 2);
-            .add(TweenMax.staggerFrom('#scene1-pin h1', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 4);
+           
+            .add(TweenMax.staggerFrom('#scene1-pin h1', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 4)
                 // Service Buniness Need a New Solution
+            .add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, ease:Linear.easeNone }, 1.5), 4)
         
     var scene1 = new ScrollMagic.Scene( {
         triggerElement: '#scene1-trigger',
         duration: 500,
         triggerHook: 0
     })
-.addIndicators({ name: "--> scene1 --> Duration 500" })    
+//.addIndicators({ name: "--> scene1 --> Duration 500" })    
         .setTween(s1tl)
         .addTo(animController); 
  
@@ -92,7 +96,7 @@ $(document).ready(function() {
         duration: '500%',
         triggerHook: 0.1
     })
-.addIndicators({ name: "--> scene1_1 --> Duration 500%" })
+//.addIndicators({ name: "--> scene1_1 --> Duration 500%" })
         .setPin('#scene1-pin', { pushFollowers: false })    
         .addTo(animController);
   
@@ -102,8 +106,12 @@ $(document).ready(function() {
         ++++++++++++++++++++++++++++++++++++++++++++++++++++ */    
     var s1_2tl = new TimelineMax();
         s1_2tl       
-                ////////////  TEXT
-           .add(TweenMax.staggerFrom('#scene1 p', 8, {y:'+=150', opacity:0} ,12), 0);
+                ////////////  TEXT  #staggerp1', { opacity: 0 }); at top
+            //.add(TweenMax.staggerFrom('.today p', 8, {y:'+=150', x:'-=200', opacity:1} , 12), 0);
+            //.add(TweenMax.to('#staggerp1', 8, {y:'+=150', x:'+=200', opacity: 1} , 12),80)
+            //.add(TweenMax.to('#scene1-3-trigger', 8, {y:'+=150', x:'+=200', opacity: 0} , 12), 60)
+            //.add(TweenMax.to('#scene1-3-trigger', 8, {y:'+=150', x:'+=200', opacity: 1} , 12), 30)
+            //.add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 4);
             //.add(TweenMax.staggerFrom('#scene1 p', 12, { y:'+=250', opacity:0.3 }, 4), 0)
             //.add(TweenMax.to('#scene1 p', 4, { opacity:0 }), 18);
             //.add(TweenMax.staggerFrom('#scene1 p', 6, { opacity:0, ease: Linear.easeNone }, 12), 2.3)
@@ -116,7 +124,7 @@ $(document).ready(function() {
         duration: 600,
         triggerHook: 0.7 // KEEP SCENE 1_2 ON LONGER
     })
-.addIndicators({ name: "--> scene1-2 --> Duration 600" })
+//.addIndicators({ name: "--> scene1-2 --> Duration 600" })
         .setTween(s1_2tl)
         .addTo(animController);
 
@@ -155,13 +163,13 @@ $(document).ready(function() {
     var s2tl = new TimelineMax();
     s2tl
     
-        .add(TweenMax.from('#scene2', 4, {opacity:0, ease: Linear.easeNone}), 0)
-        .add(TweenMax.to('#oGrid', 1, {opacity:0, ease: Linear.easeNone}), 4)
+        //.add(TweenMax.from('#scene2', 4, {opacity:0, ease: Linear.easeNone}), 0)
+        .add(TweenMax.to('#oGrid', 8, {opacity:0, ease: Linear.easeNone}), 8)
         //.add(TweenMax.to('#oGrid', 0, { x:'-=62', y:'+=84' }), 16)
         
     var scene2 = new ScrollMagic.Scene( {
         triggerElement: '#scene2',
-        duration: 600,
+        duration: 1000,
         triggerHook: 0.6
     })
     .setTween(s2tl)
@@ -176,7 +184,7 @@ $(document).ready(function() {
         duration: '1300%',
         triggerHook: 0.2
     })
-.addIndicators({ name: "--> scene2_1 --> Duration 1300%" })    
+//.addIndicators({ name: "--> scene2_1 --> Duration 1300%" })    
         .setPin('#scene2-pin')   
         .addTo(animController);
   
@@ -231,7 +239,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#panel3-para3', 0, { scale: 1, opacity: 0, x:"-=100", y:"+=198" }), 0)
             .add(TweenMax.to('#panel3-para4', 0, { scale: 1, opacity: 0, x:"-=95", y:"+=46" }), 0)
       
-            .add(TweenMax.to('#osrChart', 0, { scale: 0.70, x: "-=223", y:"-=23" }), 0)
+            .add(TweenMax.to('#osrChart', 0, { scale: 0.8, x: "-=223", y:"-=23" }), 0)
             .add(TweenMax.to('#osrChart', 4, { opacity:1, y:"-=323", ease: Linear.easeNone }), 6)
             .add(TweenMax.to('#floor-ring', 6, {opacity:1, ease: Linear.easeNone}), 9)
             .add(TweenMax.from('#osr', 4, {opacity:0, y:'+=320', ease: Linear.easeNone}), 12)
@@ -275,7 +283,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#benefits', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 50)
 
             //.add(TweenMax.to('#osrChart', 4, {  scale: 0.6, x: "-=142", y: "+=80" }), 60)
-            .add(TweenMax.to('#osrChart', 4, {  scale: 0.6 }), 52)
+            .add(TweenMax.to('#osrChart', 4, {  scale: 0.76, x:'-=260', y:'+=56' }), 52)
         
 /* PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE
         ++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -454,7 +462,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#osr', 8, {opacity: 0, y:'+=444', ease: Linear.easeNone}), 235)
             .add(TweenMax.to('#osr-pole', 4, {opacity:0, y:'+=444', ease: Linear.easeNone}), 235)
         
-            .add(TweenMax.to('#panels', 6, { opacity:0, x:"+=200", ease: Linear.easeNone }), 241)
+            .add(TweenMax.to('#panels', 6, { opacity:0, x:"+=50", ease: Linear.easeNone }), 241)
             
             .add(TweenMax.to('#floor-ring', 4, { opacity:0, ease: Linear.easeNone }), 239)
             .add(TweenMax.to('#osrchart-blue2-png', 10, { x:"+=160", ease: Linear.easeNone }), 247)
@@ -464,33 +472,33 @@ $(document).ready(function() {
                        
 
             
-            //.add(TweenMax.to('#oGrid', 0, {x:'-=100', y:'+=14', ease: Linear.easeNone}), 255)  //194  =  +53
-            .add(TweenMax.to('#oGrid', 0, {x:'+=50', y:'+=17', ease: Linear.easeNone}), 256)  //194  =  +53
-            .add(TweenMax.to('#oGrid', 8, {opacity:1, ease: Linear.easeNone}), 257)  //194  =  +53
+            //.add(TweenMax.to('#oGrid', 0, {x:'-=100', y:'+=14', ease: Linear.easeNone}), 255)
+            .add(TweenMax.to('#oGrid', 0, {x:'+=50', y:'+=17', ease: Linear.easeNone}), 256)
+            .add(TweenMax.to('#oGrid', 12, {opacity:1, ease: Linear.easeNone}), 262)
         
 
         
-            .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 4, {x:'+=3', y:'-=20', ease: Linear.easeNone}), 266)//197 + 1 of previou
-            .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 1, {x:'-=10', y:'-=10', ease: Linear.easeNone}), 272)//217
+            .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 4, {x:'+=3', y:'-=20', ease: Linear.easeNone}), 266)
+            .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 1, {x:'-=10', y:'-=10', ease: Linear.easeNone}), 272)
         
-            .add(TweenMax.to('#ogrid-tl, #ogrid-inner-tl', 2, {x:'+=10', y:'+=28', ease: Linear.easeNone}), 267)//212
-            .add(TweenMax.to('#ogrid-tl, #ogrid-inner-tl', 1, {x:'+=10', y:'+=10', ease: Linear.easeNone}), 269)//214
+            .add(TweenMax.to('#ogrid-tl, #ogrid-inner-tl', 2, {x:'+=10', y:'+=28', ease: Linear.easeNone}), 267)
+            .add(TweenMax.to('#ogrid-tl, #ogrid-inner-tl', 1, {x:'+=10', y:'+=10', ease: Linear.easeNone}), 269)
         
-            .add(TweenMax.to('#ogrid-bl, #ogrid-inner-bl', 1, {x:'+=10', y:'-=10', ease: Linear.easeNone}), 268)//213
+            .add(TweenMax.to('#ogrid-bl, #ogrid-inner-bl', 1, {x:'+=10', y:'-=10', ease: Linear.easeNone}), 268)
             
-            .add(TweenMax.to('#ogrid-top, #ogrid-inner-top', 1, {y:'+=25', ease: Linear.easeNone}), 270)//215
-            .add(TweenMax.to('#ogrid-tr, #ogrid-inner-tr', 1, {x:'-=10', y:'+=10', ease: Linear.easeNone}), 271)//216
+            .add(TweenMax.to('#ogrid-top, #ogrid-inner-top', 1, {y:'+=25', ease: Linear.easeNone}), 270)
+            .add(TweenMax.to('#ogrid-tr, #ogrid-inner-tr', 1, {x:'-=10', y:'+=10', ease: Linear.easeNone}), 271)
             
-            //.add(TweenMax.to('#oGrid', 3, {scale:'-=0.05', ease: Linear.easeNone}), 210)//218
-            .add(TweenMax.to('#oGrid', 3, {scaleY:1, ease: Linear.easeNone}), 274)//219
-            //.add(TweenMax.to('#oGrid', 4, {y:'-=40', scale:'-=0.08', x:'-=6', ease: Linear.easeNone}), 214)//222
+            //.add(TweenMax.to('#oGrid', 3, {scale:'-=0.05', ease: Linear.easeNone}), 210)
+            .add(TweenMax.to('#oGrid', 3, {scaleY:1, ease: Linear.easeNone}), 274)
+            //.add(TweenMax.to('#oGrid', 4, {y:'-=40', scale:'-=0.08', x:'-=6', ease: Linear.easeNone}), 214)
             .add(TweenMax.to('#oGrid #ogrid-bl path, #oGrid #ogrid-tl path, #oGrid #ogrid-br path, #oGrid #ogrid-tr path, #oGrid #ogrid-top path', 8, { stroke: '#1A80FF', ease: Linear.easeNone }), 278)
         
         
             .add(TweenMax.to('#oGrid', 2, {opacity:0, ease: Linear.easeNone}), 278)
             .add(TweenMax.to('#oGrid', 0, {x:'-=50', y:'-=17'}), 280)
             .add(TweenMax.to('#oGrid2', 0, { x:'+=56' }), 278)
-            .add(TweenMax.from('#oGrid2 #ogrid2-whole', 4, {opacity:0, ease: Linear.easeNone}), 278)
+            .add(TweenMax.from('#oGrid2 #ogrid2-whole', 8, {opacity:0, ease: Linear.easeNone}), 278)
             .add(TweenMax.from('#oGrid2 #ogrid2-outter-whole', 4, {opacity:0, ease: Linear.easeNone}), 282)
             .add(TweenMax.from('#oGrid2 #header', 4, {opacity:0, x:'+=420', ease: Linear.easeNone}), 290)
 
@@ -503,9 +511,9 @@ $(document).ready(function() {
             .add(TweenMax.from('#oGrid2 #executive', 8, {opacity:0, ease: Linear.easeNone}), 326)
         
       
-            .set('#discover', {className:"-=active"}, 320)//246
-            .set('#people', {className:"+=active"}, 320)//246
-            .set('#benefits', {className:"-=active"}, 320);//246
+            .set('#discover', {className:"-=active"}, 300)//246
+            .set('#people', {className:"+=active"}, 300)//246
+            .set('#benefits', {className:"-=active"}, 300);//246
         
 /* SCENE 2_2
         ++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -526,10 +534,10 @@ $(document).ready(function() {
         ++++++++++++++++++++++++++++++++++++++++++++++++++++ */      
     var scene2_3 = new ScrollMagic.Scene( {
         triggerElement: '#scene2-3',
-        duration: '1740%', // KEEP NAV ON LEFT
+        duration: '2100%', // KEEP NAV ON LEFT
         triggerHook: 0.2
     })
-.addIndicators({ name: "--> scene2-3 --> Duration 1740%" })     
+//.addIndicators({ name: "--> scene2-3 --> Duration 1740%" })     
         .setPin('#scene2-3-pin')    
         .addTo(animController)
 
@@ -542,7 +550,7 @@ $(document).ready(function() {
 //        duration: '600%',
 //        triggerHook: 0.2
 //    })
-////.addIndicators({ name: "--> scene2-4 --> Duration 1800%" })    
+//.addIndicators({ name: "--> scene2-4 --> Duration 1800%" })    
 //        .setPin('#scene2-4-pin')    
 //        .addTo(animController);
 
@@ -561,7 +569,7 @@ $(document).ready(function() {
         
         .add(TweenMax.to('#oGrid2 #header', 8, {y:'-=1650', opacity:0, ease: Linear.easeNone}), 132)
         
-        .add(TweenMax.staggerTo('#oGrid2 #ogrid2-outter-whole, #oGrid2 #osr-label', 4, {opacity:0, ease: Linear.easeNone}), 124)
+        .add(TweenMax.staggerTo('#oGrid2 #ogrid2-outter-whole, #oGrid2 #osr-label', 4, {opacity:0, ease: Linear.easeNone}), 120)
         
         .add(TweenMax.to('#oGrid2 #ogrid2-bl path, #oGrid2 #ogrid2-tl path, #oGrid2 #ogrid2-br path, #oGrid2 #ogrid2-tr path, #oGrid2 #ogrid2-top path', 8, { stroke: '#ffffff', ease: Linear.easeNone }), 135)
         
@@ -589,31 +597,53 @@ $(document).ready(function() {
         var s3_1tl = new TimelineMax();
             s3_1tl
             
-            .add(TweenMax.to('#panel_1', 0, { y:'+=80', ease: Linear.easeNone }), 0)
-            .add(TweenMax.to('#panel_1', 32, { y:'-=1400', ease: Linear.easeNone }), 4)
-            .add(TweenMax.to('#panel_1', 4, { opacity: 0, ease: Linear.easeNone }), 34)
-
-            .add(TweenMax.to('#panel_2', 0, { y:'+=80', ease: Linear.easeNone }), 0)
-            .add(TweenMax.to('#panel_2', 36, { y:'-=1400', ease: Linear.easeNone }), 8)
-            .add(TweenMax.to('#panel_2', 4, { opacity:0, ease: Linear.easeNone }), 40)
+//            .set('#discover', {className:"-=active"}, 0)
+//            .set('#people', {className:"-=active"}, 0)
+//            .set('#benefits', {className:"+=active"}, 0)
+//            .set('#scene2-3 .slide-list', {className:"+=white a"}, 0)
             
-            .add(TweenMax.to('#panel_3', 0, {  y:'=80', x:'-=320', ease: Linear.easeNone }), 0)
-            .add(TweenMax.to('#panel_3', 32, { y:'-=1400', ease: Linear.easeNone }), 17)
-            .add(TweenMax.to('#panel_3', 4, { opacity:0, ease: Linear.easeNone }), 43)
+//            .add(TweenMax.to('#panel_1', 0, { y:'-=80', ease: Linear.easeNone }), 0)
+//            .add(TweenMax.to('#panel_1', 32, { y:'-=1400', ease: Linear.easeNone }), 0)
+////            .add(TweenMax.to('#panel_1', 8, { opacity: 0, ease: Linear.easeNone }), 32)
+//
+//            .add(TweenMax.to('#panel_2', 0, { y:'-=80', ease: Linear.easeNone }), 0)
+//            .add(TweenMax.to('#panel_2', 32, { y:'-=1400', ease: Linear.easeNone }), 16)
+////            .add(TweenMax.to('#panel_2', 8, { opacity:0, ease: Linear.easeNone }), 72)
+//            
+//            .add(TweenMax.to('#panel_3', 0, {  y:'-=80', ease: Linear.easeNone }), 0)
+//            .add(TweenMax.to('#panel_3', 32, { y:'-=1400', ease: Linear.easeNone }), 32)
+////            .add(TweenMax.to('#panel_3', 8, { opacity:0, ease: Linear.easeNone }), 73)
+//        
+//        
+//            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 16, {opacity:0, y:"-=2000", ease:Linear.easeNone }), 300)
+            
+            .add(TweenMax.to('#panel_1', 0, { y:'-=80', ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#panel_1', 12, { y:'-=1600', ease: Linear.easeNone }), 4)
+            .add(TweenMax.to('#panel_1', 2, { opacity: 0, ease: Linear.easeNone }), 12)
         
+            .add(TweenMax.to('#panel_2', 0, { y:'-=80', ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#panel_2', 12, { y:'-=1600', ease: Linear.easeNone }), 6)
+            .add(TweenMax.to('#panel_2', 2, { opacity:0, ease: Linear.easeNone }), 14)
+            
+            .add(TweenMax.to('#panel_3', 0, {  y:'-=80', x:'-=288', ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#panel_3', 12, { y:'-=1600', ease: Linear.easeNone }), 9)
+            .add(TweenMax.to('#panel_3', 2, { opacity:0, ease: Linear.easeNone }), 17)
         
-            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 16, {opacity:0, y:"-=2000", ease:Linear.easeNone }), 41)
+            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 4, {opacity:0, y:"-=6000", ease:Linear.easeNone }), 23)
         
-            .add(TweenMax.to('#discover', 16, {opacity:0, y:"-=200", ease:Linear.easeNone }), 43)
-            .add(TweenMax.to('#people', 16, {opacity:0, y:"-=260", ease:Linear.easeNone }), 44)
-            .add(TweenMax.to('#benefits', 16, {opacity:0, y:"-=320", ease:Linear.easeNone }), 45)
+            // FAKE OUT PLACEHOLDER TO KEEP THE SCENE ON, SO OGRID CAN ANIMATE UPS
+            .add(TweenMax.to('#panel_3', 15, { x:'-=1288', ease: Linear.easeNone }), 40)
+        
+            .add(TweenMax.to('#discover', 4, {opacity:0, y:"-=200", ease:Linear.easeNone }), 21)
+            .add(TweenMax.to('#people', 3, {opacity:0, y:"-=260", ease:Linear.easeNone }), 22)
+            .add(TweenMax.to('#benefits', 4, {opacity:0, y:"-=320", ease:Linear.easeNone }), 23)
         
         var scene3_1 = new ScrollMagic.Scene( {
         triggerElement: '#scene3',
-        duration: '1600%',
+        duration: '2000%',
         triggerHook: 0
     })
-.addIndicators({ name: "--> scene3-1 --> Duration 1600%" })    
+//.addindicators({ name: "--> scene3-1 --> Duration 1600%" })    
     .setPin('#scene3-pin')
     .addTo(animController);
     
@@ -626,11 +656,11 @@ $(document).ready(function() {
 
         var scene3_2 = new ScrollMagic.Scene( {
         triggerElement: '#scene3-2-trigger',
-        duration: '200%',
+        duration: '650%',
         triggerHook: 0,
-        offset: 2600 // position the hero image up or down
+        offset: 2700 // position the hero image up or down
     })
-.addIndicators({ name: "--> scene3-2 --> Duration 300%" })    
+//.addindicators({ name: "--> scene3-2 --> Duration 300%" })    
     .setPin('#hero-container2')
     .addTo(animController);
 
@@ -643,18 +673,79 @@ $(document).ready(function() {
         
         var scene3_3 = new ScrollMagic.Scene( {
         triggerElement: '#hero-container2',
-        duration: '200%',
+        duration: '1400%',
         triggerHook: 0.6,
         offset: 480
     })
-.addIndicators({ name: "--> scene3-3 --> Duration 200%" })
+//.addindicators({ name: "--> scene3-3 --> Duration 200%" })
     .setTween(s3_1tl)
     .addTo(animController);
-        
+            
 
 /* SCENE 4
         ++++++++++++++++++++++++++++++++++++++++++++++++++++
-        ++++++++++++++++++++++++++++++++++++++++++++++++++++ */  
+        ++++++++++++++++++++++++++++++++++++++++++++++++++++ */ 
+        
+
+                // init controller
+                var controller = new ScrollMagic.Controller();
+
+                // build scene
+//                var s4_tl = new TimelineMax();
+//                    s4_tl
+//                    
+//                    
+//                    //.add(TweenMax.to('#man-img', 3, { opacity: 0, scale: 4 }), 5)
+//                         
+//                         //.add(TweenMax.to('#panel_3', 15, { x:'-=1288', ease: Linear.easeNone }), 40)
+//                    
+////                    .setTween('#card-man', 0, { opacity: 0, y:'+=150' })
+//                        //.add(TweenMax.to('#card-man', 0, { opacity: 0, y:'+=150' }), 0)
+//                        .add(TweenMax.to('#card-man', 5, { opacity: 1, y:'-=150' }), 5)
+                
+        
+                    var scene4 = new ScrollMagic.Scene({
+
+                    triggerElement: "#trigger1", 
+                    duration: 1200,
+                    offset: 400 
+                    })
+                    
+                
+
+                    .setPin("#pin1")
+                    .addIndicators({name: "1 (duration: 900)"}) // add indicators (requires plugin)
+                    .addTo(controller);
+
+    
+        
+                // init controller
+                var controller = new ScrollMagic.Controller();
+
+                // build scene
+                var scene = new ScrollMagic.Scene({triggerElement: "#pin2"})
+                    .setPin("#pin2")
+                    .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
+                    .addTo(controller);
+        
+                
+        
+                // init controller
+                var controller = new ScrollMagic.Controller();
+
+                // build scene
+                var scene = new ScrollMagic.Scene({
+
+                    triggerElement: "#trigger2", 
+                    duration: 1400,
+                    offset: 400 })
+
+                    .setPin("#pin3")
+                    .addIndicators({name: "3 (duration: 1400)"}) // add indicators (requires plugin)
+                    .addTo(controller);
+        
+        
+        
 
 	//  bind scroll to anchor links
 	$(document).on("click", "a[href^='#']", function (e) {
