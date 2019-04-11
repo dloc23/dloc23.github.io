@@ -681,7 +681,7 @@ $(document).ready(function() {
                     .setTween('#card-man', .4, { opacity: 1, y:'-=100', ease: Linear.easeIn })
 
                     .setPin("#pin1")
-                    .addIndicators({name: "trigger 1 pin 1 0"}) // add indicators (requires plugin)
+                    //.addIndicators({name: "trigger 1 pin 1 0"}) // add indicators (requires plugin)
                     .addTo(controller);
 
                 //init controller
@@ -712,7 +712,7 @@ $(document).ready(function() {
                     .setTween('#card-ebook-container', .4, { opacity: 1, y:'-=100', ease: Linear.easeNone })    
                 
                     .setPin("#pin2")
-                    .addIndicators({name: "trigger2 pin 2 (duration: 0)"}) // add indicators (requires plugin)
+                    //.addIndicators({name: "trigger2 pin 2 (duration: 0)"}) // add indicators (requires plugin)
                     .addTo(controller);
         
                 // init controller
@@ -731,7 +731,7 @@ $(document).ready(function() {
                 
                 
                     .setPin("#pin3")
-                    .addIndicators({name: "trigger 3 pin 3 (duration: 0)"}) // add indicators (requires plugin)
+                    //.addIndicators({name: "trigger 3 pin 3 (duration: 0)"}) // add indicators (requires plugin)
                     .addTo(controller);
         
         
