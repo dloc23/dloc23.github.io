@@ -626,7 +626,7 @@ $(document).ready(function() {
         triggerElement: '#scene3-2-trigger',
         duration: '650%',
         triggerHook: 0,
-        offset: 2100 // position the hero image up or down
+        offset: 2400 // position the hero image up or down
     })
 //.addindicators({ name: "--> scene3-2 --> Duration 300%" })    
     .setPin('#hero-container2')
