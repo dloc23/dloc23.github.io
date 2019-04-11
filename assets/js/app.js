@@ -389,8 +389,6 @@ $(document).ready(function() {
             .add(TweenMax.to('#panel3-para3', 2, { opacity: 1, x:"+=100", ease: Linear.easeNone }), 153)
             .add(TweenMax.to('#dots2', 4, { opacity: 0, ease: Linear.easeNone }), 151)
             .add(TweenMax.to('#dots3', 4, { opacity: 1, ease: Linear.easeNone }), 151)
-        
-        
 
 
         //RINGS IN !!!!!!!!!!!!!!!!
@@ -418,9 +416,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#ring2', 1, { opacity: 1 }), 198)
             .add(TweenMax.to('#ring2', 1, { opacity: 0 }), 202)
         
-        
-        
-        
+
             .add(TweenMax.from('#bluering', 8, { opacity:0 }), 202)
             .add(TweenMax.to('#business-orchestration', 4, { opacity: 0, ease: Linear.easeNone }), 202)
             .add(TweenMax.to('#osrchart-blue-png', 4, { opacity:0, ease: Linear.easeNone }), 204)
@@ -443,12 +439,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#dots3', 4, { opacity: 0, ease: Linear.easeNone }), 206)
             .add(TweenMax.to('#dots4', 4, { opacity: 1, ease: Linear.easeNone }), 206)
 
-        
-        
-        
-            
-        
-            
+
             .add(TweenMax.to('#bluering', 8, { opacity:0 }), 229)
             .add(TweenMax.to('#hcm-blue', 4, { opacity: 0, ease: Linear.easeNone }), 233)
             .add(TweenMax.to('#erp-blue', 4, { opacity: 0, ease: Linear.easeNone }), 233)
@@ -469,15 +460,12 @@ $(document).ready(function() {
             .add(TweenMax.to('#intro-image', 10, { x:"+=160", ease: Linear.easeNone }), 247)
             .add(TweenMax.to('#osrChart', 16, { opacity:0, x: "+=46", ease: Linear.easeNone }), 241)
 
-                       
 
-            
             //.add(TweenMax.to('#oGrid', 0, {x:'-=100', y:'+=14', ease: Linear.easeNone}), 255)
             .add(TweenMax.to('#oGrid', 0, {x:'+=50', y:'+=17', ease: Linear.easeNone}), 256)
             .add(TweenMax.to('#oGrid', 12, {opacity:1, ease: Linear.easeNone}), 262)
         
 
-        
             .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 4, {x:'+=3', y:'-=20', ease: Linear.easeNone}), 266)
             .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 1, {x:'-=10', y:'-=10', ease: Linear.easeNone}), 272)
         
@@ -597,35 +585,15 @@ $(document).ready(function() {
         var s3_1tl = new TimelineMax();
             s3_1tl
             
-//            .set('#discover', {className:"-=active"}, 0)
-//            .set('#people', {className:"-=active"}, 0)
-//            .set('#benefits', {className:"+=active"}, 0)
-//            .set('#scene2-3 .slide-list', {className:"+=white a"}, 0)
-            
-//            .add(TweenMax.to('#panel_1', 0, { y:'-=80', ease: Linear.easeNone }), 0)
-//            .add(TweenMax.to('#panel_1', 32, { y:'-=1400', ease: Linear.easeNone }), 0)
-////            .add(TweenMax.to('#panel_1', 8, { opacity: 0, ease: Linear.easeNone }), 32)
-//
-//            .add(TweenMax.to('#panel_2', 0, { y:'-=80', ease: Linear.easeNone }), 0)
-//            .add(TweenMax.to('#panel_2', 32, { y:'-=1400', ease: Linear.easeNone }), 16)
-////            .add(TweenMax.to('#panel_2', 8, { opacity:0, ease: Linear.easeNone }), 72)
-//            
-//            .add(TweenMax.to('#panel_3', 0, {  y:'-=80', ease: Linear.easeNone }), 0)
-//            .add(TweenMax.to('#panel_3', 32, { y:'-=1400', ease: Linear.easeNone }), 32)
-////            .add(TweenMax.to('#panel_3', 8, { opacity:0, ease: Linear.easeNone }), 73)
-//        
-//        
-//            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 16, {opacity:0, y:"-=2000", ease:Linear.easeNone }), 300)
-            
-            .add(TweenMax.to('#panel_1', 0, { y:'-=80', ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#panel_1', 0, { y:'+=80', ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#panel_1', 12, { y:'-=1600', ease: Linear.easeNone }), 4)
             .add(TweenMax.to('#panel_1', 2, { opacity: 0, ease: Linear.easeNone }), 12)
         
-            .add(TweenMax.to('#panel_2', 0, { y:'-=80', ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#panel_2', 0, { y:'+=80', x:'-=140', ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#panel_2', 12, { y:'-=1600', ease: Linear.easeNone }), 6)
             .add(TweenMax.to('#panel_2', 2, { opacity:0, ease: Linear.easeNone }), 14)
             
-            .add(TweenMax.to('#panel_3', 0, {  y:'-=80', x:'-=288', ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#panel_3', 0, {  y:'+=80', x:'-=288', ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#panel_3', 12, { y:'-=1600', ease: Linear.easeNone }), 9)
             .add(TweenMax.to('#panel_3', 2, { opacity:0, ease: Linear.easeNone }), 17)
         
@@ -658,7 +626,7 @@ $(document).ready(function() {
         triggerElement: '#scene3-2-trigger',
         duration: '650%',
         triggerHook: 0,
-        offset: 2700 // position the hero image up or down
+        offset: 2100 // position the hero image up or down
     })
 //.addindicators({ name: "--> scene3-2 --> Duration 300%" })    
     .setPin('#hero-container2')
@@ -689,7 +657,6 @@ $(document).ready(function() {
 
                 // init controller
                 var controller = new ScrollMagic.Controller();
-
                 // build scene
 //                var s4_tl = new TimelineMax();
 //                    s4_tl
@@ -703,32 +670,50 @@ $(document).ready(function() {
 //                        //.add(TweenMax.to('#card-man', 0, { opacity: 0, y:'+=150' }), 0)
 //                        .add(TweenMax.to('#card-man', 5, { opacity: 1, y:'-=150' }), 5)
                 
-        
                     var scene4 = new ScrollMagic.Scene({
 
                     triggerElement: "#trigger1", 
-                    duration: 1200,
-                    offset: 400 
-                    })
+                    duration: 0,
+                    offset: 380 
+                    })       
                     
-                
+                    .setTween('#card-man', 0, { opacity: 0, y:'+=100' })
+                    .setTween('#card-man', .4, { opacity: 1, y:'-=100', ease: Linear.easeIn })
 
                     .setPin("#pin1")
-                    .addIndicators({name: "1 (duration: 900)"}) // add indicators (requires plugin)
+                    .addIndicators({name: "trigger 1 pin 1 0"}) // add indicators (requires plugin)
                     .addTo(controller);
 
-    
-        
-                // init controller
+                //init controller
+//                var controller = new ScrollMagic.Controller();
+//       
+//                var scene = new ScrollMagic.Scene({
+//                    
+//                    triggerElement: "#pin2",
+//                    duration: 0,
+//                    offset: 480
+//                    })
+//                    
+//                    .setPin("#pin2")
+//                    .addIndicators({name: "pin2 (duration: 0)"}) // add indicators (requires plugin)
+//                    .addTo(controller);  
+                 
+                 
+                //init controller
                 var controller = new ScrollMagic.Controller();
 
-                // build scene
-                var scene = new ScrollMagic.Scene({triggerElement: "#pin2"})
-                    .setPin("#pin2")
-                    .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
-                    .addTo(controller);
-        
+                var scene = new ScrollMagic.Scene({
+
+                    triggerElement: "#trigger2", 
+                    duration: 0,
+                    offset: 0 })
                 
+                    .setTween('#card-ebook-container', 0, { opacity: 0, y:'+=100', ease: Linear.easeNone })
+                    .setTween('#card-ebook-container', .4, { opacity: 1, y:'-=100', ease: Linear.easeNone })    
+                
+                    .setPin("#pin2")
+                    .addIndicators({name: "trigger2 pin 2 (duration: 0)"}) // add indicators (requires plugin)
+                    .addTo(controller);
         
                 // init controller
                 var controller = new ScrollMagic.Controller();
@@ -736,14 +721,18 @@ $(document).ready(function() {
                 // build scene
                 var scene = new ScrollMagic.Scene({
 
-                    triggerElement: "#trigger2", 
-                    duration: 1400,
-                    offset: 400 })
+                    triggerElement: "#trigger3", 
+                    duration: 0,
+                    offset: 0 })
 
+                
+                    .setTween('#cta-image', 0, { opacity: 0, y:'+=50', ease: Linear.easeOut })
+                    //.setTween('#cta-image', .2, { opacity: 1, y:'-=50', ease: Linear.easeNone })    
+                
+                
                     .setPin("#pin3")
-                    .addIndicators({name: "3 (duration: 1400)"}) // add indicators (requires plugin)
+                    .addIndicators({name: "trigger 3 pin 3 (duration: 0)"}) // add indicators (requires plugin)
                     .addTo(controller);
-        
         
         
 
