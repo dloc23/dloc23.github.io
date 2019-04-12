@@ -207,12 +207,25 @@ li {
     max-width: 100% auto;
 /*    height: 1278px;*/
 }
+
+#hero2-img {
+/*
+    padding-top: 60px;
+    max-width: 100% auto;
+    width: 1200px;
+*/
+}
+
 .spacer-container.girl-space {
     height: 283vh;
 }
 
 .spacer-container.h2-space {
-/*    height: 140vh;*/
+    height: 140vh;
+}
+
+.spacer-container.end-space {
+    height: 46vh;
 }
 /*_________________________________  1440  ___________________________________*/
 @media (max-width: 1440px) {
@@ -562,7 +575,7 @@ li {
 #panel_3 {
     border-radius: 0;
     width: 380px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     
     background: none;
     margin-top: -70px;
