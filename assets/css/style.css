@@ -227,6 +227,14 @@ li {
 .spacer-container.end-space {
     height: 46vh;
 }
+
+.not-mobile {
+    display: block;
+}
+.only-mobile {
+    display: none;
+}
+
 /*_________________________________  1440  ___________________________________*/
 @media (max-width: 1440px) {
     
@@ -436,25 +444,26 @@ li {
 /*_________________________________  PHONE 420  ___________________________________*/
 @media screen and (max-width: 420px) {
     
-/*
     .not-mobile {
         display: none;
     }
     .only-mobile {
         display: block;
     }
-*/
 
     .hero {
-        background-image: url('../img/bg-image-m2.jpg');
+        background-image: url('../img//bg-image-m2.jpg');
         background-size: cover;
         background-size:100% auto;
         background-repeat: no-repeat;
         background-position: top center;
         max-width: 100% auto;
+/*        width: 100%;*/
     }
     
     #oGrid {
+        margin-bottom: 0;
+        margin-top: 80%;
     }
     
     #hero-container-content {
@@ -472,7 +481,7 @@ li {
         font-size: 18px;
         font-weight: 400;
         line-height: 24px;
-        padding-left: 0px;
+        padding-left: 100%;
     }
     
     .today {
