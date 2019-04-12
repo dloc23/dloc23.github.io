@@ -74,9 +74,13 @@ $(document).ready(function() {
 
                 ////////////  TEXT
            
-            .add(TweenMax.staggerFrom('#scene1-pin h1', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 4)
+            .add(TweenMax.staggerFrom('#scene1-pin h1', 5, { opacity:0, x:'-=350', ease:Linear.easeNone }, 1.5), 4)
                 // Service Buniness Need a New Solution
             .add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, ease:Linear.easeNone }, 1.5), 4)
+        
+            .add(TweenMax.to('#para-today', 0, { opacity: 0, y:"+=800", ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#para-today', 4, { opacity: 1, ease: Linear.easeNone }), 5)
+        
         
     var scene1 = new ScrollMagic.Scene( {
         triggerElement: '#scene1-trigger',
@@ -143,6 +147,8 @@ $(document).ready(function() {
         .add(TweenMax.to('#ogrid-tr, #ogrid-inner-tr', 1, {x:'+=10', y:'+=-10', ease: Linear.easeNone}),7)
         .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 1, {x:'+=10', y:'+=10', ease: Linear.easeNone}),8)
         .add(TweenMax.staggerTo('#scene1-pin h1', 4, {x:'-=250', opacity:0}, 0.6), 1.5)
+        //.add(TweenMax.to('#para-today', 4, { opacity: 0, ease: Linear.easeNone }), 1.5)
+        //.add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 4)
         //.add(TweenMax.to('#scene1-pin h1', 4, { opacity:0}, 2), 0)
         .add(TweenMax.to('#ogrid-tl, #ogrid-inner-tl', 4, {x:'+=-10', y:'+=-28', ease: Linear.easeNone}),10)
         .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 4, {x:'+=-3', y:'+=20', ease: Linear.easeNone}),11)
