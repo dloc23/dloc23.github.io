@@ -14,6 +14,17 @@
         <link href="assets/css/style.css" rel="stylesheet">
 <!--        <link href="assets/css/masterstyle.css" rel="stylesheet">-->
         
+                        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <script src="scrollmagic/uncompressed/ScrollMagic.js"></script>
+        <script src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+        <script src="scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+        <script src="assets/js/app.js"></script>       
 
         
 <!--
@@ -81,13 +92,11 @@
                     <h2 class="white">The Engine That Runs</h2>
                     <h2 class="white">Your Service Business</h2>
                 </div>
-                
-<!--                 <div class="col-1"></div>-->
 
             </div>
         </div>
             
-        <div id="scene1" class="container-fluid animation-container">
+        <div id="scene1" class="container-fluid animation-container" style="z-index: 50">
 
             <div id="scene1-trigger" class="row align-items-center h-25"> 
                 <div class="col"></div>
@@ -95,26 +104,39 @@
                 <div class="col"></div> 
             </div>
             
-            <div id="scene1-pin" class="row align-items-center h-75">
+            <div id="scene1-pin" class="row align-items-center h-75" style="z-index: -10">
                 <div class="col-1"></div>
                 <div class="col-11 service">
 
+                    <div id="service-h1-container">
                         <h1 class="dblue">Service</h1>
                         <h1 class="dblue mb-3">Businesses</h1>
                         <h1 class="blue">Need a new</h1>      
                         <h1 class="blue">Solution</h1>
-
+                    </div>
+                    
                 </div>
 <!--                    <div class="col-2"></div>-->
             </div>
             
-            <div id="scene1-4-trigger" class="row align-items-center h-25">
-                <div class="col-7"></div>
-                <div class="col-5 today">
-                    <p class="nblue w-75 mb-6" id="staggerp1">Today, services businesses are facing the challenge of creating more specialized, project-based work than ever while dealing with increasingly slimmer margins.</p>
-                    <p id="scene1-3-trigger" class="nblue w-75">However, the many different work management and project management solutions compiled by services businesses have caused teams to become more siloed and disconnected than ever, leading to a pivotal moment in how they choose to do business.</p>
+            <div id="scene1-4-trigger" class="row align-items-center h-25" style="z-index: 60">
+<!--
+                <div class="col-10 today only-mobile" style="background: white">
+                    <p class="nblue mb-6 w-100">Today, services businesses are facing the challenge of creating more specialized, project-based work than ever while dealing with increasingly slimmer margins.</p>
+                    <p id="scene1-3-trigger" class="nblue w-100">However, the many different work management and project management solutions compiled by services businesses have caused teams to become more siloed and disconnected than ever, leading to a pivotal moment in how they choose to do business.</p>
                 </div>
-<!--                    <div class="col-1"></div>-->
+-->
+                
+                <div class="col-10 testme only-mobile" style="background: blue">
+                    <div id="para-today" style="height: 0px">
+                        <img class="img-fluid" src="../assets/img/para_today.svg">
+                    </div>
+                </div>
+                
+                <div class="col-2 offset-7 today not-mobile">
+                    <p class="nblue mb-6">Today, services businesses are facing the challenge of creating more specialized, project-based work than ever while dealing with increasingly slimmer margins.</p>
+                    <p id="scene1-3-trigger" class="nblue">However, the many different work management and project management solutions compiled by services businesses have caused teams to become more siloed and disconnected than ever, leading to a pivotal moment in how they choose to do business.</p>
+                </div>
             </div>
                 
         </div>
@@ -406,18 +428,6 @@
         
         <div id="trigger3"></div>
         
-        
-                <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-        <script src="scrollmagic/uncompressed/ScrollMagic.js"></script>
-        <script src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
-        <script src="scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
-        <script src="assets/js/app.js"></script>
 
     </body>
 </html>
