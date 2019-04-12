@@ -37,7 +37,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#oGrid', 1, { opacity: 1 }), 1)
             .add(TweenMax.to('#oGrid', 1, { rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 2)
                 ////////////  TEXT
-            //.add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 1, { opacity:0, x:'+=150', y:'+=20', ease:Expo.easeNone }, .2), 1);
+            .add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 4, { opacity:0, x:'+=250', y:'+=140', ease:Expo.easeNone }, .2), 0);
                 // Operational...
                 // The Engine That Runs...
         
