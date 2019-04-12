@@ -568,6 +568,10 @@ $(document).ready(function() {
         .set('#benefits', {className:"+=active"}, 150)
         .set('#scene2-3 .slide-list', {className:"+=white a"}, 150)
         
+        .add(TweenMax.to('#discover', 4, { y:'+=58' }), 150)
+        .add(TweenMax.to('#people', 4, { y:'+=58' }), 150)
+        .add(TweenMax.to('#benefits', 4, { y:'+=58' }), 150)
+        
         
         var scene3 = new ScrollMagic.Scene( {
             triggerElement: '#scene3',
@@ -604,7 +608,7 @@ $(document).ready(function() {
         
             .add(TweenMax.to('#discover', 4, {opacity:0, y:"-=200", ease:Linear.easeNone }), 21)
             .add(TweenMax.to('#people', 3, {opacity:0, y:"-=260", ease:Linear.easeNone }), 22)
-            .add(TweenMax.to('#benefits', 4, {opacity:0, y:"-=320", ease:Linear.easeNone }), 23)
+            .add(TweenMax.to('#benefits', 5, {opacity:0, y:"-=520", ease:Linear.easeNone }), 23)
         
         var scene3_1 = new ScrollMagic.Scene( {
         triggerElement: '#scene3',
@@ -626,7 +630,7 @@ $(document).ready(function() {
         triggerElement: '#scene3-2-trigger',
         duration: '650%',
         triggerHook: 0,
-        offset: 2400 // position the hero image up or down
+        offset: 2500 // position the hero image up or down
     })
 //.addindicators({ name: "--> scene3-2 --> Duration 300%" })    
     .setPin('#hero-container2')
