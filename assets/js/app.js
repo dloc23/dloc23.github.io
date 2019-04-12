@@ -576,6 +576,7 @@ $(document).ready(function() {
         var scene3 = new ScrollMagic.Scene( {
             triggerElement: '#scene3',
             duration: 3600,
+//            triggerHook: "onEnter",
             triggerHook: 0.2,
             offset: 8400  // transition of graph animation to people animation
         })
@@ -677,12 +678,12 @@ $(document).ready(function() {
                     var scene4 = new ScrollMagic.Scene({
 
                     triggerElement: "#trigger1", 
-                    duration: 0,
-                    offset: 380 
+                    duration: 1200,
+                    offset: 420 
                     })       
                     
-                    .setTween('#card-man', 0, { opacity: 0, y:'+=100' })
-                    .setTween('#card-man', .4, { opacity: 1, y:'-=100', ease: Linear.easeIn })
+                    .setTween('#card-man', 0, { opacity: 0, y:'+=80' })
+                    .setTween('#card-man', .2, { opacity: 1, y:'-=80', ease: Linear.easeIn })
 
                     .setPin("#pin1")
                     //.addIndicators({name: "trigger 1 pin 1 0"}) // add indicators (requires plugin)
@@ -710,6 +711,7 @@ $(document).ready(function() {
 
                     triggerElement: "#trigger2", 
                     duration: 0,
+                    //triggerHook: 0.2,
                     offset: 0 })
                 
                     .setTween('#card-ebook-container', 0, { opacity: 0, y:'+=100', ease: Linear.easeNone })
