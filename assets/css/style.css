@@ -89,7 +89,7 @@ li {
     z-index: 20;
 }
 #scene1-pin {
-    z-index: 30;
+/*    z-index: 30;*/
 }
 #scene2-pin {
     z-index: -10;
@@ -149,21 +149,25 @@ li {
 }
 
 .service {
-    padding-left: 140px;
+    padding-left: 12%;
 }
 
 .service h1 {
     font-size: 62px;
 }
 
+
+
 .today {
-    padding-left: 10px;
-    padding-right: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .today p {
     font-size: 24px;
     padding-bottom: 10%;
+    padding-left: 5%;
+    margin-right: -46%
 }
 
 #osrChart {
@@ -458,7 +462,7 @@ li {
     }
 
     .hero {
-        background-image: url('../img/bg-image-mobile2.jpg');
+        background-image: url('../img/bg-image-mobile.jpg');
         background-size: cover;
         background-size:100% auto;
         background-repeat: no-repeat;
@@ -494,25 +498,39 @@ li {
         padding-left: 10%;
     }
     
+    #service-h1-container {
+        padding-bottom: 20%;
+        margin-top: -20%;
+    }
+    
     .service {
         padding-left: 0%;
         padding-bottom: 200px;
     }
 
     .service h1 {
-        font-size: 58px;
-        line-height: 60px;
+        font-size: 56px;
+        line-height: 52px;
+
+    }
+    
+    #para-today {
+        width: 130%;
+
+        padding-left: 0px;
+        padding-right: 5%;
     }
     
     .today {
-/*        margin-right: 90%;*/
-/*        padding-right: 0px;*/
+        margin-right: 0%;
+        padding-right: 0px;
     }
 
     .today p {
-        font-size: 18px;
+        font-size: 16px;
         padding-bottom: 10%;
-/*        padding-left: 20%;*/
+        padding-left: 2%;
+        padding-right: 0%;
     }
     
     .slide-list {
