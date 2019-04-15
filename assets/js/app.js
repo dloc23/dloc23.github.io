@@ -7,7 +7,7 @@ $(document).ready(function() {
         $.get("assets/svg/flip_osr.svg", function(svg) {
             $("#flip-osr").append(svg.documentElement);
           }),
-        $.get("assets/img/endrings.svg", function(svg) {
+        $.get("assets/svg/endrings.svg", function(svg) {
             $("#endring").append(svg.documentElement);
           }),
         $.get("assets/svg/p-test.svg", function(svg) {
@@ -268,17 +268,43 @@ $(document).ready(function() {
 //                })
         
         
-             //.add(TweenMax.to('#flip-osr-mask', 0, { opacity: 1, x: "+=23" }), 0)
-            .add(TweenMax.to('#mask-blue', 0, { opacity: 0.5, x: "-=23" }), 0)
+            .add(TweenMax.to('#flip-osr', 0, { opacity: 1, x: "-=46", y: "-=140" }), 0)
+            .add(TweenMax.to('#flip-osr-mask', 0, { opacity: 0 }), 0)
         
-            .add(TweenMax.to('#flip-osr', 0, { opacity: 0, x: "-=87", y:"-=132" }), 0)
-            .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0, x: "+=71", y:"" }), 0)
-            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, y:"+=96" }), 0)
+            .add(TweenMax.to('#mask-blue', 0, { opacity: 0, x: "-=23" }), 0)
+        
             
-            .add(TweenMax.to('#flip-osr', 8, { opacity: 1 }), 18)
-            .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 1 }), 18)
-//            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 1 }), 8)
-//            .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 1 }), 20)
+            .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0, x: "+=18", y:"+=8" }), 0)
+            .add(TweenMax.to('#flip-osr-head2', 0, { opacity: 0, x: "+=18", y:"+=8" }), 0)
+            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x: "-=51", y:"+=175" }), 0)
+            .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 0, x: "-=51", y:"+=8" }), 0)
+            .add(TweenMax.to('#flip-osr-p3', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
+            .add(TweenMax.to('#flip-osr-p4', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
+            .add(TweenMax.to('#flip-osr-p5', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
+            
+            
+            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 1 }), 28)
+            .add(TweenMax.to('#flip-osr-p1', 1, { opacity: 1 }), 28)
+        
+            
+            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 0 }), 43)
+            .add(TweenMax.to('#flip-osr-head2', 1, { opacity: 1 }), 43)
+            
+            
+            .add(TweenMax.to('#flip-osr-p1', 1, {  opacity: 0 }), 46)
+            .add(TweenMax.to('#flip-osr-p2', 4, {  opacity: 1 }), 46)
+            //.add(TweenMax.to('#flip-osr-p2', 4, {  opacity: 1, rotationY:180 }), 46)
+        
+        
+            .add(TweenMax.to('#flip-osr-p2', 1, {  opacity: 0 }), 65)
+            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 1 }), 65)
+        
+            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 0 }), 145)
+            .add(TweenMax.to('#flip-osr-p4', 1, {  opacity: 1 }), 145)
+        
+        
+            .add(TweenMax.to('#flip-osr-p4', 1, {  opacity: 0 }), 205)
+            .add(TweenMax.to('#flip-osr-p5', 1, {  opacity: 1 }), 205)
 
 
 //            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 1, x:"-=5", y:"" }), 1)
