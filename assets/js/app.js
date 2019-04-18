@@ -160,7 +160,7 @@ $(document).ready(function() {
             //.add(TweenMax.to('#staggerp1', 8, {y:'+=150', x:'+=200', opacity: 1} , 12),80)
             //.add(TweenMax.to('#scene1-3-trigger', 8, {y:'+=150', x:'+=200', opacity: 0} , 12), 60)
             //.add(TweenMax.to('#scene1-3-trigger', 8, {y:'+=150', x:'+=200', opacity: 1} , 12), 30)
-            //.add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 4);
+            .add(TweenMax.staggerFrom('#scene1-2-trigger p', 5, { opacity:0, ease:Linear.easeNone }, 1), 4);
             //.add(TweenMax.staggerFrom('#scene1 p', 12, { y:'+=250', opacity:0.3 }, 4), 0)
             //.add(TweenMax.to('#scene1 p', 4, { opacity:0 }), 18);
             //.add(TweenMax.staggerFrom('#scene1 p', 6, { opacity:0, ease: Linear.easeNone }, 12), 2.3)
