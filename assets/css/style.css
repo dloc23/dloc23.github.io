@@ -63,6 +63,25 @@ li {
     height: 500vh;
 }
 
+.spacer-container.girl-space {
+    height: 283vh;
+}
+
+.spacer-container.h2-space {
+    height: 140vh;
+}
+
+.spacer-container.end-space {
+    height: 180vh;
+}
+.spacer-container.hero-space-70 {
+    height: 70vh;
+}
+.spacer-container.hero-space-30 {
+    height: 30vh;
+}
+
+
 /* Colors */
 .lblue {
     color: #9dd1ff;
@@ -128,8 +147,12 @@ li {
     width: 400px;
 }
 
+#flip-today-container {
+/*    width: 400px;*/
+}
+
 #flip-today {
-    width: 400px;
+/*    width: 400px;*/
 }
 
 #oGrid {
@@ -190,6 +213,9 @@ li {
     padding-top: 7%;
 }
 
+#flip-osr-conatainer {
+/*        width: 360px;*/
+    }
 #flip-osr {
 /*        width: 360px;*/
     }
@@ -218,7 +244,14 @@ li {
     padding-bottom: 0px;
 }
 
+#ogrid2-mobile {
+    width: 0px;
+    height: 0px;
+}
 
+#ogrid2-mobile-container {
+    padding-left: 0px;
+}
 
 #hero-container2 {
     background-image: url('../img/bg-image2.jpg');
@@ -238,23 +271,295 @@ li {
 */
 }
 
-.spacer-container.girl-space {
-    height: 283vh;
-}
-
-.spacer-container.h2-space {
-    height: 140vh;
-}
-
-.spacer-container.end-space {
-    height: 180vh;
-}
-
 .not-mobile {
     display: block;
 }
 .only-mobile {
     visibility: hidden;
+}
+
+.slide-list {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.slide-list a {
+    color: #ADB8C9;
+    text-decoration: none;
+}
+
+.slide-list a:hover{
+    color: #424352;
+    text-decoration: none;
+}
+
+.slide-list .active a {
+    color: #424352;
+    pointer-events: none;
+    cursor: default;
+}
+
+.slide-list.white a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.slide-list.white a:hover {
+    color: #ffffff;
+}
+
+.slide-list.white .active a {
+    color: #ffffff;
+}
+
+
+#first_panel {
+    padding-left: 346px;
+}
+
+#second_panel {
+    padding-left: 346px;
+}
+
+#third_panel {
+    margin-left: 0px;
+}
+
+
+/*-------------------------------------------------------------------------*/
+.card-img {
+    margin-top: 46px;
+}
+
+.card-img-overlay {
+    padding-top: 92px;
+}
+
+#card-para {
+    background:white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    margin-top: -16px;
+}
+
+#card-h6 {
+    color: #424352;
+    background:none;
+    
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+
+    margin-left:-20px;
+    margin-right:-20px;
+    margin-top: -3px;
+    padding-top: 20px;
+    padding-left:20px;
+    padding-bottom: 10px;
+}
+
+#panel_1,
+#panel_2,
+#panel_3 {
+    border-radius: 0;
+    width: 380px;
+    background-color: rgba(255, 255, 255, 1);
+    
+    background: none;
+    margin-top: -70px;
+}
+
+#panel1-card-h3 {
+    background:white;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding-left:20px;
+}
+
+#panel1-card-h3-last,
+#panel2-card-h3-last {
+    background:white;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding-left:20px;
+}
+
+#panel-card-h3-first {
+    background:white;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding-left:20px;
+    margin-top: -10px;
+}
+
+#panel-card-h3-second {
+    background:white;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding-left:20px;
+}
+
+#panel-card-h3-third {
+    background:white;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding-left:20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: -16px;
+}
+
+
+
+/*  CARD MAN*/
+/*-------------------------------------------------------------------------*/
+#scene4 {
+    background: white;
+}
+
+#man-img {
+    margin-top: 25%;
+    padding-left: 10%;
+}
+
+#card-man-container {
+    align-content: right;
+    margin-top: 25%;
+    padding-right: 5%;
+}
+
+#card-man {
+    width: 560px;  
+}
+
+#col2 {
+    height: 800px;
+}
+
+#card-man h3 {
+    font-size: 2.6rem;
+    color: #1A80FF;
+    line-height: 3rem;
+    padding-bottom: 2.2rem;
+}
+
+#card-man h6 {
+    color:#4f5f6c;
+    font-weight: 200;
+    font-size: 1.6rem;
+    margin-bottom: 0px;
+    padding-bottom: .6rem;
+}
+
+#card-man p {
+    color:#4f5f6c;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-top: 8px;
+    padding-bottom: .4rem;
+}
+
+#card-blockquote {
+    font-family: "IBM Plex Mono", monospace;
+    color:#4f5f6c;
+    font-size: .8rem;
+    font-weight: 200;
+    padding-top: 1.4rem;
+}
+/*  END CARD MAN*/
+/*-------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+#endring-bg {
+    background-image: url('../svg/endrin_clip.svg');
+    background-color: #0f2146;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    height: 700px;
+}
+
+#trigger2 {
+    padding-right: 0px;
+    padding-left: 4%;
+    
+}
+
+#endring {
+    width: 792px;
+}
+
+#endring-container {
+    padding-right: 0px;
+}
+
+#card-ebook-pad {
+    padding-left: 0px
+}
+
+#card-ebook-container {
+    width: 70%;
+    padding: 1.8rem;
+}
+
+#card-ebook-h6 {
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: .4rem;
+    color: #acaaa8;
+}
+
+#card-ebook-h3-1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color:#0e1871;
+    line-height: 34px;
+}
+
+#card-ebook-h3-2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #1A80FF;
+    padding-bottom: 1.5rem;
+}
+
+#card-ebook-p {
+    font-size: 18px;
+    font-weight: 200;
+    color:#4f5f6c;
+    padding-bottom: .6rem;
+}
+
+#ebook-text-underline {
+    font-family: "IBM Plex Mono", monospace;
+/*    text-underline-position: auto;*/
+/*    text-decoration: none;*/
+}
+
+#ebook-text-underline:hover {
+    text-decoration: underline;
+    text-underline-position: auto;
+    font-size: 46px;
+}
+
+/*COVERS UP MAN DIV*/
+#cta-card {
+    height: 100px;
+}
+
+#endscreen-space {
+    height: 40vh;
 }
 
 /*_________________________________  1440  ___________________________________*/
@@ -487,7 +792,6 @@ li {
     #oGrid {
         margin-bottom: 0;
         margin-top: 100%;
-/*        padding-left: 0px;*/
         width: 600px;
     }
     
@@ -528,12 +832,13 @@ li {
 
     }
     
-    #flip-today {
-        width: 350px;
-
+    #flip-today-container {
         padding-left: 0px;
-/*        margin-right: 15px;*/
-/*        padding-right: 3%;*/
+    }
+    
+    #flip-today {
+        width: 400px;
+        padding-left: 0px;
     }
     
     .today {
@@ -552,583 +857,242 @@ li {
         display: none;
     }
     
-    #osrChart {
-        width: 536px;
-    /*    width: 50%;*/
-        
-    }
-
-    #osr-container {
-/*        padding-left: 95%;*/
-        margin-left: 41%;
-        
-        
-        margin-top: 100%;
-        padding-top: 100%;
-/*        z-index: -5;*/
-        
-    }
-    
     #flip-osr-container {
-/*        margin-bottom: 100px;*/
         padding-top: 0px;
-
     }
     
     #flip-osr {
         width: 460px;
     }
     
+    #osr-container {
+        margin-left: 38%;
+        margin-top: 100%;
+        padding-top: 100%;
+    }
     
-}
+    #osrChart {
+        padding-top: 46px;
+        width: 486px;
+    }
+    
+    #oGrid2-padding {
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 
+    #oGrid2 {
+        width: 0px;
+        height: 0px;
+    }
 
+    #ogrid2-mobile-container {
+        padding-left: 0px;
+        margin-top: -40px;
+    }
+    
+    #ogrid2-mobile {
+        width: 360px;
+    }
+    
+    #hero-container2 {
+        background-image: url('../img/bg-image2-m.jpg');
+        padding-left: 200px;
+        
+/*
+        background-color: #0f2146;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: auto;
+        height: 1200px;
+        }
+*/
+    
+    /*_________________________________  PANELS  ___________________________________*/
+/*
+    #first_panel {
+        padding-left: 0px;
+        padding-right: 40px;
+    }
 
-#bs-h3-1 {
-    padding-left: 6rem;
-    padding-top: 3rem;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 23px;
-    margin-bottom: 0px;
-    color:white;
-}
+    #second_panel {
+        padding-left: 132px;
+    }
 
-#bs-h3-2 {
-    padding-left: 6rem;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 23px;
-    color: #1A80FF;
-}
+    #third_panel {
+        margin-left: 31px;
+    }
+    
+    #panel_1,
+    #panel_2,
+    #panel_3 {
+        border-radius: 0;
+        width: 360px;
+        background-color: rgba(255, 255, 255, 1);
 
+        background: none;
+        margin-top: -70px;
+    }
 
+    #panel1-card-h3 {
+        background:white;
+        margin-left:-20px;
+        margin-right:-20px;
+        padding-left:20px;
+    }
 
+    #panel1-card-h3-last,
+    #panel2-card-h3-last {
+        background:white;
+        margin-left:-20px;
+        margin-right:-20px;
+        padding-left:20px;
+    }
 
+    #panel-card-h3-first {
+        background:white;
+        margin-left:-20px;
+        margin-right:-20px;
+        padding-left:20px;
+        margin-top: -10px;
+    }
 
+    #panel-card-h3-second {
+        background:white;
+        margin-left:-20px;
+        margin-right:-20px;
+        padding-left:20px;
+    }
 
+    #panel-card-h3-third {
+        background:white;
+        margin-left:-20px;
+        margin-right:-20px;
+        padding-left:20px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-top: -16px;
+    }
+    
+        .card-img {
+        margin-top: 46px;
+    }
 
-.slide-list {
-    font-weight: 500;
-    font-size: 20px;
-    text-align: left;
-    list-style-type: none;
-}
+    .card-img-overlay {
+        padding-top: 92px;
+    }
 
-.slide-list a {
-    color: #ADB8C9;
-    text-decoration: none;
-}
+    #card-para {
+        background:white;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-left:-20px;
+        margin-right:-20px;
+        padding-right: 20px;
+        padding-left:20px;
+        padding-top: 16px;
+        padding-bottom: 40px;
+        margin-top: -16px;
+    }
 
-.slide-list a:hover{
-    color: #424352;
-    text-decoration: none;
-}
+    #card-h6 {
+        color: #424352;
+        background:none;
 
-.slide-list .active a {
-    color: #424352;
-    pointer-events: none;
-    cursor: default;
-}
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: left;
 
-.slide-list.white a {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.slide-list.white a:hover {
-    color: #ffffff;
-}
-
-.slide-list.white .active a {
-    color: #ffffff;
-}
-
-
-
-
-
-
-#first_panel {
-    padding-left: 346px;
-}
-
-#second_panel {
-    padding-left: 346px;
-}
-
-#third_panel {
-    margin-left: 00px;
-}
-
-
-
-
-
-
-
+        margin-left:-20px;
+        margin-right:-20px;
+        margin-top: -3px;
+        padding-top: 20px;
+        padding-left:20px;
+        padding-bottom: 10px;
+    }
+*/
+    /*_________________________________  END PANELS  ___________________________________*/
+    
+    /*  START CARD MAN 420 */
 /*-------------------------------------------------------------------------*/
-#card-para {
-    line-height: 22px;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-#card-h6 {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 400;
-    font-size: 12px;
-    text-align: left;
-    color: #424352;
-}
-
-#panel_1,
-#panel_2,
-#panel_3 {
-    border-radius: 0;
-    width: 380px;
-    background-color: rgba(255, 255, 255, 1);
     
-    background: none;
-    margin-top: -70px;
-}
+    #scene4 {
+        background: white;
+    }
 
-#panel1-card-h3 {
-    background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
-}
+    #man-pic {
+/*        width: 100px;*/
+    }
+    
+    #man-img {
+/*        margin-top: 25%;*/
+/*        margin-right: 10%;*/
+    }
 
-#panel1-card-h3-last,
-#panel2-card-h3-last {
-    background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
-}
+    #card-man-container {
+/*        align-content: right;*/
+/*        margin-top: 25%;*/
+/*        padding-right: 5%;*/
+    }
 
-#panel-card-h3-first {
-    background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
-    margin-top: -10px;
-}
+    #card-man {
+/*        width: 160px;  */
+/*        margin-right: 20px;*/
+    }
+    
+    #col2 {
+/*        height: 200px;*/
+    }
 
-#panel-card-h3-second {
-    background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
-}
+    #card-man h3 {
+        font-size: 1.2rem;
+        color: #1A80FF;
+        line-height: 1.4rem;
+        padding-bottom: 1.2rem;
+    }
 
-#panel-card-h3-third {
-    background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    margin-top: -16px;
-}
+    #card-man h6 {
+        color:#4f5f6c;
+        font-weight: 200;
+        font-size: 1.6rem;
+        margin-bottom: 0px;
+        padding-bottom: .6rem;
+    }
 
-.card-img {
-    margin-top: 46px;
-}
+    #card-man p {
+        color:#4f5f6c;
+        font-weight: 200;
+        font-size: .8rem;
+        line-height: 1rem;
+        padding-top: 8px;
+        padding-bottom: .4rem;
+    }
 
-.card-img-overlay {
-    padding-top: 92px;
-}
-
-#card-h6 {
-    background:none;
-    margin-left:-20px;
-    margin-right:-20px;
-    margin-top: -3px;
-    padding-top: 20px;
-    padding-left:20px;
-    padding-bottom: 10px;
-}
-
-#card-para {
-    background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-right: 20px;
-    padding-left:20px;
-    padding-top: 16px;
-    padding-bottom: 40px;
-    margin-top: -16px;
-}
-
-
-
-
+    #card-blockquote {
+        font-family: "IBM Plex Mono", monospace;
+        color:#4f5f6c;
+        font-size: .8rem;
+        font-weight: 200;
+        padding-top: 1.4rem;
+    }
+    /*  END CARD MAN 420 */
 /*-------------------------------------------------------------------------*/
-#scene4 {
-    background: white;
-}
-
-#card-man {
-    width: 100%;
-    padding-top: 0px;
-}
-#col2 {
-    height: 800px;
-}
-
-#card-man h3 {
-    font-size: 2.6rem;
-    color: #1A80FF;
-    line-height: 3rem;
-    padding-bottom: 2.2rem;
-}
-
-#card-man h6 {
-    color:#4f5f6c;
-    font-weight: 200;
-    font-size: 1.6rem;
-    margin-bottom: 0px;
-    padding-bottom: .6rem;
-}
-
-#card-man p {
-    color:#4f5f6c;
-    font-weight: 200;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    padding-top: 8px;
-    padding-bottom: .4rem;
-}
-
-#card-blockquote {
-    font-family: "IBM Plex Mono", monospace;
-    color:#4f5f6c;
-    font-size: .8rem;
-    font-weight: 200;
-    padding-top: 1.4rem;
-}
-
-/*-------------------------------------------------------------------------*/
-#endring-bg {
-    background-image: url('../svg/endrin_clip.svg');
-    background-color: #0f2146;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: auto;
-/*    margin-left: 800px;*/
-    height: 700px;
-}
-
-#trigger2 {
-    padding-right: 0px;
-    padding-left: 4%;
     
-}
-
-#endring {
-    width: 792px;
-}
-
-/*
-#endring {
-    position:absolute;
-    width: 792px;
-    right: -32%;
-    top: -10%
-}
-*/
-
-#endring-container {
-    padding-right: 0px;
-}
-
-#card-ebook-pad {
-    padding-left: 0px
-}
-
-#card-ebook-container {
-    width: 70%;
-    padding: 1.8rem;
-}
-
-#card-ebook-h6 {
-    font-size: 13px;
-    font-weight: 300;
-    padding-bottom: .4rem;
-    color: #acaaa8;
-}
-
-#card-ebook-h3-1 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 0px;
-    color:#0e1871;
-    line-height: 34px;
-}
-
-#card-ebook-h3-2 {
-    font-size: 28px;
-    font-weight: 500;
-    color: #1A80FF;
-    padding-bottom: 1.5rem;
-}
-
-#card-ebook-p {
-    font-size: 18px;
-    font-weight: 200;
-    color:#4f5f6c;
-    padding-bottom: .6rem;
-}
-
-#ebook-text-underline {
-    font-family: "IBM Plex Mono", monospace;
-/*    text-underline-position: auto;*/
-/*    text-decoration: none;*/
-}
-
-#ebook-text-underline:hover {
-    text-decoration: underline;
-    text-underline-position: auto;
-    font-size: 46px;
-}
-
-/*COVERS UP MAN DIV*/
-#cta-card {
-    height: 100px;
-}
-
-#endscreen-space {
-/*
-    height: 700px;
-    background-color: red;
-*/
-}
-
-/*
-#bs-h3-1 {
-    padding-left: 12rem;
-    padding-top: 6rem;
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 52px;
-    margin-bottom: 0px;
-    color:white;
-}
-
-#bs-h3-2 {
-    padding-left: 12rem;
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 50px;
-    color: #1A80FF;
-}
-*/
-
-/*
-#card-cta-h3-1 {
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 52px;
-    margin-bottom: 0px;
-    color:white;
-    padding-left: 4.6rem;
-    padding-top: 3.4rem;
-}
-
-#card-cta-h3-2 {
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 50px;
-    color: #1A80FF;
-    padding-left: 4.6rem;
-}
-*/
-
-
-/*ANIMATE CIRCLES*/
-/*
-.home-page section.unify .text--home {
-    margin-bottom: 50px
-}
-
-.home-page section.unify .gradient_2 {
-    position: absolute;
-    right: 0;
-    bottom: -65%;
-    width: 100%;
-    z-index: -1
-}
-
-@media screen and (min-width: 1800px) {
-    .home-page section.unify .gradient_2 {
-        width:60%
-    }
-}
-
-@media screen and (max-width: 1800px) {
-    .home-page section.unify .gradient_2 {
-        bottom:-55%
-    }
-}
-
-@media screen and (max-width: 1500px) {
-    .home-page section.unify .gradient_2 {
-        bottom:-45%
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .home-page section.unify .gradient_2 {
-        bottom:-40%
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .home-page section.unify .gradient_2 {
-        bottom:-35%
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .home-page section.unify .gradient_2 {
-        bottom:-20%;
-        width: 160%
-    }
-}
-
-.home-page section.unify .circles {
-    position: absolute;
-    width: 35%;
-    right: -25%
-}
-
-@media screen and (min-width: 1500px) {
-    .home-page section.unify .circles {
-        right:-35%
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    .home-page section.unify .circles {
-        right:-45%
-    }
-}
-
-.home-page section.unify .circles ._st0 {
-    fill: none;
-    stroke: #F3F1EE;
-    stroke-width: 10.7655;
-    stroke-miterlimit: 10
-}
-*/
-
-/*ANIMATE CSS*/
-/*
-.animate-card {
-    position: absolute;
-    width: auto;
-    height: 20px;
-    position: absolute;
-    z-index: 3;
-    opacity: 0;
-    -webkit-transform: translateX(-50px);
-    -ms-transform: translateX(-50px);
-    -o-transform: translateX(-50px);
-    transform: translateX(-50px);
-    -webkit-transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-    -o-transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1)
-}
-
-.animate-card-on {
-    opacity: 1;
-    -webkit-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    transform: translateX(0px)
-}
-
-.animate-card-man {
-    left: 18%;
-    top: 50%;
-    -webkit-transition-delay: .1s;
-    -o-transition-delay: .1s;
-    transition-delay: .1s
-}
-*/
-
-/*
-.home-page .to_fade_pos.d_4,.product-overview .to_fade_pos.d_4 {
-    -webkit-transition-delay: .4s;
-    -o-transition-delay: .4s;
-    transition-delay: .4s
-}
-
-.home-page .to_fade,.product-overview .to_fade {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-    -o-transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-    transition-delay: 4s;
-}
-
-.home-page .to_fade._visible,.product-overview .to_fade._visible {
-    opacity: 1;
-    visibility: visible
-}
-*/
-
-
-
-.endscreen .to_fade_pos {
-/*
-    opacity: 0;
-    visibility: hidden;
-*/
-/*
-    -webkit-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    -o-transform: translateY(20px);
-    transform: translateY(20px);
     
-    -webkit-transition: 4.1s cubic-bezier(0.19, 1, 0.22, 1);
-    -o-transition: 4.1s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: 4.1s cubic-bezier(0.19, 1, 0.22, 1);
     
-*/
-   
-}
+    
+    
 
-/*
-.to_fade_pos_d_4 {
-    -webkit-transition-delay: .4s;
-    -o-transition-delay: .4s;
-    transition-delay: .4s
-}
-*/
 
-/*
-.to_fade_pos_visible {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    -o-transform: translateY(0px);
-    transform: translateY(0px);
-    
-     -webkit-transition: 4.1s cubic-bezier(0.19, 1, 0.22, 1);
-    -o-transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-*/
-    
-/*
-     -webkit-transition-delay: 4s;
-    -o-transition-delay: 4s;
-    transition-delay: 4s
-*/
-}
+
+  }  
+/*_________________________________  END PHONE 420  ___________________________________*/
+
+
+
 
 
 
