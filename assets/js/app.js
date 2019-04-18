@@ -4,6 +4,9 @@ $(document).ready(function() {
         $.get("assets/svg/oGrid.svg", function(svg) {
           $("#oGrid").append(svg.documentElement);
         }),
+        $.get("assets/svg/flip_today.svg", function(svg) {
+            $("#flip-today").append(svg.documentElement);
+          }),
         $.get("assets/svg/flip_osr.svg", function(svg) {
             $("#flip-osr").append(svg.documentElement);
           }),
@@ -25,6 +28,9 @@ $(document).ready(function() {
         $.get("assets/svg/oGrid2.svg", function(svg) {
             $("#oGrid2").append(svg.documentElement);
           }),
+        $.get("assets/svg/oGrid2_mobile.svg", function(svg) {
+            $("#ogrid2-mobile").append(svg.documentElement);
+          }),
         $.get("assets/svg/panels.svg", function(svg) {
             $("#panels").append(svg.documentElement);
           })
@@ -34,10 +40,10 @@ $(document).ready(function() {
     function init() {
         
         
-        console.log("The screen width is" + " " + ($(window).width() - 100));
+        console.log("The screen width is" + " " + ($(window).width()));
         console.log("The screen height is" + " " + ($(window).height() - 100));
         
-        console.log("The screen height is" + " " + ($(window).height() * 3.6 - 100));
+        console.log("The girl offset is" + " " + ($(window).height() * 3.6 - 100));
         
         
     //var animController = new ScrollMagic.Controller( {addIndicators: true} );
@@ -48,6 +54,7 @@ $(document).ready(function() {
     TweenMax.set('#osrChart, #osr-core, #osr-core-2, #osr-core-main2, #osr-core-main3, #label-purple-highlight, #purple-label-marker, #osrchart-blue-png, #osrchart-blue2-png, #floor-ring, #blue-ring-big, #purple-label-marker, #ring1, #ring2, #panel1, #panel2, #panel2-head, #panel2-para, #panel2-box, #dots1, #dots2, #dots3, #dots4, #panel3-head, #panel3-head2, #panel3-div, #panel3-pg1, #panel3-para2, #panel3-para3, #panel3-para4, #hcm-blue, #erp-blue, #crm-blue', { opacity: 0 });
     
     TweenMax.set('#oGrid', { opacity: .5}, 0)
+        
         
 //    TweenMax.set('#rec2', { scale: 2}, 0)
 //        
@@ -109,15 +116,15 @@ $(document).ready(function() {
         s1tl
             .add(TweenMax.to('#oGrid #ogrid-bl path, #oGrid #ogrid-tl path, #oGrid #ogrid-br path, #oGrid #ogrid-tr path, #oGrid #ogrid-top path', 4, { stroke: '#E7EAEF', ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#oGrid', 1, { rotation: '+=360', transformOrigin:"center center", ease: Linear.easeNone }).timeScale(0.1), 0)
-
                 ////////////  TEXT
-           
             .add(TweenMax.staggerFrom('#scene1-pin h1', 5, { opacity:0, x:'-=350', ease:Linear.easeNone }, 1.5), 4)
-                // Service Buniness Need a New Solution
             .add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, ease:Linear.easeNone }, 1.5), 4)
         
-            .add(TweenMax.to('#flip-today', 0, { opacity: 0, y:"+=800", ease: Linear.easeNone }), 0)
-            .add(TweenMax.to('#flip-today', 4, { opacity: 1, ease: Linear.easeNone }), 1)
+
+        
+            .add(TweenMax.to('#flip-today', 0, { opacity: 1, y:"+=1000", ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#flip-today-mask', 0, { opacity: 1, ease: Linear.easeNone }), 0)
+
         
         
     var scene1 = new ScrollMagic.Scene( {
@@ -161,6 +168,10 @@ $(document).ready(function() {
             //.add(TweenMax.to('#scene1 p', 2, { opacity:0, ease: Linear.easeNone }, 12), 4.6)
                 // Today, services businesses are facing the challenge of creating...
         
+        
+//            .add(TweenMax.to('#flip-today-mask', 2, { opacity: 0.2, ease: Linear.easeNone }), 12)
+        
+        
     var scene1_2 = new ScrollMagic.Scene( {
         triggerElement: '#scene1-2-trigger',
         duration: 600,
@@ -179,6 +190,8 @@ $(document).ready(function() {
     
 //        .add(TweenMax.to('#flip-today', 0, { opacity: 0, y:"+=800", ease: Linear.easeNone }), 0)
 //        .add(TweenMax.to('#flip-today', 4, { opacity: 1, ease: Linear.easeNone }), 1)
+    
+//        .add(TweenMax.to('#flip-today-mask', 2, { opacity: 0.2, ease: Linear.easeNone }), 10)
     
     
         .add(TweenMax.to('#oGrid', 3, {scaleY:1, ease: Linear.easeNone}),0)
@@ -268,43 +281,56 @@ $(document).ready(function() {
 //                })
         
         
-            .add(TweenMax.to('#flip-osr', 0, { opacity: 1, x: "-=46", y: "-=140" }), 0)
+            .add(TweenMax.to('#flip-today-mask', 4, { opacity: 0, ease: Linear.easeNone }), 56)
+            
+            .add(TweenMax.to('#ogrid2-mobile', 0, { opacity: 0, x:'-=35' }), 0)
+            .add(TweenMax.to('#ogrid2-mobile-text', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#girl-card1', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#girl-card2', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#girl-card3', 0, { opacity: 0 }), 0)
+        
+        
+            .add(TweenMax.to('#flip-osr', 0, { opacity: 1, x: "-=78", y: "-=140" }), 0)
             .add(TweenMax.to('#flip-osr-mask', 0, { opacity: 0 }), 0)
         
             .add(TweenMax.to('#mask-blue', 0, { opacity: 0, x: "-=23" }), 0)
         
             
-            .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0, x: "+=18", y:"+=8" }), 0)
+            .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0, x: "-=72", y:"+=146" }), 0)
             .add(TweenMax.to('#flip-osr-head2', 0, { opacity: 0, x: "+=18", y:"+=8" }), 0)
-            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x: "-=51", y:"+=175" }), 0)
+            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x: "-=251", y:"+=11" }), 0)
             .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 0, x: "-=51", y:"+=8" }), 0)
             .add(TweenMax.to('#flip-osr-p3', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
             .add(TweenMax.to('#flip-osr-p4', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
             .add(TweenMax.to('#flip-osr-p5', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
             
             
-            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 1 }), 28)
-            .add(TweenMax.to('#flip-osr-p1', 1, { opacity: 1 }), 28)
+            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1, x:"+=100" }), 56)
+            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 0, x:"+=200" }), 68)
+            .add(TweenMax.to('#flip-osr-p1', 8, { opacity: 1, x:"+=200" }), 68)
+            .add(TweenMax.to('#flip-osr-p1', 1, {  opacity: 0 }), 86)
         
             
-            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 0 }), 43)
-            .add(TweenMax.to('#flip-osr-head2', 1, { opacity: 1 }), 43)
+            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 0 }), 86)
+            .add(TweenMax.to('#flip-osr-head2', 1, { opacity: 1 }), 86)
             
             
-            .add(TweenMax.to('#flip-osr-p1', 1, {  opacity: 0 }), 46)
-            .add(TweenMax.to('#flip-osr-p2', 4, {  opacity: 1 }), 46)
-            //.add(TweenMax.to('#flip-osr-p2', 4, {  opacity: 1, rotationY:180 }), 46)
+            .add(TweenMax.to('#flip-osr-p2', 4, {  opacity: 1 }), 88)
         
         
-            .add(TweenMax.to('#flip-osr-p2', 1, {  opacity: 0 }), 65)
-            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 1 }), 65)
+            .add(TweenMax.to('#flip-osr-p2', 1, {  opacity: 0 }), 125)
+            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 1 }), 125)
         
-            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 0 }), 145)
-            .add(TweenMax.to('#flip-osr-p4', 1, {  opacity: 1 }), 145)
+        
+            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 0 }), 165)
+            .add(TweenMax.to('#flip-osr-p4', 1, {  opacity: 1 }), 165)
         
         
             .add(TweenMax.to('#flip-osr-p4', 1, {  opacity: 0 }), 205)
             .add(TweenMax.to('#flip-osr-p5', 1, {  opacity: 1 }), 205)
+        
+            .add(TweenMax.to('#flip-osr-p5', 4, {  opacity: 0 }), 270)
+            .add(TweenMax.to('#flip-osr-head2', 4, { opacity: 0 }), 270)
 
 
 //            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 1, x:"-=5", y:"" }), 1)
@@ -556,7 +582,7 @@ $(document).ready(function() {
 
 
             //.add(TweenMax.to('#oGrid', 0, {x:'-=100', y:'+=14', ease: Linear.easeNone}), 255)
-            .add(TweenMax.to('#oGrid', 0, {x:'+=50', y:'+=17', ease: Linear.easeNone}), 256)
+            .add(TweenMax.to('#oGrid', 0, {x:'+=23', y:'+=23', ease: Linear.easeNone}), 256)
             .add(TweenMax.to('#oGrid', 12, {opacity:1, ease: Linear.easeNone}), 262)
         
 
@@ -577,6 +603,71 @@ $(document).ready(function() {
             .add(TweenMax.to('#oGrid #ogrid-bl path, #oGrid #ogrid-tl path, #oGrid #ogrid-br path, #oGrid #ogrid-tr path, #oGrid #ogrid-top path', 8, { stroke: '#1A80FF', ease: Linear.easeNone }), 278)
         
         
+            
+            .add(TweenMax.to('#sl', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#sl', 0, { opacity: 0, y:"+=287"}), 283)
+            .add(TweenMax.to('#sl', 16, { opacity: 1, y:'-=287'}), 284)
+        
+            .add(TweenMax.to('#sl-t', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#sl-t', 0, { opacity: 0, y:"+=287"}), 283)
+            .add(TweenMax.to('#sl-t', 16, { opacity: 1, y:'-=287'}), 284)
+        
+            .add(TweenMax.to('#rm', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#rm', 0, { opacity: 0, y:"+=287"}), 289)
+            .add(TweenMax.to('#rm', 16, { opacity: 1, y:'-=287'}), 290)
+        
+            .add(TweenMax.to('#rm-t', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#rm-t', 0, { opacity: 0, y:"+=287"}), 289)
+            .add(TweenMax.to('#rm-t', 16, { opacity: 1, y:'-=287'}), 290)
+        
+            .add(TweenMax.to('#pm', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#pm', 0, { opacity: 0, y:"+=187"}), 293)
+            .add(TweenMax.to('#pm', 8, { opacity: 1, y:'-=187'}), 294)
+        
+            .add(TweenMax.to('#pm-t', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#pm-t', 0, { opacity: 0, y:"+=187"}), 293)
+            .add(TweenMax.to('#pm-t', 8, { opacity: 1, y:'-=187'}), 294)
+        
+            .add(TweenMax.to('#c', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#c', 0, { opacity: 0, y:"+=187"}), 297)
+            .add(TweenMax.to('#c', 8, { opacity: 1, y:'-=187'}), 298)
+        
+            .add(TweenMax.to('#c-t', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#c-t', 0, { opacity: 0, y:"+=187"}), 297)
+            .add(TweenMax.to('#c-t', 8, { opacity: 1, y:'-=187'}), 298)
+        
+            .add(TweenMax.to('#e', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#e', 0, { opacity: 0, y:"+=287"}), 299)
+            .add(TweenMax.to('#e', 12, { opacity: 1, y:'-=287'}), 300)
+        
+            .add(TweenMax.to('#e-t', 0, { opacity: 0}), 0)
+            .add(TweenMax.to('#e-t', 0, { opacity: 0, y:"+=287"}), 299)
+            .add(TweenMax.to('#e-t', 12, { opacity: 1, y:'-=287'}), 300)
+        
+        
+            .add(TweenMax.to('#girl-process', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#girl-process', 0, { opacity: 0 }), 277)
+            .add(TweenMax.to('#girl-process', 16, { opacity: 1 }), 278)
+        
+            .add(TweenMax.to('#girl-osr', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#girl-osr', 1, { opacity: 0 }), 277)
+            .add(TweenMax.to('#girl-osr', 32, { opacity: 1 }), 278)
+        
+            .add(TweenMax.to('#girl-osr-text', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#girl-osr-text', 0, { opacity: 0 }), 277)
+            .add(TweenMax.to('#girl-osr-text', 16, { opacity: 1 }), 278)
+            
+            .add(TweenMax.to('#ogrid2-mobile', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#ogrid2-mobile', 1, { opacity: 0 }), 259)
+            .add(TweenMax.to('#ogrid2-mobile', 16, { opacity: 1, y:'-=237'}), 260)
+        
+            .add(TweenMax.to('#ogrid2-mobile-text', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#ogrid2-mobile-text', 1, { opacity: 0, y:"+=100" }), 267)
+            .add(TweenMax.to('#ogrid2-mobile-text', 8, { opacity: 1, y:"-=100", ease: Linear.easeOut }), 268)
+            
+        
+        
+            
             .add(TweenMax.to('#oGrid', 2, {opacity:0, ease: Linear.easeNone}), 278)
             .add(TweenMax.to('#oGrid', 0, {x:'-=50', y:'-=17'}), 280)
             .add(TweenMax.to('#oGrid2', 0, { x:'+=56' }), 278)
@@ -643,6 +734,42 @@ $(document).ready(function() {
     var s3tl = new TimelineMax();
     s3tl
         
+        .add(TweenMax.to('#ogrid2-mobile-back', 0, { opacity: 0, y:'-=200', ease: Linear.easeOut }), 0)
+        
+        
+        
+        .add(TweenMax.to('#pm', 32, { opacity: 0, y:'-=487'}), 66)
+        .add(TweenMax.to('#pm-t', 32, { opacity: 0, y:'-=487'}), 66)
+        
+        .add(TweenMax.to('#c', 32, { opacity: 1, y:'-=487'}), 70)
+        .add(TweenMax.to('#c-t', 32, { opacity: 1, y:'-=487'}), 70)
+        
+        .add(TweenMax.to('#e', 24, { opacity: 1, y:'-=387'}), 74)
+        .add(TweenMax.to('#e-t', 24, { opacity: 1, y:'-=387'}), 74)
+        
+        
+    
+        .add(TweenMax.to('#girl-people', 16, { opacity: 0, y:'-=200', ease: Linear.easeOut }), 60)
+        .add(TweenMax.to('#ogrid2-mobile-text', 16, { opacity: 0, y:'-=200', ease: Linear.easeOut }), 64)
+        .add(TweenMax.to('#girl-process', 16, { opacity: 0 }), 56)
+        .add(TweenMax.to('#girl-osr-text', 8, { opacity: 0 }), 56)
+        
+        .add(TweenMax.to('#girl-osr path, girl-osr-inside path', 32, { stroke: '#FFF', opacity: 0.2, y:"+=80" }), 60)
+        
+        .add(TweenMax.to('#girl-card1', 1, { opacity: 0, y:"+=600" }), 0)
+        .add(TweenMax.to('#girl-card1', 1, { opacity: 0 }), 85)
+        .add(TweenMax.to('#girl-card1', 8, { opacity: 1 }), 86)
+        .add(TweenMax.to('#girl-card1', 84, { y:"-=1200" }), 86)
+        .add(TweenMax.to('#girl-card1', 8, { opacity: 0 }), 122)
+        
+        .add(TweenMax.to('#girl-card2', 1, { opacity: 0, y:"+=600" }), 0)
+        .add(TweenMax.to('#girl-card2', 1, { opacity: 0 }), 119)
+        .add(TweenMax.to('#girl-card2', 8, { opacity: 1 }), 120)
+        .add(TweenMax.to('#girl-card2', 84, { y:"-=1200" }), 120)
+        .add(TweenMax.to('#girl-card2', 8, { opacity: 0  }), 150)
+        
+        
+        
         .add(TweenMax.to('#oGrid2 #service-leader', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 94)
         .add(TweenMax.to('#oGrid2 #resource-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 102)
         .add(TweenMax.to('#oGrid2 #project-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 110)
@@ -669,11 +796,11 @@ $(document).ready(function() {
         
         var scene3 = new ScrollMagic.Scene( {
             triggerElement: '#scene3',
-            duration: 3600,
+            duration: 6400,
 //            triggerHook: "onEnter",
             triggerHook: 0.2,
             //offset: $(window).height() * 10.5 - 100,
-            offset: 8400  // transition of graph animation to people animation
+            offset: 7300  // transition of graph animation to people animation
         })
         .setTween(s3tl)
         .addTo(animController);
@@ -684,6 +811,13 @@ $(document).ready(function() {
         ++++++++++++++++++++++++++++++++++++++++++++++++++++ */    
         var s3_1tl = new TimelineMax();
             s3_1tl
+            
+
+            .add(TweenMax.to('#girl-card3', 1, { opacity: 0, y:"+=650" }), 0)
+            .add(TweenMax.to('#girl-card3', 1, { opacity: 0 }), 10)
+            .add(TweenMax.to('#girl-card3', 1, { opacity: 1 }), 10)
+            .add(TweenMax.to('#girl-card3', 14, { opacity: 1, y:"-=1200" }), 11)
+            .add(TweenMax.to('#girl-card3', 2, { opacity: 0 }), 17)
             
             .add(TweenMax.to('#panel_1', 0, { opacity: 0, y:'+=80', ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#panel_1', 2, { opacity: 1, ease: Linear.easeNone }), 6)
@@ -734,7 +868,7 @@ $(document).ready(function() {
         triggerElement: '#scene3-2-trigger',
         duration: '650%',
         triggerHook: 0,
-        offset: $(window).height() * 3.46 - 100 // position the hero image up or down
+        offset: $(window).height() * 3.1 // position the hero image up or down
         //offset: 2500 // position the hero image up or down
     })
         
@@ -796,9 +930,9 @@ $(document).ready(function() {
                     var scene4 = new ScrollMagic.Scene({
 
                     triggerElement: "#trigger1", 
-                    duration: 0,
+                    //duration: 0,
                     triggerhook: 0.2,
-                    offset: 420 
+                    offset: 460 
                     })       
                     
                     .setTween('#card-man', 0, { opacity: 0, y:'+=80' })
@@ -829,7 +963,7 @@ $(document).ready(function() {
                 var scene4_1 = new ScrollMagic.Scene({
 
                     triggerElement: "#trigger2", 
-                    duration: 0,
+                    //duration: 0,
                     triggerHook: 0.1,
                     offset: 0 })
                 
