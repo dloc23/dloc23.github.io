@@ -157,7 +157,7 @@ li {
 
 #oGrid {
     width: 325px;
-    margin-bottom: 4%;
+    margin-top: 14%;
 }
 
 .hero-container-header {
@@ -792,7 +792,9 @@ li {
     #oGrid {
         margin-bottom: 0;
         margin-top: 100%;
-        width: 600px;
+/*        margin-left: 2%;*/
+        padding: 0px;
+        width: 240px;
     }
     
     .hero-container-header {
@@ -898,16 +900,8 @@ li {
     
     #hero-container2 {
         background-image: url('../img/bg-image2-m.jpg');
-        padding-left: 200px;
-        
-/*
-        background-color: #0f2146;
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: auto;
-        height: 1200px;
         }
-*/
+
     
     /*_________________________________  PANELS  ___________________________________*/
 /*
@@ -1026,25 +1020,33 @@ li {
     #man-pic {
 /*        width: 100px;*/
     }
-    
-    #man-img {
-/*        margin-top: 25%;*/
-/*        margin-right: 10%;*/
-    }
 
     #card-man-container {
-/*        align-content: right;*/
-/*        margin-top: 25%;*/
-/*        padding-right: 5%;*/
+        background-color: white;
+/*        padding-bottom: .2rem;*/
     }
 
     #card-man {
-/*        width: 160px;  */
-/*        margin-right: 20px;*/
+        width: 23rem;
+        margin-top: 8rem;
+        margin-left: .4rem;
     }
     
-    #col2 {
-/*        height: 200px;*/
+    .card-man-h5-1 {
+        padding-top: 2rem;
+        padding-bottom: .2rem;
+        font-size: 1.6rem;
+    }
+    
+    .card-man-h5-2 {
+        font-size: 1.6rem;
+        margin-top: -.7rem;
+        padding-bottom: 1rem;
+    }
+    
+    #card-man-img {
+        width: 65%;
+        margin-left: 2.8rem;
     }
 
     #card-man h3 {
@@ -1057,7 +1059,7 @@ li {
     #card-man h6 {
         color:#4f5f6c;
         font-weight: 200;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         margin-bottom: 0px;
         padding-bottom: .6rem;
     }
@@ -1074,9 +1076,10 @@ li {
     #card-blockquote {
         font-family: "IBM Plex Mono", monospace;
         color:#4f5f6c;
-        font-size: .8rem;
+        font-size: .6rem;
         font-weight: 200;
-        padding-top: 1.4rem;
+        padding-top: 1.2rem;
+        padding-bottom: 1rem;
     }
     /*  END CARD MAN 420 */
 /*-------------------------------------------------------------------------*/
