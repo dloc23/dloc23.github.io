@@ -481,7 +481,7 @@ li {
 
 /*-------------------------------------------------------------------------*/
 #endring-bg {
-    background-image: url('../svg/endrin_clip.svg');
+/*    background-image: url('../svg/endrin_clip.svg');*/
     background-color: #0f2146;
     background-repeat: no-repeat;
     background-position: right;
