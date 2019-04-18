@@ -28,7 +28,7 @@ $(document).ready(function() {
         $.get("assets/svg/oGrid2.svg", function(svg) {
             $("#oGrid2").append(svg.documentElement);
           }),
-        $.get("assets/svg/oGrid2_mobile.svg", function(svg) {
+        $.get("assets/svg/ogrid2_mobile.svg", function(svg) {
             $("#ogrid2-mobile").append(svg.documentElement);
           }),
         $.get("assets/svg/panels.svg", function(svg) {
