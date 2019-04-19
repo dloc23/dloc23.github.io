@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $.when(
     
-        $.get("assets/svg/oGrid.svg", function(svg) {
-          $("#oGrid").append(svg.documentElement);
-        }),
+//        $.get("assets/svg/oGrid.svg", function(svg) {
+//          $("#oGrid").append(svg.documentElement);
+//        }),
         $.get("assets/svg/flip_today.svg", function(svg) {
             $("#flip-today").append(svg.documentElement);
           }),
@@ -952,29 +952,50 @@ $(document).ready(function() {
                     
                     triggerElement: "#trigger2",
                     duration: 0,
+//                    triggerHook: 0.9,
                     offset: 0 })
-                
-                    
-                
-                    .setTween(['#endring-purple', '#endring-green', '#endring-red'], 0, { opacity: 1, ease: Linear.easeNone })
-                
-                    .setTween(TweenMax.staggerTo(
-                            ['#endring-purple', '#endring-green', '#endring-red'],
+
+                    //.setTween(['#endring-purple', '#endring-green', '#endring-red'], 0, { opacity: 1, ease: Linear.easeNone })              
+//                    .setTween(TweenMax.staggerTo(
+//                            ['#endring-purple', '#endring-green', '#endring-red'],
+//                            1.2,
+//                            { opacity: 0.5,
+//                             //delay: 3,
+//                             repeat: -1,
+//                             yoyo: true,
+//                             ease: Circ.easeInOut },
+//                            1.6
+//                        )
+//                                   
+//                    .to(
+//                            ['#card-ebook-container'],
+//                            1.2,
+//                            { opacity: 0.5,
+//                             //delay: 3,
+//                             repeat: -1,
+//                             yoyo: true,
+//                             ease: Circ.easeInOut },
+//                            1.6
+//                        )
+//                        )
+                        .setTween(TweenMax.staggerTo(
+                            ['#endring-purple, #endring-green', '#endring-red'],
                             1.2,
                             { opacity: 0.5,
-                             //delay: 3,
+                             //delay: 1,
                              repeat: -1,
                              yoyo: true,
                              ease: Circ.easeInOut },
-                            1.6
+                            .3
                         ))
-                
-                    //.setTween(['#card-ebook-container'], 1, { scale: 2, repeat: -1,
-                                                                 yoyo: true,
-                                                                 ease: Circ.easeInOut })
-                
-                
-                
+
+//                    .setTween(['#endring-purple'], 2, { scale: 2, repeat: -1,
+//                                                                 yoyo: true,
+//                                                                 ease: Circ.easeInOut },
+//                             
+//                             ['#card-ebook-container'], 1, { scale: 2, repeat: -1,
+//                                                                 yoyo: true,
+//                                                                 ease: Circ.easeInOut })
                     .setPin("#pin2")
                     //.addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
                     .addTo(controller);
