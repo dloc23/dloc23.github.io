@@ -969,7 +969,7 @@ $(document).ready(function() {
                             1.6
                         ))
                 
-                    .setTween(['#card-ebook-container'], 1, { scale: 2, repeat: -1,
+                    //.setTween(['#card-ebook-container'], 1, { scale: 2, repeat: -1,
                                                                  yoyo: true,
                                                                  ease: Circ.easeInOut })
                 
