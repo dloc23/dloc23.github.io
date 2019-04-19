@@ -979,7 +979,7 @@ $(document).ready(function() {
 //                        )
 //                        )
                         .setTween(TweenMax.staggerTo(
-                            ['#endring-purple, #endring-green', '#endring-red'],
+                            [ '#endring-red', '#endring-purple', '#endring-green', '#star', '#white-stuff', '#inner-path', '#blueball' ],
                             1.2,
                             { opacity: 0.5,
                              //delay: 1,
