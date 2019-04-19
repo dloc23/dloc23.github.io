@@ -910,89 +910,53 @@ $(document).ready(function() {
 /* SCENE 4
         ++++++++++++++++++++++++++++++++++++++++++++++++++++
         ++++++++++++++++++++++++++++++++++++++++++++++++++++ */ 
-        
+                
+
 
                 // init controller
                 var controller = new ScrollMagic.Controller();
-                // build scene
-//                var s4_tl = new TimelineMax();
-//                    s4_tl
-//                    
-//                    
-//                    //.add(TweenMax.to('#man-img', 3, { opacity: 0, scale: 4 }), 5)
-//                         
-//                         //.add(TweenMax.to('#panel_3', 15, { x:'-=1288', ease: Linear.easeNone }), 40)
-//                    
-////                    .setTween('#card-man', 0, { opacity: 0, y:'+=150' })
-//                        //.add(TweenMax.to('#card-man', 0, { opacity: 0, y:'+=150' }), 0)
-//                        .add(TweenMax.to('#card-man', 5, { opacity: 1, y:'-=150' }), 5)
+        
+                    var test = new TimelineMax();
+                    test
+
+                .add(TweenMax.to('#card-man', 0, { opacity: 0, y:'+=80' }), 0)
+                .add(TweenMax.to('#card-man', 3, { opacity: 1, y:'-=80', ease: Linear.easeIn }), 1)
+        
+                .add(TweenMax.to('#card-man', 1, { opacity: 1, ease: Linear.easeIn }), 12)
+        
                 
-                    var scene4 = new ScrollMagic.Scene({
+
+                // build scene
+                var scene = new ScrollMagic.Scene({
 
                     triggerElement: "#trigger1", 
-                    //duration: 0,
-                    triggerhook: 0.2,
-                    offset: 460 
-                    })       
-                    
-                    .setTween('#card-man', 0, { opacity: 0, y:'+=80' })
-                    .setTween('#card-man', .4, { opacity: 1, y:'-=80', ease: Linear.easeIn })
+                    duration: 1200,
+//                    triggerHook: 0.9,
+                    offset: 400 })
+                
+//                    .setTween('#card-man', 0, { opacity: 0, y:'+=80' })
+//                    .setTween('#card-man', .1, { opacity: 1, y:'-=80', ease: Linear.easeIn })
 
                     .setPin("#pin1")
-                    //.addIndicators({name: "trigger 1 pin 1 0"}) // add indicators (requires plugin)
+                    //.addIndicators({name: "1 (duration: 800)"}) // add indicators (requires plugin)
+                    .setTween(test)
                     .addTo(controller);
 
-                //init controller
-//                var controller = new ScrollMagic.Controller();
-//       
-//                var scene = new ScrollMagic.Scene({
-//                    
-//                    triggerElement: "#pin2",
-//                    duration: 0,
-//                    offset: 480
-//                    })
-//                    
-//                    .setPin("#pin2")
-//                    .addIndicators({name: "pin2 (duration: 0)"}) // add indicators (requires plugin)
-//                    .addTo(controller);  
-                 
-                 
-                //init controller
+               
+        
+                // init controller
                 var controller = new ScrollMagic.Controller();
 
-                var scene4_1 = new ScrollMagic.Scene({
-
-                    triggerElement: "#trigger2", 
-                    //duration: 0,
-                    triggerHook: 0.1,
+                // build scene
+                var scene = new ScrollMagic.Scene({
+                    
+                    triggerElement: "#trigger2",
+                    duration: 0,
                     offset: 0 })
                 
-//                    .setTween('#card-ebook-container', 0, { opacity: 0, y:'+=100', ease: Linear.easeNone })
-//                    .setTween('#card-ebook-container', 0, { opacity: 0, x:'+=120px', ease: Linear.easeNone }) 
-//                    .setTween('#card-ebook-container', .4, { opacity: 1, y:'-=100px', ease: Linear.easeNone })
-                
-                    //.setTween(TweenMax.from('#card-ebook-container', .4, { opacity: 0, y:'-=100px', ease: Linear.easeNone }))
-                
-                    //.setTween('#endring', 4, { scale: 2, opacity: 0.5, y:'+=100', ease: Linear.easeNone })
-                    //.setTween.staggerTo(['#endring-red', '#endring-green'] .8, { opacity: 0.5, repeat: -1, yoyo: true, ease: Circ.easeInOut })
-                
-                   //.add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 4, { opacity:0, x:'+=250', y:'+=140', ease:Expo.easeNone }, .8), 0)
-                
-//                    .setTween([ '#endring-green', '#endring-purple' ], .8, { opacity: 0.5, repeat: -1, yoyo: true, ease: Circ.easeInOut })
-                
-                    //.setTween(TweenMax.fromTo('#endring-green', 0.9, {opacity: 1}, {opacity: 0, immediateRender: false}))
-                    //.addTo(ctrl);
-                
-                    //.setTween(TweenMax.to('#endring-green', 0.9, { opacity: 0.5, delay: 2, repeat: -1, yoyo: true, ease: Circ.easeInOut }))
                     
-                    //.setTween(TweenMax.staggerTo(['#endring-purple', '#endring-green'], 0.9, { opacity: 0.7, delay: 1, repeat: -1, yoyo: true, ease: Circ.easeInOut }))
                 
                     .setTween(['#endring-purple', '#endring-green', '#endring-red'], 0, { opacity: 1, ease: Linear.easeNone })
-                
-//                    .setTween(['#endring-purple'], 2, { scale: 2,
-//                                                            repeat: -1,
-//                                                            yoyo: true,
-//                                                            ease: Circ.easeInOut })
                 
                     .setTween(TweenMax.staggerTo(
                             ['#endring-purple', '#endring-green', '#endring-red'],
@@ -1005,88 +969,36 @@ $(document).ready(function() {
                             1.6
                         ))
                 
-//                    .setTween( TweenMax.to('#card-ebook-container', 0, { opacity: 0, x:'+=120px', ease: Linear.easeNone }) )
-//                    .setTween( TweenMax.to('#card-ebook-container', .4, { opacity: 1, y:'-=100px', ease: Linear.easeNone }) )
+                    .setTween(['#card-ebook-container'], 1, { scale: 2, repeat: -1,
+                                                                 yoyo: true,
+                                                                 ease: Circ.easeInOut })
                 
-                    //.setTween('#endring-purple', .8, { opacity: 0.5, repeat: -1, yoyo: true, ease: Circ.easeInOut })
-
-
-//                        var yoyo_tween = TweenMax.to('#endring-red', 1, {
-//                          transform: 'scale(2)',
-//                          ease: Cubic.easeOut,
-//                          repeat: -1, // this negative value repeats the animation
-//                          yoyo: true // make it bounce…yo!
-//                        })
-        
-        
-        
-                    .setPin("#trigger3")
-                    //.addIndicators({name: "trigger2 pin 2 (duration: 0)"}) // add indicators (requires plugin)
+                
+                
+                    .setPin("#pin2")
+                    //.addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
                     .addTo(controller);
         
-                // init controller
-                var controller = new ScrollMagic.Controller();
-
-                // build scene
-                var scene4_2 = new ScrollMagic.Scene({
-
-                    triggerElement: "#trigger3", 
-                    duration: 0,
-                    triggerHook: 0.1,
-                    offset: 0 })
-
                 
-                    .setTween('#cta-image', 0.5, { opacity: 0, x:'+=250', y:'+=50', ease: Linear.easeOut })
-                    //.setTween('#cta-image', .2, { opacity: 1, y:'-=50', ease: Linear.easeNone })    
-                
-                
-                    .setPin("#pin3")
-                    //.addIndicators({name: "trigger 3 pin 3 (duration: 0)"}) // add indicators (requires plugin)
-                    .addTo(controller);
         
+//                // init controller
+//                var controller = new ScrollMagic.Controller();
+//
+//                // build scene
+//                var scene = new ScrollMagic.Scene({
+//
+//                    triggerElement: "#pin2", 
+//                    duration: 0,
+//                    offset: 400 })
+//
+//                    .setPin("#pin3")
+//                    .addIndicators({name: "3 (duration: 1400)"}) // add indicators (requires plugin)
+//                    .addTo(controller);
         
 
-	//  bind scroll to anchor links
-	$(document).on("click", "a[href^='#']", function (e) {
-		var id = $(this).attr("href");
-		if ($(id).length > 0) {
-			e.preventDefault();
-
-			// trigger scroll
-			controller.scrollTo(id);
-
-				// if supported by the browser we can even update the URL.
-			if (window.history && window.history.pushState) {
-				history.pushState("", document.title, id);
-			}
-		}
-	});
         
               
 }
 });
 
-
-
-        ///  YO YO s ???????????????>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>
-//             .add(TweenMax.to('#ring1', 4, { opacity: 1 }), 129)
-//             .add(TweenMax.fromTo('#ring1', 4, { opacity: 0 }, { opacity: 1, repeat: -1, yoyo: true, ease: Circ.easeInOut }), 129)
-       
-//                TweenMax.fromTo("#ring1", 1,
-//										{left: -100},
-//										{left: 100, repeat: -1, yoyo: true, ease: Circ.easeInOut}
-//									)
-
-        
-//             TweenMax.to(mc, 1, {x:100, repeat:1, yoyo:true});
-//             .add( TweenMax.fromTo("#ring1", 4, {x:'+=100', repeat:1, yoyo:true}), 129)
-
-//                //.add(TweenMax.to('#ring1', 4, { opacity: 1, repeat:24 }), 134)
-//                         //.to('#ring1', 4, { opacity: 0 }, "+=4")
-//        
-//                    //TweenMax.to(mc, 1, {x:100, repeat:2});
-//        
-//                    //tl.to(element, 1, {x:200})
-//                    //1 second after end of timeline (gap)
-//                    //.to(element, 1, {y:200}, "+=1")
 
