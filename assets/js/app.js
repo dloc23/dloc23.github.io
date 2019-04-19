@@ -22,9 +22,9 @@ $(document).ready(function() {
 //        $.get("assets/svg/endring_clip.svg", function(svg) {
 //            $("#endring").append(svg.documentElement);
 //          }),
-        $.get("assets/svg/osrchart.svg", function(svg) {
-            $("#osrChart").append(svg.documentElement);
-          }),
+//        $.get("assets/svg/osrchart.svg", function(svg) {
+//            $("#osrChart").append(svg.documentElement);
+//          }),
         $.get("assets/svg/oGrid2.svg", function(svg) {
             $("#oGrid2").append(svg.documentElement);
           }),
