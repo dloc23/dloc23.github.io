@@ -461,28 +461,21 @@ li {
 }
 
 .card-man-h5-1 {
-        padding-top: 2resm;
+        padding-top: 2rem;
         padding-bottom: .2rem;
-        font-size: 2.6rem;
+        font-size: 40px;
     }
     
 .card-man-h5-2 {
-        font-size: 2.6rem;
+        font-size: 40px;
         margin-top: -.7rem;
         padding-bottom: 1rem;
     }
 
-#card-man h3 {
-    font-size: 2.6rem;
-    color: #1A80FF;
-    line-height: 3rem;
-    padding-bottom: 2.2rem;
-}
-
 #card-man h6 {
     color:#4f5f6c;
     font-weight: 200;
-    font-size: 1.6rem;
+    font-size: 26px;
     margin-bottom: 0px;
     padding-bottom: .6rem;
 }
@@ -490,8 +483,8 @@ li {
 #card-man p {
     color:#4f5f6c;
     font-weight: 200;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 18px;
+    line-height: 28px;
     padding-top: 8px;
     padding-bottom: .4rem;
 }
@@ -499,7 +492,7 @@ li {
 #card-blockquote {
     font-family: "IBM Plex Mono", monospace;
     color:#4f5f6c;
-    font-size: .8rem;
+    font-size: 13px;
     font-weight: 200;
     padding-top: 1.4rem;
 }
@@ -513,15 +506,17 @@ li {
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
-    height: 600px;
+    height: 620px;
 }
 
 #endring-container {
     padding-right: 0px;
+    padding-bottom: 0px;
 }
 
 #endring {
-    height: 580px;
+    width: 100%;
+    height: 100%;
 }
 
 /*
@@ -536,8 +531,8 @@ li {
 }
 
 #card-ebook-container {
-    width: 72%;
-    height: 78%;
+    width: 460px;
+    height: 23rem;
     padding: 1.4rem;
     padding-left: 2rem;
     padding-right: 1rem;
@@ -545,7 +540,7 @@ li {
 
 #card-ebook-pad {
     padding-left: 0px;
-    padding-top: 9%;
+    padding-top: 7.5rem;
 }
 
 #card-ebook-body {
@@ -581,6 +576,10 @@ li {
     padding-bottom: .6rem;
 }
 
+#card-ebook-link-container {
+    padding-top: 23px;
+}
+
 #ebook-text-underline {
     font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
@@ -591,14 +590,18 @@ li {
 #ebook-text-underline:hover {
     text-decoration: underline;
     text-underline-position: auto;
-    font-size: 46px;
+    color: #00216E;
 }
 
 #card-cta-pic-container {
+    padding-left: 16.66%;
+    padding-top: 5%;
+    padding-bottom: 6%;
+/*    align-content: center;*/
 }
 
 #card-cta-pic {
-    width: 70%;
+    width: 80%;
 }
 
 #card-cta-container-mobile {
@@ -608,10 +611,12 @@ li {
 }
 
 #card-cta-pic-container-mobile {
+    margin: 0;
+    padding: 0;
 }
 
 #card-cta-pic-mobile {
-    width: 80%;
+    width: 1px;
 }
     
 
@@ -1069,19 +1074,32 @@ li {
     #pin1 {
     background: white;
     }
+    
+    #card-man-row {
+        padding: 0px
+    }
 
+    #card-man-container {
+        margin-left: 0px;
+        padding-top: 5%;
+        padding-left: 0%;
+/*        padding-right: 15%;*/
+    }
+    
     #card-man {
+        padding-left: 0px;
         width: 340px;  
     }
 
     .card-man-h5-1 {
         padding-top: 4rem;
         padding-bottom: .2rem;
-        font-size: 1.6rem;
+        font-size: 26px;
     }
     
     .card-man-h5-2 {
-        font-size: 1.6rem;
+        font-size: 26px;
+        line-height: 26px;
         margin-top: -.7rem;
         padding-bottom: 1rem;
     }
@@ -1113,41 +1131,38 @@ li {
     #card-blockquote {
         font-family: "IBM Plex Mono", monospace;
         color:#4f5f6c;
-        font-size: .8rem;
+        font-size: 9px;
         font-weight: 200;
         padding-top: 1.4rem;
+    }
+    
+    #card-man2-container {
+        width: 100%;
+        padding-top: 0%;
+        padding-left: 4%;
+        padding-right: 0%
     }
     
     #man-pic-container {
     }
 
     #man-pic {
-        width: 260px;
+        width: 246px;
+        padding-left: 10%;
     }
 
-    #card-man-container {
-        padding-top: 25%;
-        padding-left: 0%;
-/*        padding-right: 15%;*/
-    }
-
-    #card-man2-container {
-        padding-top: 0%;
-        padding-left: 0%;
-        padding-right: 3%
-    }
     /*  END CARD MAN 420 */
 /*-------------------------------------------------------------------------*/
     /*  START END SCREEN 420 */
 /*-------------------------------------------------------------------------*/
     
     #endring-bg {
-    /*    background-image: url('../svg/endrings.svg');*/
+        background-image: url('../svg/endrings.svg');
         background-color: #0f2146;
         background-repeat: no-repeat;
         background-position: right;
         background-size: auto;
-        height: 700px;
+        height: 420px;
     }
 
     #trigger2 {
@@ -1155,7 +1170,7 @@ li {
     }
 
     #endring {
-        width: 292px;
+/*        width: 292px;*/
     }
 
     #endring-container {
@@ -1168,13 +1183,18 @@ li {
     }
 
     #card-ebook-pad {
+        padding-top: 12%;
         padding-left: 4%;
-        padding-top: 46%;
+        padding-right: 0%;
+        height: 640px;
     }
 
     #card-ebook-container {
-        width: 95%;
-        padding-left: 10px;
+        width: 92%;
+        margin-right: 8%;
+        padding-top: 10px;
+        padding-bottom: 4px;
+        padding-left: 14px;
         padding-right: 10px;
     }
 
@@ -1201,22 +1221,29 @@ li {
     }
 
     #card-ebook-p {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 200;
         color:#4f5f6c;
         padding-bottom: .6rem;
     }
 
     #ebook-text-underline {
+        padding-top: 0px;
+        padding-bottom: 0px;
         font-family: "IBM Plex Mono", monospace;
+        font-size: 14px;
     /*    text-underline-position: auto;*/
     /*    text-decoration: none;*/
     }
 
+    #card-ebook-link-container {
+        padding-top: 23px;
+    }
+    
     #ebook-text-underline:hover {
         text-decoration: underline;
         text-underline-position: auto;
-        font-size: 46px;
+        font-size: 14px;
     }
 
     /*COVERS UP MAN DIV*/
@@ -1232,23 +1259,26 @@ li {
     }
     
     #card-cta-pic {
-        width: 80%;
+        width: 0%;
     }
-    
+
     #card-cta-container-mobile {
 /*        width: 100px;*/
     }
     
-    #card-cta-mobile {
+    #card-cta-mobile-mobile {
 /*        width: 100px;*/
     }
     
     #card-cta-pic-container-mobile {
-/*        width: 100px;*/
+/*
+        margin: 0px;
+        padding: 0px;
+*/
     }
     
     #card-cta-pic-mobile {
-        width: 80%;
+        width: 1px;
     }
     
     /*  END END SCREEN 420 */
