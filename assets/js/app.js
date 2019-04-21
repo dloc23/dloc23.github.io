@@ -868,7 +868,7 @@ $(document).ready(function() {
         triggerElement: '#scene3-2-trigger',
         duration: '650%',
         triggerHook: 0,
-        offset: $(window).height() * 3.1 // position the hero image up or down
+        offset: $(window).height() * 2.9 // position the hero image up or down
         //offset: 2500 // position the hero image up or down
     })
         
@@ -915,17 +915,27 @@ $(document).ready(function() {
 
                 // init controller
                 var controller = new ScrollMagic.Controller();
-        
-                    var test = new TimelineMax();
-                    test
+                //var sceneTest = new TimelineMax();
+//  _______________________________________________________________________________________________________  >>>>>
+//                    var test = new TimelineMax();
+//                    test
+//                        .add(TweenMax.to('#card-man', 0, { opacity: 0, y:'+=80' }), 0)
+//                        .add(TweenMax.to('#card-man', 3, { opacity: 1, y:'-=80', ease: Linear.easeIn }), 1)
+//
+//                        .add(TweenMax.to('#card-man', 1, { opacity: 1, ease: Linear.easeIn }), 12);
+//  _______________________________________________________________________________________________________  >>>>>                                   
+                    var timeline = new TimelineMax();
+                    var tween1 = TweenMax.from("#card-man", 1, { opacity: 0, y:'+=40', delay: 0.4 });
+                    var tween2 = TweenMax.from("#card-man2", 1, { opacity: 0, delay: 0 });
 
-                .add(TweenMax.to('#card-man', 0, { opacity: 0, y:'+=80' }), 0)
-                .add(TweenMax.to('#card-man', 3, { opacity: 1, y:'-=80', ease: Linear.easeIn }), 1)
-        
-                .add(TweenMax.to('#card-man', 1, { opacity: 1, ease: Linear.easeIn }), 12)
-        
-                
+                    timeline.add(tween1).add(tween2);
 
+                    //scene.addTween(timeline);
+        
+                    //OR
+        
+                    //TweenMax.staggerTo(".myclass", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
+        
                 // build scene
                 var scene = new ScrollMagic.Scene({
 
@@ -933,19 +943,36 @@ $(document).ready(function() {
                     duration: 1200,
 //                    triggerHook: 0.9,
                     offset: 400 })
-                
-//                    .setTween('#card-man', 0, { opacity: 0, y:'+=80' })
-//                    .setTween('#card-man', .1, { opacity: 1, y:'-=80', ease: Linear.easeIn })
 
                     .setPin("#pin1")
                     //.addIndicators({name: "1 (duration: 800)"}) // add indicators (requires plugin)
-                    .setTween(test)
+                    .setTween(timeline)
                     .addTo(controller);
 
-               
         
                 // init controller
                 var controller = new ScrollMagic.Controller();
+        
+                var timeline2 = new TimelineMax();
+                    var tween11 = TweenMax.from("#card-ebook-container", .4, { scale: .2, delay: 0.1 });
+        
+                    // COOL BOUNCE DOWN EFFECT
+                    //var tween12 = TweenMax.from("#card-cta-pic-container", 1, { opacity: 0, y:'+=80', delay: 0.1 });
+                    var tween12 = TweenMax.from("#card-cta-pic", .4, { opacity: 0, y:'+=40', delay: .4 });
+        
+                    var tween13 = TweenMax.staggerTo(
+                            [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
+                            1.2,
+                            { opacity: 0.5,
+                             //delay: 1,
+                             repeat: -1,
+                             yoyo: true,
+                             ease: Circ.easeInOut },
+                            .3
+                        );
+                    
+
+                    timeline2.add(tween11).add(tween12);
 
                 // build scene
                 var scene = new ScrollMagic.Scene({
@@ -955,31 +982,8 @@ $(document).ready(function() {
 //                    triggerHook: 0.9,
                     offset: 0 })
 
-                    //.setTween(['#endring-purple', '#endring-green', '#endring-red'], 0, { opacity: 1, ease: Linear.easeNone })              
-//                    .setTween(TweenMax.staggerTo(
-//                            ['#endring-purple', '#endring-green', '#endring-red'],
-//                            1.2,
-//                            { opacity: 0.5,
-//                             //delay: 3,
-//                             repeat: -1,
-//                             yoyo: true,
-//                             ease: Circ.easeInOut },
-//                            1.6
-//                        )
-//                                   
-//                    .to(
-//                            ['#card-ebook-container'],
-//                            1.2,
-//                            { opacity: 0.5,
-//                             //delay: 3,
-//                             repeat: -1,
-//                             yoyo: true,
-//                             ease: Circ.easeInOut },
-//                            1.6
-//                        )
-//                        )
                         .setTween(TweenMax.staggerTo(
-                            [ '#endring-red', '#endring-purple', '#endring-green', '#star', '#white-stuff', '#inner-path', '#blueball' ],
+                            [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
                             1.2,
                             { opacity: 0.5,
                              //delay: 1,
@@ -989,36 +993,11 @@ $(document).ready(function() {
                             .3
                         ))
 
-//                    .setTween(['#endring-purple'], 2, { scale: 2, repeat: -1,
-//                                                                 yoyo: true,
-//                                                                 ease: Circ.easeInOut },
-//                             
-//                             ['#card-ebook-container'], 1, { scale: 2, repeat: -1,
-//                                                                 yoyo: true,
-//                                                                 ease: Circ.easeInOut })
                     .setPin("#pin2")
                     //.addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
+                    .setTween(timeline2)
                     .addTo(controller);
-        
-                
-        
-//                // init controller
-//                var controller = new ScrollMagic.Controller();
-//
-//                // build scene
-//                var scene = new ScrollMagic.Scene({
-//
-//                    triggerElement: "#pin2", 
-//                    duration: 0,
-//                    offset: 400 })
-//
-//                    .setPin("#pin3")
-//                    .addIndicators({name: "3 (duration: 1400)"}) // add indicators (requires plugin)
-//                    .addTo(controller);
-        
-
-        
-              
+       
 }
 });
 
