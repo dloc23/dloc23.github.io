@@ -802,7 +802,7 @@ $(document).ready(function() {
 //            triggerHook: "onEnter",
             triggerHook: 0.2,
             //offset: $(window).height() * 10.5 - 100,
-            offset: 7300  // transition of graph animation to people animation
+            offset: 7350  // transition of graph animation to people animation
         })
         .setTween(s3tl)
         .addTo(animController);
