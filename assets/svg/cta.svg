@@ -1,0 +1,24 @@
+<svg id="full_images" data-name="full images" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1112.06 223.05">
+  <title>cta</title>
+  <g>
+    <rect width="1112.06" height="223.05" fill="#00216e"/>
+    <g>
+      <rect x="720.29" y="81.02" width="265.55" height="56" rx="4.64" ry="4.64" fill="#ff9800"/>
+      <text transform="translate(748.9 114.2)" font-size="16" fill="#fff" font-family="IBMPlexMono-Medium, IBM Plex Mono">Try Mavenlink Free</text>
+      <g>
+        <line x1="945" y1="109.02" x2="958" y2="109.02" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <polyline points="952.34 103.36 958 109.02 952.34 114.67" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+    <text transform="translate(74.61 99)" font-size="45" fill="#fff" font-family="RationalText-Bold, Rational Text" font-weight="700"><tspan letter-spacing="-0.02em">R</tspan><tspan x="32.63" y="0">eady </tspan><tspan x="149.85" y="0" letter-spacing="-0.01em">t</tspan><tspan x="169.65" y="0">o t</tspan><tspan x="226.26" y="0" letter-spacing="-0.02em">r</tspan><tspan x="246.06" y="0">ans</tspan><tspan x="324.18" y="0" letter-spacing="-0.01em">f</tspan><tspan x="343.84" y="0">orm</tspan><tspan fill="#3776ff" letter-spacing="-0.01em"><tspan x="0" y="53">y</tspan><tspan x="25.83" y="53" letter-spacing="0em">our busines</tspan><tspan x="283.41" y="53" letter-spacing="-0.03em">s</tspan><tspan x="305.82" y="53" letter-spacing="0em">?</tspan></tspan></text>
+    <g>
+      <rect x="1508.4" y="368.69" width="14.33" height="14.33" transform="translate(695.18 1590.26) rotate(-90)" fill="#1a80ff"/>
+      <rect x="1045.42" y="427.19" width="14.33" height="14.33" transform="translate(173.7 1185.78) rotate(-90)" fill="#163598"/>
+      <rect x="1375.27" y="327.19" width="14.33" height="14.33" transform="translate(603.54 1415.62) rotate(-90)" fill="#163598"/>
+      <rect x="1328.91" y="472.19" width="14.33" height="14.33" transform="translate(412.19 1514.26) rotate(-90)" fill="#cfcec7"/>
+      <rect x="1147.18" y="330.29" width="14.33" height="14.33" transform="translate(372.36 1190.63) rotate(-90)" fill="#fff"/>
+      <path d="M1136.34,487.58v9.55h-9.55v-9.55h9.55m2.39-2.39H1124.4v14.33h14.33V485.19Z" transform="translate(-444.53 -301.16)" fill="#1a80ff"/>
+      <path d="M1495.34,486.58v9.55h-9.55v-9.55h9.55m2.39-2.39H1483.4v14.33h14.33V484.19Z" transform="translate(-444.53 -301.16)" fill="#a0a7af"/>
+    </g>
+  </g>
+</svg>
