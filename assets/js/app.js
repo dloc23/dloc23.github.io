@@ -53,7 +53,7 @@ $(document).ready(function() {
     //var sNum = $('section').length;
     TweenMax.set('#osrChart, #osr-core, #osr-core-2, #osr-core-main2, #osr-core-main3, #label-purple-highlight, #purple-label-marker, #osrchart-blue-png, #osrchart-blue2-png, #floor-ring, #blue-ring-big, #purple-label-marker, #ring1, #ring2, #panel1, #panel2, #panel2-head, #panel2-para, #panel2-box, #dots1, #dots2, #dots3, #dots4, #panel3-head, #panel3-head2, #panel3-div, #panel3-pg1, #panel3-para2, #panel3-para3, #panel3-para4, #hcm-blue, #erp-blue, #crm-blue', { opacity: 0 });
     
-    TweenMax.set('#oGrid', { opacity: .5}, 0)
+    //TweenMax.set('#oGrid', { opacity: .5}, 0)
         
         
 //    TweenMax.set('#rec2', { scale: 2}, 0)
@@ -75,7 +75,9 @@ $(document).ready(function() {
         ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
     var tl = new TimelineMax();
         tl
-            //.add(TweenMax.to('#oGrid', 0, { opacity: .5 }), 0)
+            
+            //TweenMax.set('#oGrid', { opacity: .5}, 0)
+            .add(TweenMax.to('#oGrid', 0, { opacity: .5 }), 0)
             .add(TweenMax.to('#oGrid', 1, { opacity: 1 }), 1)
             .add(TweenMax.to('#oGrid', 1, { rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 2)
                 ////////////  TEXT
@@ -954,7 +956,7 @@ $(document).ready(function() {
                 var controller = new ScrollMagic.Controller();
         
                 var timeline2 = new TimelineMax();
-                    var tween11 = TweenMax.from("#card-ebook-container", .4, { scale: .2, delay: 0.1 });
+                    var tween11 = TweenMax.from("#card-ebook-container", .4, { opacity: 0, y:'+=40', delay: 0.1 });
         
                     // COOL BOUNCE DOWN EFFECT
                     //var tween12 = TweenMax.from("#card-cta-pic-container", 1, { opacity: 0, y:'+=80', delay: 0.1 });
