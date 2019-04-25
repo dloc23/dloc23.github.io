@@ -34,14 +34,8 @@ li {
     color: #adb8c9;
 }
 
-.animation-container,
-.spacer-container {
-    height: 100vh;
-}
 
-.spacer-container.h-50 {
-    height: 50vh;
-}
+
 
 .spacer-container.h-100 {
     height: 100vh;
@@ -121,29 +115,171 @@ li {
 /* End Colors */
 
 #anim1-container {
-    z-index: 20;
+    z-index: 2;
+}
+#scene1 {
+    z-index: 50;
+}
+#scene1-2-trigger {
+    z-index: 60;
 }
 #scene1-pin {
-/*    z-index: 30;*/
+    z-index: -11;
 }
 #scene2-pin {
     z-index: -10;
 }
-#panels-container {
-    z-index: 2200;
+#scene2-3-pin {
+    z-index: 190;
 }
+#panels-container {
+    z-index: 100;
+}
+
 #hero-container2 {
-    z-index: -5;
+    z-index: -1;
+}
+/*
+#scene3 {
+    z-index: 2;
+}
+#scene3-pin {
+    z-index: -3;
+}
+#scene3-3-trigger {
+    z-index: 5000;
+}
+*/
+
+
+.animation-container,
+.spacer-container {
+    height: 100vh;
+}
+
+.spacer-container.h-50 {
+    height: 50vh;
 }
 
 .pinned-element {
     position: absolute;
 }
 
+.container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.col-8 {
+    width: 66.66667%;
+}
+
+.offset-7 {
+    margin-left: 58.333333%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-right {
+    text-align: right !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-center {
+    text-align: center !important;
+}
+
+
+.height-h-10 {
+    height: 10vh;
+}
+.height-h-25 {
+    height: 25vh;
+}
+.height-h-50 {
+    height: 50vh;
+}
+.height-h-75 {
+    height: 75vh;
+}
+.height-h-100 {
+    height: 100vh;
+}
+
+.mb-0 {
+    margin-bottom: 0rem !important;
+}
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.drounded-0 {
+    border-radius: 0 !important;
+}
+
+.my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+
+
+.dcard {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.dcard-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.dcard-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+.dcard-img {
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
+}
+
+.dborder-0 {
+    border: 0 !important;
+}
+
 
 /*_________________________________  MAIN  ___________________________________*/
-
-
 
 .hero {
     background-image: url('../img/bg-image_squares.jpg');
@@ -160,20 +296,34 @@ li {
 }
 
 #p-test2 {
-    width: 400px;
+/*    width: 400px;*/
 }
 
 #flip-today-container {
 /*    width: 400px;*/
+/*    padding-left: 135px;*/
 }
 
 #flip-today {
 /*    width: 400px;*/
 }
 
+#ogrid-wrapper {
+/*    text-align: center;*/
+}
+
 #oGrid {
+/*
     width: 325px;
     margin-top: 14%;
+    align-items: center;
+    display: block;
+*/
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-top: 20%;*/
+    width: 26%;
+    height: auto;
 }
 
 .hero-container-header {
@@ -214,9 +364,9 @@ li {
 
 .today p {
     font-size: 24px;
-    padding-bottom: 10%;
-    padding-left: 5%;
-    margin-right: -46%
+    padding-bottom: 4rem;
+    padding-left: 1.6rem;
+    margin-right: -9rem;
 }
 
 #osrChart {
@@ -247,7 +397,7 @@ li {
 
 #panels-container {
     padding-top: 200px;
-    padding-left: 223px;
+    padding-left: 272px;
 }
 
 #oGrid2 {
@@ -306,7 +456,7 @@ li {
     text-decoration: none;
 }
 
-.slide-list a:hover{
+.slide-list li a:hover{
     color: #424352;
     text-decoration: none;
 }
@@ -349,7 +499,7 @@ li {
 }
 
 .card-img-overlay {
-    padding-top: 92px;
+    padding-top: 90px;
 }
 
 #card-para {
@@ -360,10 +510,11 @@ li {
     margin-left:-20px;
     margin-right:-20px;
     padding-right: 20px;
-    padding-left:20px;
-    padding-top: 16px;
+    padding-left:2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 20px;
     padding-bottom: 40px;
-    margin-top: -16px;
+    margin-top: -17px;
 }
 
 #card-h6 {
@@ -379,7 +530,7 @@ li {
     margin-right:-20px;
     margin-top: -3px;
     padding-top: 20px;
-    padding-left:20px;
+    padding-left: 2.3rem;
     padding-bottom: 10px;
 }
 
@@ -387,48 +538,67 @@ li {
 #panel_2,
 #panel_3 {
     border-radius: 0;
-    width: 380px;
+    width: 346px;
     background-color: rgba(255, 255, 255, 1);
     
     background: none;
     margin-top: -70px;
 }
 
-#panel1-card-h3 {
+#panel-card-h3 {
     background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 2.3rem;
 }
 
 #panel1-card-h3-last,
 #panel2-card-h3-last {
     background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 2.3rem;
+/*    padding-bottom: 20px;*/
+}
+
+#panel1-card-h3-second {
+    background:white;
+    font-weight: 300;
+    line-height: 2.4rem;
+    margin-left: -20px;
+    padding-left: 2.3rem;
 }
 
 #panel-card-h3-first {
     background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 2.3rem;
     margin-top: -10px;
 }
 
 #panel-card-h3-second {
     background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 2.3rem;
 }
 
 #panel-card-h3-third {
     background:white;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-left:20px;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 2.3rem;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-top: -16px;
@@ -503,15 +673,18 @@ li {
 #endring-bg {
 /*    background-image: url('../svg/endrings.svg');*/
     background-color: #0f2146;
+/*
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
-    height: 620px;
+*/
+    height: 628px;
 }
 
 #endring-container {
     padding-right: 0px;
     padding-bottom: 0px;
+    height: 50px;
 }
 
 #endring {
@@ -533,12 +706,13 @@ li {
 #card-ebook-container {
     width: 460px;
     height: 23rem;
-    padding: 1.4rem;
-    padding-left: 2rem;
+    padding: 1rem;
+    padding-left: 1rem;
     padding-right: 1rem;
 }
 
 #card-ebook-pad {
+/*    margin-left: 50px;*/
     padding-left: 0px;
     padding-top: 7.5rem;
 }
@@ -595,8 +769,8 @@ li {
 
 #card-cta-pic-container {
     padding-left: 16.66%;
-    padding-top: 5%;
-    padding-bottom: 6%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 /*    align-content: center;*/
 }
 
@@ -653,14 +827,18 @@ li {
     .hero h1 {
         font-size: 60px;
         line-height: 56px;
-        padding-left: 68px;
+        padding-left: 0px;
     }
 
     .hero h2 {
         font-size: 28px;
         font-weight: 400;
         line-height: 36px;
-        padding-left: 160px;
+        padding-left: 86px;
+    }
+    
+    #p-test2 {
+/*        height: 0px;*/
     }
     
     .service {
@@ -678,7 +856,8 @@ li {
     }
 
     .today p {
-        padding-bottom: 10%;
+        padding-bottom: 4rem;
+        margin-right: -9rem;
     }
     
     .slide-list-container {
@@ -687,7 +866,7 @@ li {
     }
     
     #osr-container {
-        padding-left: 223px;
+        padding-left: 120px;
         padding-top: 146px;
     }
     
@@ -700,8 +879,8 @@ li {
     }
     
     #panels-container {
-        padding-top: 220px;
-        padding-left: 192px;
+        padding-top: 200px;
+        padding-left: 236px;
     }
     
     #oGrid2 {
@@ -926,7 +1105,7 @@ li {
     }
     
     #osr-container {
-        margin-left: 38%;
+        margin-left: 25%;
         margin-top: 100%;
         padding-top: 100%;
     }
@@ -1249,13 +1428,16 @@ li {
     /*COVERS UP MAN DIV*/
   
     #card-cta-container {
+/*        height: 200px;*/
+/*        padding-top: 10px;*/
     }
     
     #card-cta {
+        
     }
     
     #card-cta-pic-container {
-/*        width: 1400px;*/
+/*        margin-top: 60px;*/
     }
     
     #card-cta-pic {
@@ -1278,7 +1460,10 @@ li {
     }
     
     #card-cta-pic-mobile {
-        width: 200px;
+        margin-right: 10px;
+        padding-top: 40px;
+        padding-left: 0px;
+        width: 246px;
     }
     
     /*  END END SCREEN 420 */
