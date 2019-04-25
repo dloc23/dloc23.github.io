@@ -53,7 +53,7 @@ $(document).ready(function() {
     //var sNum = $('section').length;
     TweenMax.set('#osrChart, #osr-core, #osr-core-2, #osr-core-main2, #osr-core-main3, #label-purple-highlight, #purple-label-marker, #osrchart-blue-png, #osrchart-blue2-png, #floor-ring, #blue-ring-big, #purple-label-marker, #ring1, #ring2, #panel1, #panel2, #panel2-head, #panel2-para, #panel2-box, #dots1, #dots2, #dots3, #dots4, #panel3-head, #panel3-head2, #panel3-div, #panel3-pg1, #panel3-para2, #panel3-para3, #panel3-para4, #hcm-blue, #erp-blue, #crm-blue', { opacity: 0 });
     
-    //TweenMax.set('#oGrid', { opacity: .5}, 0)
+    TweenMax.set('#oGrid', { opacity: .5}, 0)
         
         
 //    TweenMax.set('#rec2', { scale: 2}, 0)
@@ -77,15 +77,22 @@ $(document).ready(function() {
         tl
             
             //TweenMax.set('#oGrid', { opacity: .5}, 0)
-            .add(TweenMax.to('#oGrid', 0, { opacity: .5 }), 0)
+            //.add(TweenMax.to('#oGrid', 0, { opacity: .5 }), 0)
             .add(TweenMax.to('#oGrid', 1, { opacity: 1 }), 1)
             .add(TweenMax.to('#oGrid', 1, { rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 2)
                 ////////////  TEXT
             .add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 4, { opacity:0, x:'+=250', y:'+=140', ease:Expo.easeNone }, .2), 0)
                 // Operational...
                 // The Engine That Runs...
-            .add(TweenMax.to('#rec2', 4, { opacity: 0, y:'-=800' }), 0)
-            .add(TweenMax.to('#rec4', 4, { opacity: 0, y:'-=500' }), 0)
+            .add(TweenMax.to('#p-test2', 0, { scale: 6, x:'-=260' }), 0)
+        
+//            .add(TweenMax.to('#rec2', 4, { opacity: 0, y:'-=800' }), 0)
+//            .add(TweenMax.to('#rec4', 4, { opacity: 0, y:'-=500' }), 0)
+        
+            .add(TweenMax.to('#2rec5', 4, { opacity: 0, y:'-=800' }), 0)
+            .add(TweenMax.to('#rec6', 4, { opacity: 0, y:'-=500' }), 0)
+            .add(TweenMax.to('#rec7', 4, { opacity: 0, y:'-=500' }), 0)
+            .add(TweenMax.to('#rec8', 4, { opacity: 0, y:'-=500' }), 0)
         
         
 //            .add(TweenMax.staggerTo(['#hero-container h1', '#hero-container h2'], 2, {y:'-=98%', x:'-=100', opacity:0},0.2),0);
@@ -124,7 +131,7 @@ $(document).ready(function() {
         
 
         
-            .add(TweenMax.to('#flip-today', 0, { opacity: 1, y:"+=1000", ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#flip-today', 0, { opacity: 1, x:'-=17', y:"+=1000", ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#flip-today-mask', 0, { opacity: 1, ease: Linear.easeNone }), 0)
 
         
@@ -162,7 +169,7 @@ $(document).ready(function() {
             //.add(TweenMax.to('#staggerp1', 8, {y:'+=150', x:'+=200', opacity: 1} , 12),80)
             //.add(TweenMax.to('#scene1-3-trigger', 8, {y:'+=150', x:'+=200', opacity: 0} , 12), 60)
             //.add(TweenMax.to('#scene1-3-trigger', 8, {y:'+=150', x:'+=200', opacity: 1} , 12), 30)
-            .add(TweenMax.staggerFrom('#scene1-2-trigger p', 5, { opacity:0, ease:Linear.easeNone }, 1), 4);
+            .add(TweenMax.staggerFrom('#scene1-2-trigger p', 2, { opacity:0, ease:Linear.easeNone }, 1), 0);
             //.add(TweenMax.staggerFrom('#scene1 p', 12, { y:'+=250', opacity:0.3 }, 4), 0)
             //.add(TweenMax.to('#scene1 p', 4, { opacity:0 }), 18);
             //.add(TweenMax.staggerFrom('#scene1 p', 6, { opacity:0, ease: Linear.easeNone }, 12), 2.3)
@@ -205,6 +212,7 @@ $(document).ready(function() {
         .add(TweenMax.to('#ogrid-tr, #ogrid-inner-tr', 1, {x:'+=10', y:'+=-10', ease: Linear.easeNone}),7)
         .add(TweenMax.to('#ogrid-br, #ogrid-inner-br', 1, {x:'+=10', y:'+=10', ease: Linear.easeNone}),8)
         .add(TweenMax.staggerTo('#scene1-pin h1', 4, {x:'-=250', opacity:0}, 0.6), 1.5)
+        .add(TweenMax.staggerTo('#scene1-2-trigger p', 4, { opacity:0, ease:Linear.easeNone }, 1), 1.5)
         //.add(TweenMax.to('#para-today', 4, { opacity: 0, ease: Linear.easeNone }), 1.5)
         //.add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, x:'-=250', ease:Linear.easeNone }, 1.5), 4)
         //.add(TweenMax.to('#scene1-pin h1', 4, { opacity:0}, 2), 0)
@@ -283,7 +291,7 @@ $(document).ready(function() {
 //                })
         
         
-            .add(TweenMax.to('#flip-today-mask', 4, { opacity: 0, ease: Linear.easeNone }), 56)
+            .add(TweenMax.to('#flip-today-mask', 4, { opacity: 0, ease: Linear.easeNone }), 49)
             
             .add(TweenMax.to('#ogrid2-mobile', 0, { opacity: 0, x:'-=35' }), 0)
             .add(TweenMax.to('#ogrid2-mobile-text', 0, { opacity: 0 }), 0)
@@ -307,7 +315,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#flip-osr-p5', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
             
             
-            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1, x:"+=100" }), 56)
+            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1, x:"+=100" }), 49)
             .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 0, x:"+=200" }), 68)
             .add(TweenMax.to('#flip-osr-p1', 8, { opacity: 1, x:"+=200" }), 68)
             .add(TweenMax.to('#flip-osr-p1', 1, {  opacity: 0 }), 86)
@@ -360,9 +368,14 @@ $(document).ready(function() {
             .add(TweenMax.to('#panel3-para2', 0, { scale: 1, opacity: 0, x:"+=156", y:"+=46" }), 0)
             .add(TweenMax.to('#panel3-para3', 0, { scale: 1, opacity: 0, x:"-=100", y:"+=198" }), 0)
             .add(TweenMax.to('#panel3-para4', 0, { scale: 1, opacity: 0, x:"-=95", y:"+=46" }), 0)
+        
+        
       
-            .add(TweenMax.to('#osrChart', 0, { scale: 0.8, x: "-=223", y:"-=23" }), 0)
+            .add(TweenMax.to('#osrChart', 0, { scale: 0.9, x: "-=292", y:"-=23" }), 0)
             .add(TweenMax.to('#osrChart', 4, { opacity:1, y:"-=323", ease: Linear.easeNone }), 6)
+            
+            
+            
             .add(TweenMax.to('#floor-ring', 6, {opacity:1, ease: Linear.easeNone}), 9)
             .add(TweenMax.from('#osr', 4, {opacity:0, y:'+=320', ease: Linear.easeNone}), 12)
             .add(TweenMax.from('#osr-pole', 4, {opacity:0, y:'+=280', ease: Linear.easeNone}), 12)  
@@ -403,9 +416,14 @@ $(document).ready(function() {
             .add(TweenMax.to('#discover', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 46)
             .add(TweenMax.to('#people', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 48)
             .add(TweenMax.to('#benefits', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 50)
+        
+        
 
             //.add(TweenMax.to('#osrChart', 4, {  scale: 0.6, x: "-=142", y: "+=80" }), 60)
-            .add(TweenMax.to('#osrChart', 4, {  scale: 0.76, x:'-=260', y:'+=56' }), 52)
+            .add(TweenMax.to('#osrChart', 4, {  scale: 0.82, x:'-=160', y:'+=56' }), 52)
+        
+        
+        
         
 /* PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE  PAUSE
         ++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -584,7 +602,7 @@ $(document).ready(function() {
 
 
             //.add(TweenMax.to('#oGrid', 0, {x:'-=100', y:'+=14', ease: Linear.easeNone}), 255)
-            .add(TweenMax.to('#oGrid', 0, {x:'+=23', y:'+=23', ease: Linear.easeNone}), 256)
+            //.add(TweenMax.to('#oGrid', 0, {x:'+=23', y:'+=23', ease: Linear.easeNone}), 256)
             .add(TweenMax.to('#oGrid', 12, {opacity:1, ease: Linear.easeNone}), 262)
         
 
@@ -671,7 +689,7 @@ $(document).ready(function() {
         
             
             .add(TweenMax.to('#oGrid', 2, {opacity:0, ease: Linear.easeNone}), 278)
-            .add(TweenMax.to('#oGrid', 0, {x:'-=50', y:'-=17'}), 280)
+            //.add(TweenMax.to('#oGrid', 0, {x:'-=50', y:'-=17'}), 280)
             .add(TweenMax.to('#oGrid2', 0, { x:'+=56' }), 278)
             .add(TweenMax.from('#oGrid2 #ogrid2-whole', 8, {opacity:0, ease: Linear.easeNone}), 278)
             .add(TweenMax.from('#oGrid2 #ogrid2-outter-whole', 4, {opacity:0, ease: Linear.easeNone}), 282)
@@ -786,14 +804,14 @@ $(document).ready(function() {
         
         .add(TweenMax.to('#oGrid2 #ogrid2-whole', 8, {opacity:0.5, ease:Linear.easeNone }), 135)
         
-        .set('#discover', {className:"-=active"}, 150)
-        .set('#people', {className:"-=active"}, 150)
-        .set('#benefits', {className:"+=active"}, 150)
-        .set('#scene2-3 .slide-list', {className:"+=white a"}, 150)
+        .set('#discover', {className:"-=active"}, 174)
+        .set('#people', {className:"-=active"}, 174)
+        .set('#benefits', {className:"+=active"}, 174)
+        .set('#scene2-3 .slide-list', {className:"+=white a"}, 174)
         
-        .add(TweenMax.to('#discover', 4, { y:'+=58' }), 150)
-        .add(TweenMax.to('#people', 4, { y:'+=58' }), 150)
-        .add(TweenMax.to('#benefits', 4, { y:'+=58' }), 150)
+        .add(TweenMax.to('#discover', 8, { y:'+=58' }), 174)
+        .add(TweenMax.to('#people', 8, { y:'+=58' }), 174)
+        .add(TweenMax.to('#benefits', 8, { y:'+=58' }), 174)
         
         
         var scene3 = new ScrollMagic.Scene( {
@@ -820,6 +838,10 @@ $(document).ready(function() {
             .add(TweenMax.to('#girl-card3', 1, { opacity: 1 }), 10)
             .add(TweenMax.to('#girl-card3', 14, { opacity: 1, y:"-=1200" }), 11)
             .add(TweenMax.to('#girl-card3', 2, { opacity: 0 }), 17)
+        
+        
+            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 4, { opacity:0.15, ease:Linear.easeNone }), 5)
+        
             
             .add(TweenMax.to('#panel_1', 0, { opacity: 0, y:'+=80', ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#panel_1', 2, { opacity: 1, ease: Linear.easeNone }), 6)
@@ -836,7 +858,9 @@ $(document).ready(function() {
             .add(TweenMax.to('#panel_3', 12, { y:'-=1600', ease: Linear.easeNone }), 9)
             .add(TweenMax.to('#panel_3', 2, { opacity:0, ease: Linear.easeNone }), 17)
         
-            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 4, {opacity:0, y:"-=6000", ease:Linear.easeNone }), 23)
+            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 4, { opacity:0.7, ease:Linear.easeNone }), 17)
+        
+            .add(TweenMax.to('#oGrid2 #ogrid2-whole', 2, {opacity:0, ease:Linear.easeNone }), 22)
         
             // FAKE OUT PLACEHOLDER TO KEEP THE SCENE ON, SO OGRID CAN ANIMATE UPS
             .add(TweenMax.to('#panel_3', 15, { x:'-=1288', ease: Linear.easeNone }), 40)
@@ -847,7 +871,7 @@ $(document).ready(function() {
         
         var scene3_1 = new ScrollMagic.Scene( {
         triggerElement: '#scene3',
-        duration: '2000%',
+        duration: '1910%',
         triggerHook: 0
     })
         
@@ -896,8 +920,8 @@ $(document).ready(function() {
         var scene3_3 = new ScrollMagic.Scene( {
         triggerElement: '#hero-container2',
         duration: '1400%',
-        triggerHook: 0.6,
-        offset: 480
+        triggerHook: 0.1,
+        offset: 0
     })
         
 //        var start = s3_3tl.scrollOffset();
@@ -931,20 +955,14 @@ $(document).ready(function() {
                     var tween2 = TweenMax.from("#card-man2", 1, { opacity: 0, delay: 0 });
 
                     timeline.add(tween1).add(tween2);
-
-                    //scene.addTween(timeline);
-        
-                    //OR
-        
-                    //TweenMax.staggerTo(".myclass", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
         
                 // build scene
                 var scene = new ScrollMagic.Scene({
 
                     triggerElement: "#trigger1", 
-                    duration: 1200,
+                    duration: 1800,
 //                    triggerHook: 0.9,
-                    offset: 400 })
+                    offset: 450 })
 
                     .setPin("#pin1")
                     //.addIndicators({name: "1 (duration: 800)"}) // add indicators (requires plugin)
@@ -960,7 +978,7 @@ $(document).ready(function() {
         
                     // COOL BOUNCE DOWN EFFECT
                     //var tween12 = TweenMax.from("#card-cta-pic-container", 1, { opacity: 0, y:'+=80', delay: 0.1 });
-                    var tween12 = TweenMax.from("#card-cta-pic", .4, { opacity: 0, y:'+=40', delay: .4 });
+                    var tween12 = TweenMax.from("#card-cta-pic", .4, { opacity: 0, y:'+=40', delay: .1 });
         
                     var tween13 = TweenMax.staggerTo(
                             [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
@@ -984,21 +1002,39 @@ $(document).ready(function() {
 //                    triggerHook: 0.9,
                     offset: 0 })
 
-                        .setTween(TweenMax.staggerTo(
-                            [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
-                            1.2,
-                            { opacity: 0.5,
-                             //delay: 1,
-                             repeat: -1,
-                             yoyo: true,
-                             ease: Circ.easeInOut },
-                            .3
-                        ))
+//                        .setTween(TweenMax.staggerTo(
+//                            [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
+//                            1.2,
+//                            { opacity: 0.5,
+//                             //delay: 1,
+//                             repeat: -1,
+//                             yoyo: true,
+//                             ease: Circ.easeInOut },
+//                            .3
+//                        ))
 
                     .setPin("#pin2")
                     //.addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
                     .setTween(timeline2)
                     .addTo(controller);
+        
+            $(document).on("click", "a[href^='#']", function (e) {
+                var id = $(this).attr("href");
+                
+                console.log(id);
+                
+                if ($(id).length > 0) {
+                    e.preventDefault();
+
+                    // trigger scroll
+                    controller.scrollTo(id);
+
+                        // if supported by the browser we can even update the URL.
+                    if (window.history && window.history.pushState) {
+                        history.pushState("", document.title, id);
+                    }
+                }
+            });
        
 }
 });
