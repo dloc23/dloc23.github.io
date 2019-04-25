@@ -10,9 +10,9 @@ $(document).ready(function() {
         $.get("assets/svg/flip_osr.svg", function(svg) {
             $("#flip-osr").append(svg.documentElement);
           }),
-        $.get("assets/svg/endrings.svg", function(svg) {
-            $("#endring").append(svg.documentElement);
-          }),
+//        $.get("assets/svg/endrings.svg", function(svg) {
+//            $("#endring").append(svg.documentElement);
+//          }),
         $.get("assets/svg/p-test.svg", function(svg) {
             $("#p-test").append(svg.documentElement);
           }),
@@ -79,7 +79,7 @@ $(document).ready(function() {
             //TweenMax.set('#oGrid', { opacity: .5}, 0)
             //.add(TweenMax.to('#oGrid', 0, { opacity: .5 }), 0)
             .add(TweenMax.to('#oGrid', 1, { opacity: 1 }), 1)
-            .add(TweenMax.to('#oGrid', 1, { rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 2)
+            .add(TweenMax.to('#oGrid', 1, { opacity: 1, rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 2)
                 ////////////  TEXT
             .add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 4, { opacity:0, x:'+=250', y:'+=140', ease:Expo.easeNone }, .2), 0)
                 // Operational...
