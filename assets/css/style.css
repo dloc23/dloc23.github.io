@@ -204,6 +204,9 @@ li {
 .height-h-50 {
     height: 50vh;
 }
+.height-h-60 {
+    height: 60vh;
+}
 .height-h-75 {
     height: 75vh;
 }
@@ -241,42 +244,7 @@ li {
 
 
 
-.dcard {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-}
 
-.dcard-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 1.25rem;
-}
-
-.dcard-img-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1.25rem;
-}
-.dcard-img {
-    width: 100%;
-    border-radius: calc(0.25rem - 1px);
-}
-
-.dborder-0 {
-    border: 0 !important;
-}
 
 
 /*_________________________________  MAIN  ___________________________________*/
@@ -496,46 +464,83 @@ li {
 
 /*-------------------------------------------------------------------------*/
 
+.dcard {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.dcard-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.dcard-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.42rem;
+}
+.dcard-img {
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
+}
+
+.dborder-0 {
+    border: 0 !important;
+}
+
 .dtext-muted {
     color: #6c757d !important;
 }
 
 .card-img {
-    margin-top: 46px;
+    margin-top: 3.29rem;
 }
 
 .card-img-overlay {
-    padding-top: 90px;
+    padding-top: 6.43rem;
 }
 
 #card-para {
-    background:white;
+    background: white;
     font-size: 14px;
     font-weight: 300;
-    line-height: 22px;
-    margin-left:-20px;
-    margin-right:-20px;
-    padding-right: 20px;
-    padding-left:2.3rem;
+    line-height: 1.57rem;
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
+    padding-right: 1.43rem;
+    padding-left: 2.3rem;
     padding-right: 2.3rem;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    margin-top: -17px;
+    padding-top: 1.43rem;
+    padding-bottom: 2.86rem;
+    margin-top: -1.2rem;
 }
 
 #card-h6 {
     color: #424352;
-    background:none;
+    background: none;
     
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-size: 12px;
     text-align: left;
 
-    margin-left:-20px;
-    margin-right:-20px;
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
     margin-top: 1.2rem;
-    padding-top: 20px;
+    padding-top: 1.43rem;
     padding-left: 2.3rem;
     padding-bottom: 10px;
 }
@@ -548,16 +553,16 @@ li {
     background-color: rgba(255, 255, 255, 1);
     
     background: none;
-    margin-top: -70px;
+    margin-top: -5rem;
 }
 
 #panel-card-h3 {
     background: white;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 26px;
     line-height: 2rem;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
     padding-left: 2.3rem;
 }
 
@@ -565,10 +570,10 @@ li {
 #panel2-card-h3-last {
     background: white;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 26px;
     line-height: 2rem;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
     padding-left: 2.3rem;
 /*    padding-bottom: 20px;*/
 }
@@ -576,44 +581,44 @@ li {
 #panel1-card-h3-second {
     background: white;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 26px;
     line-height: 2.4rem;
-    margin-left: -20px;
+    margin-left: -1.43rem;
     padding-left: 2.3rem;
 }
 
 #panel-card-h3-first {
     background: white;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 26px;
     line-height: 2rem;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
     padding-left: 2.3rem;
-    margin-top: -10px;
+    margin-top: -.7rem;
 }
 
 #panel-card-h3-second {
     background: white;
-    font-size: 1.8rem;
+    font-size: 26px;
     line-height: 2rem;
     font-weight: 300;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
     padding-left: 2.3rem;
 }
 
 #panel-card-h3-third {
     background: white;
-    font-size: 1.8rem;
+    font-size: 26px;
     font-weight: 300;
     line-height: 2rem;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
     padding-left: 2.3rem;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    margin-top: -16px;
+    padding-top: 1.14rem;
+    padding-bottom: 1.14rem;
+    margin-top: -1.14rem;
 }
 
 
@@ -684,32 +689,43 @@ li {
 /*-------------------------------------------------------------------------*/
 #endring-bg {
 /*    background-image: url('../svg/endrings.svg');*/
-    background-color: #0f2146;
 /*
+    background-color: #0f2146;
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
+    height: 632px;
 */
-    height: 628px;
 }
 
-#endring-container {
-    padding-right: 0px;
-    padding-bottom: 0px;
-    height: 50px;
+#endring-wrapper {
+/*    padding-left: 10%;*/
+/*    padding-bottom: 0px;*/
+    height: 626px;
+/*    left: 20%;*/
 }
 
 #endring {
+/*
     width: 100%;
+    height: 100%;
+*/
     height: 100%;
 }
 
+#endring-svg {
 /*
-#endring-row {
-    background-color:#0f2146;
-    height: 42px;
-}
+    width: 325px;
+    margin-top: 14%;
+    align-items: center;
+    display: block;
 */
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-top: 20%;*/
+/*    width: 26%;*/
+/*    height: auto;*/
+}
 
 #trigger2 {
     padding-right: 0px;
@@ -780,6 +796,7 @@ li {
 }
 
 #card-cta-pic-container {
+    margin-top: 2px;
     padding-left: 16.66%;
     padding-top: 2rem;
     padding-bottom: 3rem;
