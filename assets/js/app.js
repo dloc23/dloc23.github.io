@@ -10,9 +10,9 @@ $(document).ready(function() {
         $.get("assets/svg/flip_osr.svg", function(svg) {
             $("#flip-osr").append(svg.documentElement);
           }),
-//        $.get("assets/svg/endrings.svg", function(svg) {
-//            $("#endring").append(svg.documentElement);
-//          }),
+        $.get("assets/svg/endrings.svg", function(svg) {
+            $("#endring").append(svg.documentElement);
+          }),
         $.get("assets/svg/p-test.svg", function(svg) {
             $("#p-test").append(svg.documentElement);
           }),
