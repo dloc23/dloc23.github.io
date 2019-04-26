@@ -1,3 +1,8 @@
+    #flip-osr {
+        height: 0px;
+    }
+
+
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -203,9 +208,6 @@ li {
 }
 .height-h-50 {
     height: 50vh;
-}
-.height-h-60 {
-    height: 60vh;
 }
 .height-h-75 {
     height: 75vh;
@@ -689,43 +691,33 @@ li {
 /*-------------------------------------------------------------------------*/
 #endring-bg {
 /*    background-image: url('../svg/endrings.svg');*/
-/*
     background-color: #0f2146;
+/*
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
-    height: 632px;
 */
+    height: 628px;
 }
 
-#endring-wrapper {
-/*    padding-left: 10%;*/
-/*    padding-bottom: 0px;*/
-    height: 626px;
-/*    left: 20%;*/
+#endring-container {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 50px;
+    background-color: #0f2146;
 }
 
 #endring {
-/*
     width: 100%;
-    height: 100%;
-*/
     height: 100%;
 }
 
-#endring-svg {
 /*
-    width: 325px;
-    margin-top: 14%;
-    align-items: center;
-    display: block;
-*/
-    margin-left: auto;
-    margin-right: auto;
-/*    margin-top: 20%;*/
-/*    width: 26%;*/
-/*    height: auto;*/
+#endring-row {
+    background-color:#0f2146;
+    height: 42px;
 }
+*/
 
 #trigger2 {
     padding-right: 0px;
@@ -796,7 +788,6 @@ li {
 }
 
 #card-cta-pic-container {
-    margin-top: 2px;
     padding-left: 16.66%;
     padding-top: 2rem;
     padding-bottom: 3rem;
