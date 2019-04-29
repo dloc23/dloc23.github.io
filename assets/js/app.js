@@ -10,14 +10,14 @@ $(document).ready(function() {
         $.get("assets/svg/flip_osr.svg", function(svg) {
             $("#flip-osr").append(svg.documentElement);
           }),
-        $.get("assets/svg/endrings.svg", function(svg) {
-            $("#endring").append(svg.documentElement);
+//        $.get("assets/svg/endrings.svg", function(svg) {
+//            $("#endring").append(svg.documentElement);
+//          }),
+        $.get("assets/svg/squares-left.svg", function(svg) {
+            $("#squares-left").append(svg.documentElement);
           }),
-        $.get("assets/svg/p-test.svg", function(svg) {
-            $("#p-test").append(svg.documentElement);
-          }),
-        $.get("assets/svg/p-test2.svg", function(svg) {
-            $("#p-test2").append(svg.documentElement);
+        $.get("assets/svg/squares-right.svg", function(svg) {
+            $("#squares-right").append(svg.documentElement);
           }),
 //        $.get("assets/svg/endring_clip.svg", function(svg) {
 //            $("#endring").append(svg.documentElement);
@@ -25,17 +25,18 @@ $(document).ready(function() {
 //        $.get("assets/svg/osrchart.svg", function(svg) {
 //            $("#osrChart").append(svg.documentElement);
 //          }),
-        $.get("assets/svg/oGrid2.svg", function(svg) {
-            $("#oGrid2").append(svg.documentElement);
-          }),
+//        $.get("assets/svg/oGrid2.svg", function(svg) {
+//            $("#oGrid2").append(svg.documentElement);
+//          }),
         $.get("assets/svg/ogrid2_mobile.svg", function(svg) {
             $("#ogrid2-mobile").append(svg.documentElement);
-          }),
-        $.get("assets/svg/panels.svg", function(svg) {
-            $("#panels").append(svg.documentElement);
           })
+//        $.get("assets/svg/panels.svg", function(svg) {
+//            $("#panels").append(svg.documentElement);
+//          })
         
       ).then(init);
+    
 
     function init() {
         
@@ -54,6 +55,8 @@ $(document).ready(function() {
     TweenMax.set('#osrChart, #osr-core, #osr-core-2, #osr-core-main2, #osr-core-main3, #label-purple-highlight, #purple-label-marker, #osrchart-blue-png, #osrchart-blue2-png, #floor-ring, #blue-ring-big, #purple-label-marker, #ring1, #ring2, #panel1, #panel2, #panel2-head, #panel2-para, #panel2-box, #dots1, #dots2, #dots3, #dots4, #panel3-head, #panel3-head2, #panel3-div, #panel3-pg1, #panel3-para2, #panel3-para3, #panel3-para4, #hcm-blue, #erp-blue, #crm-blue', { opacity: 0 });
     
     TweenMax.set('#oGrid', { opacity: .5}, 0)
+        
+    TweenMax.set('#rec5', { x:'+=150'}, 0)
         
         
 //    TweenMax.set('#rec2', { scale: 2}, 0)
@@ -78,21 +81,29 @@ $(document).ready(function() {
             
             //TweenMax.set('#oGrid', { opacity: .5}, 0)
             //.add(TweenMax.to('#oGrid', 0, { opacity: .5 }), 0)
-            .add(TweenMax.to('#oGrid', 1, { opacity: 1 }), 1)
-            .add(TweenMax.to('#oGrid', 1, { opacity: 1, rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 2)
+            .add(TweenMax.to('#oGrid', 1, { opacity: 1 }), 0)
+            .add(TweenMax.to('#oGrid', 1, { opacity: 1, rotation: +360, transformOrigin:"center center", ease:Linear.easeNone }).timeScale(0.2), 0)
                 ////////////  TEXT
-            .add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 4, { opacity:0, x:'+=250', y:'+=140', ease:Expo.easeNone }, .2), 0)
+            .add(TweenMax.staggerTo([ '#hero-container h1', '#hero-container h2' ], 2, { opacity:0, x:'+=350', y:'+=20', ease:Expo.easeNone }, .2), 0)
                 // Operational...
                 // The Engine That Runs...
-            .add(TweenMax.to('#p-test2', 0, { scale: 6, x:'-=260' }), 0)
+            .add(TweenMax.to('#squares-right', 0, { scale: 1, x:'+=0', y:'+=0' }), 0)
+        
+            .add(TweenMax.to('#squares-left', 0, { scale: 1, x:'-=260', y:'+=20' }), 0)
         
 //            .add(TweenMax.to('#rec2', 4, { opacity: 0, y:'-=800' }), 0)
 //            .add(TweenMax.to('#rec4', 4, { opacity: 0, y:'-=500' }), 0)
         
-            .add(TweenMax.to('#2rec5', 4, { opacity: 0, y:'-=800' }), 0)
-            .add(TweenMax.to('#rec6', 4, { opacity: 0, y:'-=500' }), 0)
-            .add(TweenMax.to('#rec7', 4, { opacity: 0, y:'-=500' }), 0)
-            .add(TweenMax.to('#rec8', 4, { opacity: 0, y:'-=500' }), 0)
+            .add(TweenMax.to('#rec2', 6, { opacity: 0, y:'-=20' }), 0)
+            .add(TweenMax.to('#rec1', 6, { opacity: 0, y:'+=0' }), 0)
+            .add(TweenMax.to('#rec3', 4, { opacity: 0, y:'-=340' }), 0)
+            .add(TweenMax.to('#rec4', 6, { opacity: 0, y:'-=210' }), 0)
+
+        
+            .add(TweenMax.to('#rec5', 6, { opacity: 0, y:'-=810' }), 0)
+            .add(TweenMax.to('#rec7', 6, { opacity: 0, y:'-=310' }), 0)
+            .add(TweenMax.to('#rec8', 6, { opacity: 0, y:'+=210' }), 0)
+            .add(TweenMax.to('#rec6', 6, { opacity: 0, y:'-=20' }), 0)
         
         
 //            .add(TweenMax.staggerTo(['#hero-container h1', '#hero-container h2'], 2, {y:'-=98%', x:'-=100', opacity:0},0.2),0);
@@ -123,8 +134,8 @@ $(document).ready(function() {
         ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
     var s1tl = new TimelineMax();
         s1tl
-            .add(TweenMax.to('#oGrid #ogrid-bl path, #oGrid #ogrid-tl path, #oGrid #ogrid-br path, #oGrid #ogrid-tr path, #oGrid #ogrid-top path', 4, { stroke: '#E7EAEF', ease: Linear.easeNone }), 0)
-            .add(TweenMax.to('#oGrid', 1, { rotation: '+=360', transformOrigin:"center center", ease: Linear.easeNone }).timeScale(0.1), 0)
+            .add(TweenMax.to('#oGrid #ogrid-bl path, #oGrid #ogrid-tl path, #oGrid #ogrid-br path, #oGrid #ogrid-tr path, #oGrid #ogrid-top path', 4, { stroke: '#E7EAEF', ease: Linear.easeNone }), 2)
+            .add(TweenMax.to('#oGrid', 1, { rotation: '+=360', transformOrigin:"center center", ease: Linear.easeNone }).timeScale(0.1), 1)
                 ////////////  TEXT
             .add(TweenMax.staggerFrom('#scene1-pin h1', 5, { opacity:0, x:'-=350', ease:Linear.easeNone }, 1.5), 4)
             .add(TweenMax.staggerFrom('#scene1-4-trigger p', 5, { opacity:0, ease:Linear.easeNone }, 1.5), 4)
@@ -342,12 +353,6 @@ $(document).ready(function() {
             .add(TweenMax.to('#flip-osr-p5', 4, {  opacity: 0 }), 270)
             .add(TweenMax.to('#flip-osr-head2', 4, { opacity: 0 }), 270)
 
-
-//            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 1, x:"-=5", y:"" }), 1)
-//            .add(TweenMax.to('#flip-osr-p1', 16, { opacity: 1, y:"-=330" }), 1)
-        
-        
-        
             
             .add(TweenMax.to('#discover', 0, { opacity: 0, x:'-=80', y:'-=158' }), 0)
             .add(TweenMax.to('#people', 0, { opacity: 0, x:'-=80', y:'-=158' }), 0)
@@ -409,18 +414,16 @@ $(document).ready(function() {
             .add(TweenMax.from('#project-management', 4, {opacity:0, y:'+=80', ease: Linear.easeNone}), 38)
             .add(TweenMax.from('#blue-ring', 4, {opacity:0, ease: Linear.easeNone}), 42)
             
-            .add(TweenMax.to('#panel2-head', 4, { opacity: 1, x:"-=554", ease: Linear.easeNone }), 48)
-            .add(TweenMax.to('#panel2-box', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 48)
-            .add(TweenMax.to('#panel2-para', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 48)
+            .add(TweenMax.to('#panel2-head', 4, { opacity: 1, x:"-=554", ease: Linear.easeNone }), 44)
+            .add(TweenMax.to('#panel2-box', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 45)
+            .add(TweenMax.to('#panel2-para', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 45)
 
-            .add(TweenMax.to('#discover', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 46)
-            .add(TweenMax.to('#people', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 48)
-            .add(TweenMax.to('#benefits', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 50)
-        
-        
+            .add(TweenMax.to('#discover', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 42)
+            .add(TweenMax.to('#people', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 43)
+            .add(TweenMax.to('#benefits', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 44)
 
             //.add(TweenMax.to('#osrChart', 4, {  scale: 0.6, x: "-=142", y: "+=80" }), 60)
-            .add(TweenMax.to('#osrChart', 4, {  scale: 0.82, x:'-=160', y:'+=56' }), 52)
+            .add(TweenMax.to('#osrChart', 4, {  scale: 0.82, x:'-=160', y:'+=56' }), 44)
         
         
         
@@ -704,9 +707,10 @@ $(document).ready(function() {
             .add(TweenMax.from('#oGrid2 #executive', 8, {opacity:0, ease: Linear.easeNone}), 326)
         
       
-            .set('#discover', {className:"-=active"}, 300)//246
-            .set('#people', {className:"+=active"}, 300)//246
-            .set('#benefits', {className:"-=active"}, 300);//246
+            .set('#discover', {className:"-=active"}, 300)
+            .set('#people', {className:"+=active"}, 300)
+            .set('#benefits', {className:"-=active"}, 300)
+
         
 /* SCENE 2_2
         ++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -1018,23 +1022,53 @@ $(document).ready(function() {
                     .setTween(timeline2)
                     .addTo(controller);
         
+        
+        
+            
+        
+            animController.scrollTo(function (newpos) {
+                TweenMax.to(window, 0.8, {scrollTo: {y: newpos}});
+            });
+        
             $(document).on("click", "a[href^='#']", function (e) {
                 var id = $(this).attr("href");
                 
-                console.log(id);
                 
+                console.log(id);
+                //$(this).css('cursor', 'pointer');
+                
+                //if ($(id).length > 0 & ($(id) !== "coverlink1")) {
                 if ($(id).length > 0) {
                     e.preventDefault();
+//                    $(this).css('cursor', 'pointer');
 
                     // trigger scroll
-                    controller.scrollTo(id);
+                    animController.scrollTo(id)
+                    //this.id = null;
+                    // MAKE LINK INACTIVE !!!!!!!!!
 
-                        // if supported by the browser we can even update the URL.
-                    if (window.history && window.history.pushState) {
-                        history.pushState("", document.title, id);
-                    }
-                }
+// if supported by the browser we can even update the URL.
+//                    if (window.history && window.history.pushState) {
+//                        history.pushState("", document.title, id);
+//                    }
+                };       
             });
+        
+//            controller.scrollTo(function (newpos) {
+//                TweenMax.to(window, 0.5, {scrollTo: {y: newpos}});
+//            });
+//        
+//            $(document).on("click", id, function (e) {
+//                var id = $(this).attr("screen3");
+//                
+//                console.log(id);
+//                
+//                    e.preventDefault();
+//
+//                    controller.scrollTo(id)
+//     
+//            });
+
        
 }
 });
