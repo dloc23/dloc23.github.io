@@ -139,7 +139,7 @@ li {
 #anim1-container {
     margin:0;
     padding:0;
-    z-index: 2;
+    z-index: 1;
 }
 #scene1 {
     z-index: 50;
@@ -159,10 +159,19 @@ li {
 #panels-container {
     z-index: 100;
 }
-
+/*???
+#intro-scene-trigger {
+    z-index: 70;
+}
+*/
 #hero-container2 {
     z-index: -1;
 }
+/*
+#scene1 {
+    z-index: 2;
+}
+*/
 /*
 #scene3 {
     z-index: 2;
@@ -347,7 +356,7 @@ li {
 .hero h1 {
     font-size: 64px;
     line-height: 64px;
-    padding-left: 0px;
+    padding-left: 16%;
     padding-right: 0px;
     margin-left: 0px;
 }
@@ -356,11 +365,11 @@ li {
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
-    padding-left: 14%;
+    padding-left: 30%;
 }
 
 .service {
-    padding-left: 4%;
+    padding-left: 1%;
 }
 
 .service h1 {
@@ -377,7 +386,7 @@ li {
 .today p {
     font-size: 24px;
     padding-bottom: 4rem;
-    padding-left: 1.6rem;
+    padding-left: 3rem;
     margin-right: -9rem;
 }
 
