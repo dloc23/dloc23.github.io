@@ -13,12 +13,12 @@ $(document).ready(function() {
 //        $.get("assets/svg/endrings.svg", function(svg) {
 //            $("#endring").append(svg.documentElement);
 //          }),
-        $.get("assets/svg/squares-left.svg", function(svg) {
-            $("#squares-left").append(svg.documentElement);
-          }),
-        $.get("assets/svg/squares-right.svg", function(svg) {
-            $("#squares-right").append(svg.documentElement);
-          }),
+//        $.get("assets/svg/squares-left.svg", function(svg) {
+//            $("#squares-left").append(svg.documentElement);
+//          }),
+//        $.get("assets/svg/squares-right.svg", function(svg) {
+//            $("#squares-right").append(svg.documentElement);
+//          }),
 //        $.get("assets/svg/endring_clip.svg", function(svg) {
 //            $("#endring").append(svg.documentElement);
 //          }),
