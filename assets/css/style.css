@@ -1,12 +1,29 @@
-    #flip-osr {
-        height: 0px;
-    }
 
-
-/* Style the navbar */
-#navbar {
-  overflow: hidden;
+#flip-today {
+    height: 0px;
 }
+
+#today-margin {
+    margin-left: 60%;
+}
+
+#service-h1-container {
+    margin-left: 12%;
+    margin-top: 12%;
+}
+
+#pin1 {
+    background-color: white;
+}
+
+#ring-grid {
+    background-color: #0F2046;
+}
+
+#card-cta-container {
+    background-color: white;
+}
+
 
 /*SETUP AND Z-INDEX*/
 /*-------------------------------------------------------------------------*/
@@ -120,6 +137,8 @@ li {
 /* End Colors */
 
 #anim1-container {
+    margin:0;
+    padding:0;
     z-index: 2;
 }
 #scene1 {
@@ -156,6 +175,23 @@ li {
 }
 */
 
+.container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pinned-element {
+    position: absolute;
+}
 
 .animation-container,
 .spacer-container {
@@ -164,16 +200,6 @@ li {
 
 .spacer-container.h-50 {
     height: 50vh;
-}
-
-.pinned-element {
-    position: absolute;
-}
-
-.container {
-    text-align: center;
-    width: 100%;
-    margin: auto;
 }
 
 .col-8 {
@@ -208,6 +234,9 @@ li {
 }
 .height-h-50 {
     height: 50vh;
+}
+.height-h-60 {
+    height: 60vh;
 }
 .height-h-75 {
     height: 75vh;
@@ -252,7 +281,7 @@ li {
 /*_________________________________  MAIN  ___________________________________*/
 
 .hero {
-    background-image: url('../img/bg-image_squares.jpg');
+    background-image: url('../img/bg-image-nosquares.jpg');
     background-size: cover;
     background-size:100% auto;
     background-repeat: no-repeat;
@@ -262,12 +291,22 @@ li {
 
 }
 
-#p-test {
-/*    width: 400px;*/
+#squares-left-container {
+/*    margin-bottom: 400px;*/
+/*    padding-bottom: 200px;*/
+/*    margin-left: 20px;*/
+    padding-left: 320px;
+    padding-top: 360px;
+/*    margin-bottom: 80px;*/
+/*    left: 20%;*/
+    width: 320px;
+/*    height: 800px;*/
 }
 
-#p-test2 {
-/*    width: 400px;*/
+#squares-right-container {
+    width: 580px;
+    margin-left: -280px;
+    margin-top: 120px;
 }
 
 #flip-today-container {
@@ -292,8 +331,10 @@ li {
 */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
-    width: 26%;
+    margin-top: 30%;
+    padding-left: 0;
+    width: 54%;
+/*    width: 420px;*/
 /*    height: auto;*/
 }
 
@@ -319,7 +360,7 @@ li {
 }
 
 .service {
-    padding-left: 12%;
+    padding-left: 4%;
 }
 
 .service h1 {
@@ -398,6 +439,10 @@ li {
     background-position: center center;
     max-width: 100% auto;
 /*    height: 1278px;*/
+/*
+    margin: 0;
+    padding:0;
+*/
 }
 
 #hero2-img {
@@ -420,36 +465,116 @@ li {
     font-size: 20px;
     text-align: left;
     list-style-type: none;
+    cursor: pointer;
+    cursor: hand;
 }
 
+
+/*
+href {
+    cursor: hand;
+}
+a href {
+    cursor: hand;
+}
+li {
+    cursor: hand;
+}
+li a {
+    cursor: hand;
+}
+*/
+
+.slide-list li {
+    padding: 4px;
+}
 .slide-list a {
     color: #ADB8C9;
     text-decoration: none;
+    cursor: pointer;
+    cursor: hand;
 }
-
-.slide-list li a:hover{
-    color: #424352;
+.slide-list a:hover {
+    color: #00216E;
     text-decoration: none;
+    cursor: hand;
+}
+.slide-list .active a {
+    color: #323232;
+    text-decoration: none;
+     cursor: default;
 }
 
+/*
+.slide-list li a:link {
+    color: tomato;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+
+/*
+.slide-list li a:visited {
+    color: tomato;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+
+/*
+.slide-list li a:active {
+    color: hotpink;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+
+/*
 .slide-list .active a {
+    color: blue;
     color: #424352;
     pointer-events: none;
     cursor: default;
 }
+*/
+
+/*
+.slide-list .active a:link {
+    color: red;
+    pointer-events: none;
+    cursor: default;
+}
+*/
+
+/*
+.slide-list .active a:visited {
+    color: green;
+    pointer-events: none;
+    cursor: default;
+}
+*/
+
+/*
+.slide-list .active a:hover {
+    color: black;
+    pointer-events: none;
+    cursor: default;
+}
+*/
 
 .slide-list.white a {
     color: rgba(255, 255, 255, 0.5);
 }
 
 .slide-list.white a:hover {
-    color: #ffffff;
+    color: #ADB8C9;
 }
 
 .slide-list.white .active a {
-    color: #ffffff;
+    color: white;
 }
 
+/*-------------------------------------------------------------------------*/
 
 #first_panel {
     padding-left: 346px;
@@ -462,9 +587,6 @@ li {
 #third_panel {
     margin-left: 0px;
 }
-
-
-/*-------------------------------------------------------------------------*/
 
 .dcard {
     position: relative;
@@ -691,33 +813,43 @@ li {
 /*-------------------------------------------------------------------------*/
 #endring-bg {
 /*    background-image: url('../svg/endrings.svg');*/
-    background-color: #0f2146;
 /*
+    background-color: #0f2146;
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
+    height: 632px;
 */
-    height: 628px;
 }
 
-#endring-container {
-    padding-right: 0px;
-    padding-bottom: 0px;
-    height: 50px;
-    background-color: #0f2146;
+#endring-wrapper {
+/*    padding-left: 10%;*/
+/*    padding-bottom: 0px;*/
+    height: 626px;
+/*    left: 20%;*/
 }
 
 #endring {
+/*
     width: 100%;
+    height: 100%;
+*/
     height: 100%;
 }
 
+#endring-svg {
 /*
-#endring-row {
-    background-color:#0f2146;
-    height: 42px;
-}
+    width: 325px;
+    margin-top: 14%;
+    align-items: center;
+    display: block;
 */
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-top: 20%;*/
+/*    width: 26%;*/
+/*    height: auto;*/
+}
 
 #trigger2 {
     padding-right: 0px;
@@ -725,6 +857,8 @@ li {
 
 #card-ebook-container {
     width: 460px;
+    left: 36%;
+    bottom: 10%;
     height: 23rem;
     padding: 1rem;
     padding-left: 1rem;
@@ -788,6 +922,7 @@ li {
 }
 
 #card-cta-pic-container {
+    margin-top: 2px;
     padding-left: 16.66%;
     padding-top: 2rem;
     padding-bottom: 3rem;
@@ -817,6 +952,7 @@ li {
 /*_________________________________  1440  ___________________________________*/
 @media (max-width: 1440px) {
     
+/*
     #hero-container2 {
     background-image: url('../img/bg-image2.jpg');
     background-size: cover;
@@ -824,14 +960,14 @@ li {
     background-repeat: no-repeat;
     background-position: top center;
     max-width: 100% auto;
-/*    height: 978px;*/
+
 }
     
     .spacer-container.girl-space {
         height: 290vh;
     }
     .spacer-container.h2-space {
-/*        height: 120vh;*/
+
     }
 
     
@@ -858,7 +994,7 @@ li {
     }
     
     #p-test2 {
-/*        height: 0px;*/
+
     }
     
     .service {
@@ -911,6 +1047,7 @@ li {
         padding-left: 80px;
         padding-bottom: 32px;
     }
+*/
 
 
 }
@@ -919,6 +1056,7 @@ li {
 /*_________________________________  1280  ___________________________________*/
 @media (max-width: 1280px) {
  
+/*
     #hero-container2 {
         background-image: url('../img/bg-image2.jpg');
         background-size: cover;
@@ -926,7 +1064,7 @@ li {
         background-repeat: no-repeat;
         background-position: top center;
         max-width: 100% auto;
-/*    height: 1278px;*/
+
 }
     .spacer-container.girl-space {
         height: 330vh;
@@ -985,11 +1123,6 @@ li {
     }
     #osrChart {
         width: 1160px;
-/*        width: 50%;*/
-/*
-        max-width: 100%;
-        height: auto;
-*/
     }
 
     #panels-container {
@@ -1010,6 +1143,7 @@ li {
         padding-bottom: 0px;
         padding-top: 70px;
     }
+*/
 
     
 }
