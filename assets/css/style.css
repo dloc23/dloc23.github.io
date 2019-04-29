@@ -768,7 +768,7 @@ li a {
 }
 
 #card-man-container {
-    padding-top: 20%;
+    padding-top: 16%;
     padding-left: 20%;
 }
 
@@ -783,14 +783,14 @@ li a {
 
 .card-man-h5-1 {
         padding-top: 2rem;
-        padding-bottom: .2rem;
+        padding-bottom: 1rem;
         font-size: 40px;
     }
     
 .card-man-h5-2 {
         font-size: 40px;
         margin-top: -.7rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0;
     }
 
 #card-man h6 {
@@ -798,7 +798,8 @@ li a {
     font-weight: 200;
     font-size: 26px;
     margin-bottom: 0px;
-    padding-bottom: .6rem;
+    padding-bottom: .4rem;
+    margin-top: 2rem;
 }
 
 #card-man p {
@@ -814,8 +815,9 @@ li a {
     font-family: "IBM Plex Mono", monospace;
     color:#4f5f6c;
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 300;
     padding-top: 1.4rem;
+    margin-left: 0.4rem;
 }
 /*  END CARD MAN*/
 /*-------------------------------------------------------------------------*/
