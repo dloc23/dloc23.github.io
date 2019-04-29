@@ -385,6 +385,7 @@ li {
 
 .today p {
     font-size: 24px;
+    line-height: 2.3rem;
     padding-bottom: 4rem;
     padding-left: 3rem;
     margin-right: -9rem;
@@ -656,9 +657,9 @@ li a {
     padding-right: 1.43rem;
     padding-left: 2.3rem;
     padding-right: 2.3rem;
-    padding-top: 1.43rem;
+    padding-top: 2.3rem;
     padding-bottom: 2.86rem;
-    margin-top: -1.2rem;
+    margin-top: -1.6rem;
 }
 
 #card-h6 {
@@ -682,7 +683,7 @@ li a {
 #panel_2,
 #panel_3 {
     border-radius: 0;
-    width: 346px;
+    width: 386px;
     background-color: rgba(255, 255, 255, 1);
     
     background: none;
@@ -702,7 +703,7 @@ li a {
 #panel1-card-h3-last,
 #panel2-card-h3-last {
     background: white;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 26px;
     line-height: 2rem;
     margin-left: -1.43rem;
@@ -868,7 +869,7 @@ li a {
     width: 460px;
     left: 36%;
     bottom: 10%;
-    height: 23rem;
+    height: 24rem;
     padding: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -881,12 +882,14 @@ li a {
 }
 
 #card-ebook-body {
-    padding-left: 10px;
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #card-ebook-h6 {
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     padding-bottom: .4rem;
     color: #acaaa8;
 }
@@ -903,32 +906,38 @@ li a {
     font-size: 36px;
     font-weight: 500;
     color: #1A80FF;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.4rem;
 }
 
 #card-ebook-p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 200;
+    line-height: 26px;
     color:#4f5f6c;
-    padding-bottom: .6rem;
+    padding-bottom: 1.6rem;
 }
 
 #card-ebook-link-container {
-    padding-top: 23px;
+    padding-top: 1rem;
 }
 
 #ebook-text-underline {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    text-underline-position: under;
+    color: #1a80ff;
 /*    text-underline-position: auto;*/
 /*    text-decoration: none;*/
 }
 
+/*
 #ebook-text-underline:hover {
     text-decoration: underline;
     text-underline-position: auto;
     color: #00216E;
 }
+*/
 
 #card-cta-pic-container {
     margin-top: 2px;
@@ -1117,13 +1126,17 @@ li a {
         line-height: 32px;
         padding-left: 33%;
     }
+    
+    #service-h1-container {
+        margin-left: 7%;
+    }
 
     .service {
-        padding-left: 1%;
+        padding-left: 0%;
     }
 
     .service h1 {
-        font-size: 62px;
+        font-size: 76px;
     }
 
     .today {
@@ -1133,6 +1146,7 @@ li a {
 
     .today p {
         font-size: 24px;
+        line-height: 2.3rem;
         padding-bottom: 4rem;
         padding-left: 3rem;
         margin-right: -9rem;
@@ -1172,7 +1186,7 @@ li a {
 
     #oGrid2-padding {
         padding-left: 12%;
-        padding-top: 80px;
+        padding-top: 8%;
         padding-bottom: 0px;
     }
 
