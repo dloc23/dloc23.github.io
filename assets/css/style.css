@@ -1088,7 +1088,7 @@ li a {
 
     #squares-right-container {
         width: 580px;
-        margin-left: -280px;
+        margin-left: -410px;
         margin-top: 120px;
     }
 
@@ -1102,11 +1102,11 @@ li a {
     }
 
     #oGrid {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 36%;
+        margin-left: 28%;
+/*        margin-right: auto;*/
+        margin-top: 26%;
         padding-left: 0;
-        width: 54%;
+        width: 40%;
     }
     .hero-container-header {
         padding-top: 21%;
@@ -1341,38 +1341,59 @@ li a {
         max-width: 100% auto;
     }
     
+    #squares-left-container {
+    /*    margin-bottom: 400px;*/
+    /*    padding-bottom: 200px;*/
+    /*    margin-left: 20px;*/
+        padding-left: 0px;
+        padding-top: 0px;
+    /*    margin-bottom: 80px;*/
+    /*    left: 20%;*/
+        width: 0px;
+    /*    height: 800px;*/
+    }
+
+    #squares-right-container {
+        width: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
     #oGrid {
+        margin-left: 22%;
+        margin-right: 0px;
+        margin-top: 280px;
         margin-bottom: 0;
-        margin-top: 100%;
-/*        margin-left: 2%;*/
-        padding: 0px;
-        width: 240px;
+        padding-left: 0;
+        width: 320px;
     }
     
     .hero-container-header {
-        padding-top: 20%;
-        padding-right: 0px;
+        padding-top: 12%;
+        padding-left: 16px;
         margin-right: 0px;
+        padding-right: 0;
     }
 
     .hero h1 {
-        font-size: 42px;
-        line-height: 42px;
-        padding-left: 0%;
-        margin-right: 0px;
+        font-size: 46px;
+        line-height: 50px;
+        padding-left: 0;
+        margin-right: -90px;
 
     }
 
     .hero h2 {
-        font-size: 17px;
+        font-size: 20px;
         font-weight: 400;
-        line-height: 20px;
-        padding-left: 10%;
+        line-height: 24px;
+        padding-left: 4%;
+        margin-right: -90px;
     }
     
     #service-h1-container {
         padding-bottom: 20%;
-        margin-top: -20%;
+        margin-top: -6%;
     }
     
     .service {
@@ -1395,24 +1416,13 @@ li a {
         padding-left: 0px;
     }
     
-    .today {
-        margin-right: 0%;
-        padding-right: 0px;
-    }
-
-    .today p {
-        font-size: 16px;
-        padding-bottom: 10%;
-        padding-left: 2%;
-        padding-right: 0%;
-    }
-    
     .slide-list {
         display: none;
     }
     
     #flip-osr-container {
         padding-top: 0px;
+        margin-left: 56px;
     }
     
     #flip-osr {
@@ -1420,7 +1430,7 @@ li a {
     }
     
     #osr-container {
-        margin-left: 25%;
+        margin-right: -40%;
         margin-top: 100%;
         padding-top: 100%;
     }
