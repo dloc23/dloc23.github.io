@@ -142,7 +142,7 @@ $(document).ready(function() {
         
 
         
-            .add(TweenMax.to('#flip-today', 0, { opacity: 1, x:'-=17', y:"+=1000", ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#flip-today', 0, { opacity: 1, x:'-=23', y:"+=1460", ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#flip-today-mask', 0, { opacity: 1, ease: Linear.easeNone }), 0)
 
         
@@ -326,9 +326,9 @@ $(document).ready(function() {
             .add(TweenMax.to('#flip-osr-p5', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
             
             
-            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1, x:"+=100" }), 49)
-            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 0, x:"+=200" }), 68)
-            .add(TweenMax.to('#flip-osr-p1', 8, { opacity: 1, x:"+=200" }), 68)
+            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1, x:"+=100" }), 32)
+            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 0, x:"+=200" }), 62)
+            .add(TweenMax.to('#flip-osr-p1', 8, { opacity: 1, x:"+=200" }), 62)
             .add(TweenMax.to('#flip-osr-p1', 1, {  opacity: 0 }), 86)
         
             
