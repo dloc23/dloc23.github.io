@@ -1,24 +1,24 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 114.12">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 243.71 278.11">
   <title>cta-mobile</title>
   <g>
-    <rect width="100" height="114.12" fill="#00216e"/>
+    <rect width="243.71" height="278.11" fill="#00216e"/>
     <g>
-      <rect x="19.87" y="77.12" width="61.11" height="12.89" rx="4.64" ry="4.64" fill="#ff9800"/>
-      <text transform="translate(26.45 84.76)" font-size="3.68" fill="#fff" font-family="IBMPlexMono-Medium, IBM Plex Mono">Try Mavenlink Free</text>
+      <rect x="21.42" y="190.22" width="199.82" height="42.14" rx="4.64" ry="4.64" fill="#ff9800"/>
+      <text transform="translate(42.95 215.19)" font-size="12.04" fill="#fff" font-family="IBMPlexMono-Medium, IBM Plex Mono">Try Mavenlink Free</text>
       <g>
-        <line x1="71.58" y1="83.56" x2="74.57" y2="83.56" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
-        <polyline points="73.27 82.26 74.57 83.56 73.27 84.87" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="190.51" y1="211.29" x2="200.29" y2="211.29" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <polyline points="196.03 207.03 200.29 211.29 196.03 215.55" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
       </g>
     </g>
-    <text transform="translate(7.05 19.13)" font-size="11.97" fill="#fff" font-family="RationalText-Bold, Rational Text" font-weight="700"><tspan letter-spacing="-0.02em">R</tspan><tspan x="8.68" y="0">eady </tspan><tspan x="39.85" y="0" letter-spacing="-0.01em">t</tspan><tspan x="45.11" y="0" letter-spacing="0em">o</tspan><tspan x="0" y="13.12">t</tspan><tspan x="5.36" y="13.12" letter-spacing="-0.02em">r</tspan><tspan x="10.63" y="13.12">ans</tspan><tspan x="31.4" y="13.12" letter-spacing="-0.01em">f</tspan><tspan x="36.63" y="13.12">orm</tspan><tspan fill="#3776ff"><tspan x="0" y="26.23" letter-spacing="-0.01em">y</tspan><tspan x="6.87" y="26.23">our busines</tspan><tspan x="75.36" y="26.23" letter-spacing="-0.03em">s</tspan><tspan x="81.32" y="26.23" letter-spacing="0em">?</tspan></tspan></text>
+    <text transform="translate(17.19 46.61)" font-size="29.16" fill="#fff" font-family="RationalText-Bold, Rational Text" font-weight="700"><tspan letter-spacing="-0.02em">R</tspan><tspan x="21.14" y="0" letter-spacing="0em">eady </tspan><tspan x="97.11" y="0" letter-spacing="-0.01em">t</tspan><tspan x="109.95" y="0">o</tspan><tspan x="0" y="31.97">t</tspan><tspan x="13.07" y="31.97" letter-spacing="-0.02em">r</tspan><tspan x="25.9" y="31.97">ans</tspan><tspan x="76.52" y="31.97" letter-spacing="-0.01em">f</tspan><tspan x="89.27" y="31.97">orm</tspan><tspan fill="#3776ff"><tspan x="0" y="63.94" letter-spacing="-0.01em">y</tspan><tspan x="16.74" y="63.94">our busines</tspan><tspan x="183.67" y="63.94" letter-spacing="-0.03em">s</tspan><tspan x="198.19" y="63.94">?</tspan></tspan></text>
     <g>
-      <rect x="292.8" y="324.32" width="3.3" height="3.3" transform="translate(-235.29 369.43) rotate(-90)" fill="#1a80ff"/>
-      <rect x="5.51" y="81.04" width="3.3" height="3.3" fill="#163598"/>
-      <rect x="262.17" y="315.93" width="3.3" height="3.3" transform="translate(-257.53 330.39) rotate(-90)" fill="#163598"/>
-      <rect x="251.5" y="352.51" width="3.3" height="3.3" transform="translate(-304.78 356.31) rotate(-90)" fill="#cfcec7"/>
-      <rect x="230.39" y="313.88" width="3.3" height="3.3" transform="translate(343.8 -167.51) rotate(90)" fill="#fff"/>
-      <polygon points="24.68 96.69 21.38 96.69 21.38 99.98 24.68 99.98 24.68 96.69 24.68 96.69" fill="#1a80ff"/>
-      <polygon points="86.58 98.75 83.28 98.75 83.28 102.05 86.58 102.05 86.58 98.75 86.58 98.75" fill="#a0a7af"/>
+      <rect x="420.76" y="255.7" width="8.04" height="8.04" transform="translate(-38.71 597.5) rotate(-90)" fill="#1a80ff"/>
+      <rect x="13.42" y="167.49" width="8.04" height="8.04" fill="#163598"/>
+      <rect x="346.09" y="241.24" width="8.04" height="8.04" transform="translate(-98.91 508.37) rotate(-90)" fill="none" stroke="#1a80ff" stroke-miterlimit="10"/>
+      <rect x="310.09" y="344.41" width="8.04" height="8.04" transform="translate(-238.08 575.54) rotate(-90)" fill="#cfcec7"/>
+      <rect x="268.65" y="230.24" width="8.04" height="8.04" transform="translate(303.16 -125.41) rotate(90)" fill="#fff"/>
+      <path d="M253.41,333.13v7h-7v-7h7m.5-.5h-8v8h8v-8Z" transform="translate(-203.77 -87)" fill="#1a80ff"/>
+      <path d="M404,338.43V345h-6.54v-6.53H404m.75-.75h-8v8h8v-8Z" transform="translate(-203.77 -87)" fill="#a0a7af"/>
     </g>
   </g>
 </svg>
