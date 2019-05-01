@@ -21,7 +21,7 @@ body
 }
 */
 
-#anim1-container,
+/*#anim1-container,*/
 #hero-container,
 #intro-scene-trigger,
 #scene1-pin
@@ -1448,7 +1448,7 @@ li a {
     
     #service-h1-container {
         padding-bottom: 20%;
-        margin-top: -6%;
+        margin-top: 0%;
     }
     
     .service {
