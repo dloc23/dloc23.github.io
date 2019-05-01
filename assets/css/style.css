@@ -51,7 +51,7 @@ body
 }
 
 #today-margin {
-    margin-left: 60%;
+    margin-left: 0%;
 }
 
 #service-h1-container {
@@ -1463,12 +1463,13 @@ li a {
     }
     
     #flip-today-container {
-        padding-left: 0px;
+        padding-left: 0%;
+/*        left: 0px;*/
     }
     
     #flip-today {
         width: 400px;
-        padding-left: 0px;
+        padding-left: 0%;
     }
     
     .slide-list {
@@ -1477,7 +1478,7 @@ li a {
     
     #flip-osr-container {
         padding-top: 0px;
-        margin-left: 56px;
+        margin-left: 23%;
     }
     
     #flip-osr {
