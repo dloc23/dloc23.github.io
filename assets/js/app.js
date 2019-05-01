@@ -142,7 +142,7 @@ $(document).ready(function() {
         
 
         
-            .add(TweenMax.to('#flip-today', 0, { opacity: 1, x:'-=23', y:"+=1460", ease: Linear.easeNone }), 0)
+            .add(TweenMax.to('#flip-today', 0, { opacity: 1, y:"+=1400", ease: Linear.easeNone }), 0)
             .add(TweenMax.to('#flip-today-mask', 0, { opacity: 1, ease: Linear.easeNone }), 0)
 
         
@@ -311,15 +311,21 @@ $(document).ready(function() {
             .add(TweenMax.to('#girl-card3', 0, { opacity: 0 }), 0)
         
         
-            .add(TweenMax.to('#flip-osr', 0, { opacity: 1, x: "-=78", y: "-=140" }), 0)
-            .add(TweenMax.to('#flip-osr-mask', 0, { opacity: 0 }), 0)
+            //.add(TweenMax.to('#flip-osr', 0, { opacity: 1, x: "-=78", y: "-=140" }), 0)
+            .add(TweenMax.to('#flip-osr', 0, { opacity: 1, y: "-=140" }), 0)
+        
+            .add(TweenMax.to('#flip-osr-mask', 0, { opacity: 1 }), 0)
         
             .add(TweenMax.to('#mask-blue', 0, { opacity: 0, x: "-=23" }), 0)
         
             
             .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0, x: "-=72", y:"+=146" }), 0)
             .add(TweenMax.to('#flip-osr-head2', 0, { opacity: 0, x: "+=18", y:"+=8" }), 0)
-            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x: "-=251", y:"+=42" }), 0)
+        
+        
+            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x:'-=200', y:"+=82" }), 0)
+        
+        
             .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 0, x: "-=51", y:"+=8" }), 0)
             .add(TweenMax.to('#flip-osr-p3', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
             .add(TweenMax.to('#flip-osr-p4', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
@@ -328,7 +334,8 @@ $(document).ready(function() {
             
             .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1, x:"+=100" }), 32)
             .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 0, x:"+=200" }), 62)
-            .add(TweenMax.to('#flip-osr-p1', 8, { opacity: 1, x:"+=200" }), 62)
+        
+            .add(TweenMax.to('#flip-osr-p1', 8, { opacity: 1, x:"+=200" }), 48)
             .add(TweenMax.to('#flip-osr-p1', 1, {  opacity: 0 }), 86)
         
             
