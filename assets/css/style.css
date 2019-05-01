@@ -1462,7 +1462,12 @@ li a {
 
     }
     
+    .slide-list {
+        display: none;
+    }
+    
     #flip-today-container {
+        margin-left: -.95rem;
         padding-left: 0%;
 /*        left: 0px;*/
     }
@@ -1472,18 +1477,22 @@ li a {
         padding-left: 0%;
     }
     
-    .slide-list {
-        display: none;
-    }
-    
     #flip-osr-container {
+        margin-left: -1.4rem;
         padding-top: 0px;
-        margin-left: 23%;
+        padding-left: 0px;
+/*        margin-left: 23%;*/
     }
     
     #flip-osr {
-        width: 460px;
+        width: 375px;
     }
+    
+/*CHANGE WIDTH FOR IPHONE VS ANDROID
+    #flip-osr {
+        width: 360px;
+    }
+*/
     
     #osr-container {
         margin-left: 296px;
