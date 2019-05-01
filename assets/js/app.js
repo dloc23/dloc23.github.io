@@ -795,10 +795,10 @@ $(document).ready(function() {
         .add(TweenMax.to('#girl-card2', 1, { opacity: 0, y:"+=100" }), 0)
         .add(TweenMax.to('#girl-card2', 4, { opacity: 1 }), 100)
         //.add(TweenMax.to('#girl-card2', 84, { y:"-=1200" }), 120)
-        .add(TweenMax.to('#girl-card2', 8, { opacity: 0  }), 122)
+        .add(TweenMax.to('#girl-card2', 8, { opacity: 0  }), 112)
         
         .add(TweenMax.to('#girl-card3', 1, { opacity: 0, y:"+=100" }), 0)
-        .add(TweenMax.to('#girl-card3', 8, { opacity: 1 }), 122)
+        .add(TweenMax.to('#girl-card3', 8, { opacity: 1 }), 112)
             //.add(TweenMax.to('#girl-card3', 14, { opacity: 1, y:"-=1200" }), 15)
             //.add(TweenMax.to('#girl-card3', 2, { opacity: 0 }), 21)
         
