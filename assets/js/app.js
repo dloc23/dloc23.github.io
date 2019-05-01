@@ -686,7 +686,7 @@ $(document).ready(function() {
         
             .add(TweenMax.to('#ogrid2-mobile-text', 0, { opacity: 0 }), 0)
             .add(TweenMax.to('#ogrid2-mobile-text', 1, { opacity: 0, y:"+=100" }), 267)
-            .add(TweenMax.to('#ogrid2-mobile-text', 8, { opacity: 1, y:"-=100", ease: Linear.easeOut }), 268)
+            .add(TweenMax.to('#ogrid2-mobile-text', 8, { opacity: 1, y:"-=80", ease: Linear.easeOut }), 268)
             
         
         
@@ -761,36 +761,43 @@ $(document).ready(function() {
         .add(TweenMax.to('#ogrid2-mobile-back', 0, { opacity: 0, y:'-=200', ease: Linear.easeOut }), 0)
         
         
+        .add(TweenMax.to('#sl', 24, { opacity: 0, y:'-=287'}), 36)
+        .add(TweenMax.to('#sl-t', 24, { opacity: 0, y:'-=287'}), 36)
         
-        .add(TweenMax.to('#pm', 32, { opacity: 0, y:'-=487'}), 66)
-        .add(TweenMax.to('#pm-t', 32, { opacity: 0, y:'-=487'}), 66)
+        .add(TweenMax.to('#rm', 24, { opacity: 0, y:'-=387'}), 38)
+        .add(TweenMax.to('#rm-t', 24, { opacity: 0, y:'-=387'}), 38)
         
-        .add(TweenMax.to('#c', 32, { opacity: 1, y:'-=487'}), 70)
-        .add(TweenMax.to('#c-t', 32, { opacity: 1, y:'-=487'}), 70)
+        .add(TweenMax.to('#pm', 24, { opacity: 0, y:'-=687'}), 40)
+        .add(TweenMax.to('#pm-t', 24, { opacity: 0, y:'-=687'}), 40)
         
-        .add(TweenMax.to('#e', 24, { opacity: 1, y:'-=387'}), 74)
-        .add(TweenMax.to('#e-t', 24, { opacity: 1, y:'-=387'}), 74)
+        .add(TweenMax.to('#c', 24, { opacity: 0, y:'-=537'}), 42)
+        .add(TweenMax.to('#c-t', 24, { opacity: 0, y:'-=537'}), 42)
+        
+        .add(TweenMax.to('#e', 24, { opacity: 0, y:'-=587'}), 43)
+        .add(TweenMax.to('#e-t', 24, { opacity: 0, y:'-=587'}), 43)
+        
+        
         
         
     
         .add(TweenMax.to('#girl-people', 16, { opacity: 0, y:'-=200', ease: Linear.easeOut }), 60)
-        .add(TweenMax.to('#ogrid2-mobile-text', 16, { opacity: 0, y:'-=200', ease: Linear.easeOut }), 64)
-        .add(TweenMax.to('#girl-process', 16, { opacity: 0 }), 56)
-        .add(TweenMax.to('#girl-osr-text', 8, { opacity: 0 }), 56)
+        .add(TweenMax.to('#ogrid2-mobile-text', 16, { opacity: 0, y:'-=200', ease: Linear.easeOut }), 37)
+        .add(TweenMax.to('#girl-process', 16, { opacity: 0 }), 50)
+        .add(TweenMax.to('#girl-osr-text', 8, { opacity: 0 }), 50)
         
-        .add(TweenMax.to('#girl-osr path, girl-osr-inside path', 32, { stroke: '#FFF', opacity: 0.2, y:"+=80" }), 60)
+        .add(TweenMax.to('#girl-osr path, girl-osr-inside path', 32, { stroke: '#FFF', opacity: 0.2, y:"-=60" }), 60)
         
         .add(TweenMax.to('#girl-card1', 1, { opacity: 0, y:"+=600" }), 0)
         .add(TweenMax.to('#girl-card1', 1, { opacity: 0 }), 85)
         .add(TweenMax.to('#girl-card1', 8, { opacity: 1 }), 86)
         .add(TweenMax.to('#girl-card1', 84, { y:"-=1200" }), 86)
-        .add(TweenMax.to('#girl-card1', 8, { opacity: 0 }), 122)
+        .add(TweenMax.to('#girl-card1', 8, { opacity: 0 }), 134)
         
         .add(TweenMax.to('#girl-card2', 1, { opacity: 0, y:"+=600" }), 0)
         .add(TweenMax.to('#girl-card2', 1, { opacity: 0 }), 119)
         .add(TweenMax.to('#girl-card2', 8, { opacity: 1 }), 120)
         .add(TweenMax.to('#girl-card2', 84, { y:"-=1200" }), 120)
-        .add(TweenMax.to('#girl-card2', 8, { opacity: 0  }), 150)
+        .add(TweenMax.to('#girl-card2', 8, { opacity: 0  }), 158)
         
         
         
@@ -838,10 +845,10 @@ $(document).ready(function() {
             
 
             .add(TweenMax.to('#girl-card3', 1, { opacity: 0, y:"+=650" }), 0)
-            .add(TweenMax.to('#girl-card3', 1, { opacity: 0 }), 10)
-            .add(TweenMax.to('#girl-card3', 1, { opacity: 1 }), 10)
-            .add(TweenMax.to('#girl-card3', 14, { opacity: 1, y:"-=1200" }), 11)
-            .add(TweenMax.to('#girl-card3', 2, { opacity: 0 }), 17)
+            .add(TweenMax.to('#girl-card3', 1, { opacity: 0 }), 14)
+            .add(TweenMax.to('#girl-card3', 1, { opacity: 1 }), 14)
+            .add(TweenMax.to('#girl-card3', 14, { opacity: 1, y:"-=1200" }), 15)
+            .add(TweenMax.to('#girl-card3', 2, { opacity: 0 }), 21)
         
         
             .add(TweenMax.to('#oGrid2 #ogrid2-whole', 4, { opacity:0.15, ease:Linear.easeNone }), 5)
