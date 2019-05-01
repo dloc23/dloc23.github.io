@@ -319,7 +319,7 @@ $(document).ready(function() {
             
             .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0, x: "-=72", y:"+=146" }), 0)
             .add(TweenMax.to('#flip-osr-head2', 0, { opacity: 0, x: "+=18", y:"+=8" }), 0)
-            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x: "-=251", y:"+=46" }), 0)
+            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x: "-=251", y:"+=42" }), 0)
             .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 0, x: "-=51", y:"+=8" }), 0)
             .add(TweenMax.to('#flip-osr-p3', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
             .add(TweenMax.to('#flip-osr-p4', 0, {  opacity: 0, x: "-=52", y:"+=5" }), 0)
