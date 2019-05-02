@@ -42,9 +42,12 @@ $(document).ready(function() {
         
         
         console.log("The screen width is" + " " + ($(window).width()));
-        console.log("The screen height is" + " " + ($(window).height() - 100));
+        console.log("The screen innerWidth is" + " " + ($(window).innerWidth()));
         
-        console.log("The girl offset is" + " " + ($(window).height() * 3.6 - 100));
+        console.log("The screen height is" + " " + ($(window).height() - 100));
+        console.log("The screen innerHeight is" + " " + ($(window).innerHeight()));
+        
+        console.log("The girl offset is" + " " + ($(window).height() * 2.85 - 100));
         
         
     //var animController = new ScrollMagic.Controller( {addIndicators: true} );
@@ -915,7 +918,7 @@ $(document).ready(function() {
         triggerElement: '#scene3-2-trigger',
         duration: '650%',
         triggerHook: 0,
-        offset: $(window).height() * 2.9 // position the hero image up or down
+        offset: $(window).height() * 2.83 // position the hero image up or down
         //offset: 2500 // position the hero image up or down
     })
         
@@ -1060,7 +1063,8 @@ $(document).ready(function() {
 //                    $(this).css('cursor', 'pointer');
 
                     // trigger scroll
-                    animController.scrollTo(id)
+                    animController.scrollTo(id);
+                    //animController.scrollTo(id) + 200;
                     //this.id = null;
                     // MAKE LINK INACTIVE !!!!!!!!!
 
