@@ -319,46 +319,46 @@ $(document).ready(function() {
             .add(TweenMax.to('#mask-blue', 0, { opacity: 0, x: "-=23" }), 0)
         
             
-            .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0, x:"-=100" }), 0)
-            .add(TweenMax.to('#flip-osr-head2', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#flip-osr-head1', 0, { opacity: 0 }), 0)
+            .add(TweenMax.to('#flip-osr-head2', 0, { opacity: 0, x:'-=200' }), 0)
         
         
             .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x:'-=200', y:"+=82" }), 0)
         
         
-            .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 0 }), 0)
-            .add(TweenMax.to('#flip-osr-p3', 0, {  opacity: 0 }), 0)
-            .add(TweenMax.to('#flip-osr-p4', 0, {  opacity: 0 }), 0)
-            .add(TweenMax.to('#flip-osr-p5', 0, {  opacity: 0 }), 0)
+            .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 0, x:'-=300' }), 0)
+            .add(TweenMax.to('#flip-osr-p3', 0, {  opacity: 0, x:'-=200' }), 0)
+            .add(TweenMax.to('#flip-osr-p4', 0, {  opacity: 0, x:'-=200' }), 0)
+            .add(TweenMax.to('#flip-osr-p5', 0, {  opacity: 0, x:'-=200' }), 0)
             
             
-            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1, x:"+=100" }), 22)
+            .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 1 }), 50)
             .add(TweenMax.to('#flip-osr-head1', 8, { opacity: 0, x:"+=200" }), 64)
         
             .add(TweenMax.to('#flip-osr-p1', 8, { opacity: 1, x:"+=200" }), 64)
-            .add(TweenMax.to('#flip-osr-p1', 1, {  opacity: 0 }), 86)
+            .add(TweenMax.to('#flip-osr-p1', 4, {  opacity: 0, x:"+=100" }), 88)
         
             
-            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 0 }), 86)
-            .add(TweenMax.to('#flip-osr-head2', 1, { opacity: 1 }), 86)
+            .add(TweenMax.to('#flip-osr-head1', 1, { opacity: 0 }), 88)
+            .add(TweenMax.to('#flip-osr-head2', 8, { opacity: 1, x:'+=200' }), 88)
             
             
-            .add(TweenMax.to('#flip-osr-p2', 4, {  opacity: 1 }), 88)
+            .add(TweenMax.to('#flip-osr-p2', 8, {  opacity: 1, x:'+=300' }), 92)
         
         
-            .add(TweenMax.to('#flip-osr-p2', 1, {  opacity: 0 }), 125)
-            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 1 }), 125)
+            .add(TweenMax.to('#flip-osr-p2', 8, {  opacity: 0, x:'+=200' }), 125)
+            .add(TweenMax.to('#flip-osr-p3', 8, {  opacity: 1, x:'+=200' }), 125)
         
         
-            .add(TweenMax.to('#flip-osr-p3', 1, {  opacity: 0 }), 165)
-            .add(TweenMax.to('#flip-osr-p4', 1, {  opacity: 1 }), 165)
+            .add(TweenMax.to('#flip-osr-p3', 8, {  opacity: 0, x:'+=200' }), 165)
+            .add(TweenMax.to('#flip-osr-p4', 8, {  opacity: 1, x:'+=200' }), 165)
         
         
-            .add(TweenMax.to('#flip-osr-p4', 1, {  opacity: 0 }), 205)
-            .add(TweenMax.to('#flip-osr-p5', 1, {  opacity: 1 }), 205)
+            .add(TweenMax.to('#flip-osr-p4', 8, {  opacity: 0, x:'+=200' }), 205)
+            .add(TweenMax.to('#flip-osr-p5', 8, {  opacity: 1, x:'+=200' }), 205)
         
-            .add(TweenMax.to('#flip-osr-p5', 4, {  opacity: 0 }), 270)
-            .add(TweenMax.to('#flip-osr-head2', 4, { opacity: 0 }), 270)
+            .add(TweenMax.to('#flip-osr-p5', 4, {  opacity: 0 }), 268)
+            .add(TweenMax.to('#flip-osr-head2', 4, { opacity: 0 }), 268)
 
             
             .add(TweenMax.to('#discover', 0, { opacity: 0, x:'-=80', y:'-=158' }), 0)
@@ -689,7 +689,7 @@ $(document).ready(function() {
             
             .add(TweenMax.to('#ogrid2-mobile', 0, { opacity: 0 }), 0)
             .add(TweenMax.to('#ogrid2-mobile', 1, { opacity: 0 }), 259)
-            .add(TweenMax.to('#ogrid2-mobile', 16, { opacity: 1, y:'-=237'}), 260)
+            .add(TweenMax.to('#ogrid2-mobile', 24, { opacity: 1, y:'-=237'}), 260)
         
             .add(TweenMax.to('#ogrid2-mobile-text', 0, { opacity: 0 }), 0)
             .add(TweenMax.to('#ogrid2-mobile-text', 1, { opacity: 0, y:"+=100" }), 267)
