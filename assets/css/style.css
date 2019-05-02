@@ -42,6 +42,15 @@ body
 #trigger2,
 #pin2 
 */
+
+/*MAVENLINK.COM
+.home-page,.product-overview {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+*/
+
+
 {
     overflow-x: hidden;
 }
@@ -919,6 +928,7 @@ li a {
     padding: 10px;
     margin: 10px;
 */
+/*    vertical-align: middle;*/
 }
 
 #card-ebook-container {
@@ -995,6 +1005,13 @@ li a {
     color: #00216E;
 }
 */
+
+#cta-grid {
+/*
+    background-color: red;
+    vertical-align: middle;
+*/
+}
 
 #card-cta-pic-container {
     margin-top: 2px;
@@ -1144,7 +1161,7 @@ li a {
     #squares-right-container {
         width: 580px;
         margin-left: -410px;
-        margin-top: 120px;
+        margin-top: 30%;
     }
 
     #flip-today-container {
@@ -1526,7 +1543,8 @@ li a {
     }
     
     #hero-container2 {
-        background-image: url('../img/bg-image2-m.jpg');
+/*        background-image: url('../img/bg-image2-m.jpg');*/
+        background-image: url('../img/bg-image2-m2.jpg');
         }
 
     
@@ -1851,6 +1869,7 @@ li a {
 #cta-grid {
     margin-top: -460px;
 /*    height: 50vh;*/
+/*    vertical-align: middle;*/
 }
 
 #card-cta-pic-container {
