@@ -24,14 +24,15 @@ body
 /*#anim1-container,*/
 #hero-container,
 #intro-scene-trigger,
-#scene1-pin
+#scene1-pin,
+#scene2
 /*#scene1-2-trigger*/
 /*
 #scene1,
 #scene1-trigger,
 #service-h1-container,
 #scene1-2-trigger,
-#scene2,
+,
 #scene2-3,
 #scene3,
 #scene3-2-trigger,
@@ -55,9 +56,26 @@ body
     overflow-x: hidden;
 }
 
+
+
+
 #flip-today {
     height: 0px;
 }
+
+#flip-osr {
+    height: 0px;
+}
+
+#ogrid2-mobile {
+    height: 0px;
+}
+
+
+
+
+
+
 
 #today-margin {
     margin-left: 60%;
@@ -350,7 +368,7 @@ li {
     background-size: cover;
     background-size:100% auto;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     max-width: 100% auto;
 /*    height:1000px;*/
 
@@ -364,14 +382,14 @@ li {
     padding-top: 360px;
 /*    margin-bottom: 80px;*/
 /*    left: 20%;*/
-    width: 320px;
+    width: 360px;
 /*    height: 800px;*/
 }
 
 #squares-right-container {
-    width: 580px;
-    margin-left: -280px;
-    margin-top: 120px;
+    width: 680px;
+    margin-left: -480px;
+    margin-top: 10%;
 }
 
 #flip-today-container {
@@ -396,9 +414,9 @@ li {
 */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30%;
+    margin-top: 23%;
     padding-left: 0;
-    width: 54%;
+    width: 38%;
 /*    width: 420px;*/
 /*    height: auto;*/
 }
@@ -412,7 +430,7 @@ li {
 .hero h1 {
     font-size: 64px;
     line-height: 64px;
-    padding-left: 16%;
+    padding-left: 19%;
     padding-right: 0px;
     margin-left: 0px;
 }
@@ -421,7 +439,7 @@ li {
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
-    padding-left: 30%;
+    padding-left: 31%;
 }
 
 .service {
@@ -1146,7 +1164,7 @@ li a {
         background-size: cover;
         background-size:100% auto;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: top center;
         max-width: 100% auto;
     /*    height:1000px;*/
 
@@ -1161,7 +1179,7 @@ li a {
     #squares-right-container {
         width: 580px;
         margin-left: -410px;
-        margin-top: 30%;
+        margin-top: 18%;
     }
 
     #flip-today-container {
