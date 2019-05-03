@@ -1053,7 +1053,7 @@ li a {
 
     #squares-left-container {
         padding-left: 320px;
-        padding-top: 360px;
+        padding-top: 280px;
         width: 320px;
     }
 
@@ -1075,20 +1075,22 @@ li a {
     #oGrid {
         margin-left: 28%;
 /*        margin-right: auto;*/
-        margin-top: 26%;
+        margin-top: 20%;
         padding-left: 0;
-        width: 40%;
+        width: 38%;
     }
     .hero-container-header {
-        padding-top: 21%;
+        padding-top: 16%;
         padding-right: 0px;
+        padding-left: 0px;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     .hero h1 {
         font-size: 60px;
         line-height: 64px;
-        padding-left: 20%;
+        padding-left: 16%;
         padding-right: 0px;
         margin-left: 0px;
     }
@@ -1097,7 +1099,7 @@ li a {
         font-size: 28px;
         font-weight: 400;
         line-height: 32px;
-        padding-left: 33%;
+        padding-left: 29%;
     }
     
     #service-h1-container {
@@ -1484,6 +1486,286 @@ li a {
 
 /*_________________________________  992  ___________________________________*/
 @media (max-width: 992px) {
+    
+    .hero {
+        background-image: url('../img/bg-image-nosquares.jpg');
+        background-size: cover;
+        background-size:100% auto;
+        background-repeat: no-repeat;
+        background-position: top center;
+        max-width: 100% auto;
+    /*    height:1000px;*/
+
+    }
+
+    #squares-left-container {
+        padding-left: 320px;
+        padding-top: 250px;
+        width: 280px;
+    }
+
+    #squares-right-container {
+        width: 520px;
+        margin-left: -360px;
+        margin-top: 14%;
+    }
+
+    #flip-today-container {
+    }
+
+    #flip-today {
+    }
+
+    #ogrid-wrapper {
+    }
+
+    #oGrid {
+        margin-left: 28%;
+/*        margin-right: auto;*/
+        margin-top: 26%;
+        padding-left: 0;
+        width: 36%;
+    }
+    .hero-container-header {
+        padding-top: 21%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        line-height: 56px;
+        padding-left: 20%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        padding-left: 33%;
+    }
+    
+    #service-h1-container {
+        margin-left: 7%;
+    }
+
+    .service {
+        padding-left: 2%;
+    }
+
+    .service h1 {
+        font-size: 62px;
+    }
+
+    .today {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .today p {
+        font-size: 24px;
+        line-height: 2.3rem;
+        padding-bottom: 4rem;
+        padding-left: 0rem;
+        margin-right: -9rem;
+    }
+
+    #osrChart {
+        width: 1160px;
+    }
+
+    #osr-container {
+        padding-left: 38%;
+        padding-top: 20%;
+    }
+
+    #flip-osr-conatainer {
+    }
+    #flip-osr {
+    }
+
+    .slide-list-container {
+        padding-left: 2%;
+        padding-top: 8%;
+    }
+
+    #panels {
+        width: 586px;
+    }
+
+    #panels-container {
+        padding-top: 200px;
+        padding-left: 6%;
+    }
+    
+    #oGrid2 {
+        width: 920px;
+    }
+
+    #oGrid2-padding {
+        padding-left: 16%;
+        padding-top: 8%;
+        padding-bottom: 0px;
+    }
+
+    #ogrid2-mobile {
+        width: 0px;
+        height: 0px;
+    }
+
+    #ogrid2-mobile-container {
+        padding-left: 0px;
+    }
+
+    #hero-container2 {
+        background-image: url('../img/bg-image2.jpg');
+        background-size: cover;
+        background-size:100% auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        max-width: 100% auto;
+    }
+    
+    #card-man-container {
+        padding-top: 23%;
+        padding-left: 25%;
+    }
+
+    #card-man2-container {
+        padding-top: 36%;
+        padding-left: 14%;
+    }
+
+    #card-man {
+        width: 460px;  
+    }
+
+    #man-pic {
+        width: 400px;
+    }
+
+    .card-man-h5-1 {
+        padding-top: 2rem;
+        padding-bottom: .8rem;
+        font-size: 36px;
+    }
+
+    .card-man-h5-2 {
+        font-size: 36px;
+        margin-top: -.7rem;
+        padding-bottom: 0;
+    }
+
+    #card-man h6 {
+        color:#4f5f6c;
+        font-weight: 200;
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 0px;
+        padding-bottom: .4rem;
+        margin-top: 2rem;
+    }
+
+    #card-man p {
+        color:#4f5f6c;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 8px;
+        padding-bottom: .4rem;
+    }
+
+    #card-blockquote {
+        font-family: "IBM Plex Mono", monospace;
+        color:#4f5f6c;
+        font-size: 13px;
+        font-weight: 300;
+        padding-top: .8rem;
+        margin-left: 0.4rem;
+    }
+
+    #card-ebook-container {
+        border-color: white;
+        width: 500px;
+        left: 36%;
+        bottom: 10%;
+        height: 24rem;
+        margin-top: -1%;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #card-ebook-container {
+        border-color: white;
+        width: 420px;
+        height: 23rem;
+        margin-top: -7%;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-pad {
+    /*    margin-left: 50px;*/
+        padding-left: 0px;
+        padding-top: 7.5rem;
+    }
+
+    #card-ebook-body {
+        padding-top: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #card-ebook-h6 {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        color: #acaaa8;
+    }
+
+    #card-ebook-h3-1 {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 0px;
+        color:#0e1871;
+        line-height: 42px;
+    }
+
+    #card-ebook-h3-2 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #1A80FF;
+        padding-bottom: 1.4rem;
+    }
+
+    #card-ebook-p {
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 26px;
+        color:#4f5f6c;
+        padding-bottom: 1.6rem;
+    }
+
+    #card-ebook-link-container {
+        padding-top: 1rem;
+    }
+
+    #ebook-text-underline {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 20px;
+        font-weight: 400;
+        text-underline-position: under;
+        color: #1a80ff;
+    /*    text-underline-position: auto;*/
+    /*    text-decoration: none;*/
+}
+    
+    
 }
 /*_________________________________  768  ___________________________________*/
 @media (max-width: 768px) {
