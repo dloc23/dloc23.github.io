@@ -1500,13 +1500,13 @@ li a {
 
     #squares-left-container {
         padding-left: 320px;
-        padding-top: 250px;
-        width: 280px;
+        padding-top: 180px;
+        width: 220px;
     }
 
     #squares-right-container {
-        width: 520px;
-        margin-left: -360px;
+        width: 400px;
+        margin-left: -280px;
         margin-top: 14%;
     }
 
@@ -1520,31 +1520,31 @@ li a {
     }
 
     #oGrid {
-        margin-left: 28%;
+        margin-left: 32%;
 /*        margin-right: auto;*/
-        margin-top: 26%;
+        margin-top: 23%;
         padding-left: 0;
-        width: 36%;
+        width: 32%;
     }
     .hero-container-header {
-        padding-top: 21%;
+        padding-top: 18%;
         padding-right: 0px;
         margin-left: 0px;
     }
 
     .hero h1 {
-        font-size: 52px;
-        line-height: 56px;
-        padding-left: 20%;
+        font-size: 38px;
+        line-height: 40px;
+        padding-left: 14%;
         padding-right: 0px;
         margin-left: 0px;
     }
 
     .hero h2 {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
-        line-height: 32px;
-        padding-left: 33%;
+        line-height: 24px;
+        padding-left: 26%;
     }
     
     #service-h1-container {
@@ -1556,7 +1556,7 @@ li a {
     }
 
     .service h1 {
-        font-size: 62px;
+        font-size: 52px;
     }
 
     .today {
@@ -1565,7 +1565,7 @@ li a {
     }
 
     .today p {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 2.3rem;
         padding-bottom: 4rem;
         padding-left: 0rem;
@@ -1573,12 +1573,12 @@ li a {
     }
 
     #osrChart {
-        width: 1160px;
+        width: 880px;
     }
 
     #osr-container {
-        padding-left: 38%;
-        padding-top: 20%;
+        padding-left: 57%;
+        padding-top: 34%;
     }
 
     #flip-osr-conatainer {
@@ -1588,20 +1588,30 @@ li a {
 
     .slide-list-container {
         padding-left: 2%;
-        padding-top: 8%;
+        padding-top: 12%;
+    }
+    
+    .slide-list {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+        list-style-type: none;
+        cursor: pointer;
+        cursor: hand;
     }
 
     #panels {
-        width: 586px;
+        width: 446px;
     }
 
     #panels-container {
-        padding-top: 200px;
-        padding-left: 6%;
+        padding-top: 260px;
+        padding-left: 9%;
     }
     
     #oGrid2 {
-        width: 920px;
+        width: 680px;
     }
 
     #oGrid2-padding {
@@ -1629,50 +1639,49 @@ li a {
     }
     
     #card-man-container {
-        padding-top: 23%;
+        padding-top: 36%;
         padding-left: 25%;
     }
 
     #card-man2-container {
-        padding-top: 36%;
+        padding-top: 46%;
         padding-left: 14%;
     }
 
     #card-man {
-        width: 460px;  
+        width: 360px;  
     }
 
     #man-pic {
-        width: 400px;
+        width: 300px;
     }
 
     .card-man-h5-1 {
         padding-top: 2rem;
         padding-bottom: .8rem;
-        font-size: 36px;
+        font-size: 26px;
     }
 
     .card-man-h5-2 {
-        font-size: 36px;
-        margin-top: -.7rem;
+        font-size: 26px;
         padding-bottom: 0;
     }
 
     #card-man h6 {
         color:#4f5f6c;
         font-weight: 200;
-        font-size: 26px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 24px;
         margin-bottom: 0px;
         padding-bottom: .4rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     #card-man p {
         color:#4f5f6c;
         font-weight: 200;
-        font-size: 16px;
-        line-height: 28px;
+        font-size: 14px;
+        line-height: 18px;
         padding-top: 8px;
         padding-bottom: .4rem;
     }
@@ -1680,29 +1689,18 @@ li a {
     #card-blockquote {
         font-family: "IBM Plex Mono", monospace;
         color:#4f5f6c;
-        font-size: 13px;
+        font-size: 10px;
         font-weight: 300;
         padding-top: .8rem;
         margin-left: 0.4rem;
-    }
-
-    #card-ebook-container {
-        border-color: white;
-        width: 500px;
-        left: 36%;
-        bottom: 10%;
-        height: 24rem;
-        margin-top: -1%;
-        padding: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
     }
     
     #card-ebook-container {
         border-color: white;
         width: 420px;
-        height: 23rem;
-        margin-top: -7%;
+        height: 18rem;
+        margin-top: -2%;
+        margin-left: -18%;
         padding: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -1711,53 +1709,53 @@ li a {
     #card-ebook-pad {
     /*    margin-left: 50px;*/
         padding-left: 0px;
-        padding-top: 7.5rem;
+        padding-top: 4.5rem;
     }
 
     #card-ebook-body {
         padding-top: 0;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #card-ebook-h6 {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 400;
-        margin-top: 1.2rem;
-        padding-bottom: 1.2rem;
+        margin-top: 1rem;
+        padding-bottom: .5rem;
         color: #acaaa8;
     }
 
     #card-ebook-h3-1 {
-        font-size: 36px;
+        font-size: 26px;
         font-weight: 500;
         margin-bottom: 0px;
         color:#0e1871;
-        line-height: 42px;
+        line-height: 36px;
     }
 
     #card-ebook-h3-2 {
-        font-size: 36px;
+        font-size: 26px;
         font-weight: 500;
         color: #1A80FF;
         padding-bottom: 1.4rem;
     }
 
     #card-ebook-p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 200;
-        line-height: 26px;
+        line-height: 20px;
         color:#4f5f6c;
         padding-bottom: 1.6rem;
     }
 
     #card-ebook-link-container {
-        padding-top: 1rem;
+        padding-top: 0rem;
     }
 
     #ebook-text-underline {
         font-family: "IBM Plex Mono", monospace;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         text-underline-position: under;
         color: #1a80ff;
