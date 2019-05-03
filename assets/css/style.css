@@ -1342,17 +1342,17 @@ li a {
     }
     
     #card-man-container {
-        padding-top: 16%;
+        padding-top: 23%;
         padding-left: 25%;
     }
 
     #card-man2-container {
-        padding-top: 25%;
-        padding-left: 10%;
+        padding-top: 36%;
+        padding-left: 14%;
     }
 
     #card-man {
-        width: 420px;  
+        width: 460px;  
     }
 
     #man-pic {
@@ -1360,21 +1360,22 @@ li a {
     }
 
     .card-man-h5-1 {
-            padding-top: 2rem;
-            padding-bottom: 1rem;
-            font-size: 40px;
-        }
+        padding-top: 2rem;
+        padding-bottom: .8rem;
+        font-size: 36px;
+    }
 
     .card-man-h5-2 {
-            font-size: 40px;
-            margin-top: -.7rem;
-            padding-bottom: 0;
-        }
+        font-size: 36px;
+        margin-top: -.7rem;
+        padding-bottom: 0;
+    }
 
     #card-man h6 {
         color:#4f5f6c;
         font-weight: 200;
         font-size: 26px;
+        line-height: 30px;
         margin-bottom: 0px;
         padding-bottom: .4rem;
         margin-top: 2rem;
@@ -1383,7 +1384,7 @@ li a {
     #card-man p {
         color:#4f5f6c;
         font-weight: 200;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 28px;
         padding-top: 8px;
         padding-bottom: .4rem;
@@ -1394,7 +1395,7 @@ li a {
         color:#4f5f6c;
         font-size: 13px;
         font-weight: 300;
-        padding-top: 1.4rem;
+        padding-top: .8rem;
         margin-left: 0.4rem;
     }
 
@@ -1409,6 +1410,74 @@ li a {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    
+    #card-ebook-container {
+        border-color: white;
+        width: 420px;
+        height: 23rem;
+        margin-top: -7%;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-pad {
+    /*    margin-left: 50px;*/
+        padding-left: 0px;
+        padding-top: 7.5rem;
+    }
+
+    #card-ebook-body {
+        padding-top: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #card-ebook-h6 {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        color: #acaaa8;
+    }
+
+    #card-ebook-h3-1 {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 0px;
+        color:#0e1871;
+        line-height: 42px;
+    }
+
+    #card-ebook-h3-2 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #1A80FF;
+        padding-bottom: 1.4rem;
+    }
+
+    #card-ebook-p {
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 26px;
+        color:#4f5f6c;
+        padding-bottom: 1.6rem;
+    }
+
+    #card-ebook-link-container {
+        padding-top: 1rem;
+    }
+
+    #ebook-text-underline {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 20px;
+        font-weight: 400;
+        text-underline-position: under;
+        color: #1a80ff;
+    /*    text-underline-position: auto;*/
+    /*    text-decoration: none;*/
+}
+
     
 }
  
