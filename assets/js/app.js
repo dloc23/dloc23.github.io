@@ -4,12 +4,12 @@ $(document).ready(function() {
 //        $.get("assets/svg/oGrid.svg", function(svg) {
 //          $("#oGrid").append(svg.documentElement);
 //        }),
-        $.get("assets/svg/flip_today.svg", function(svg) {
-            $("#flip-today").append(svg.documentElement);
-          }),
-        $.get("assets/svg/flip_osr.svg", function(svg) {
-            $("#flip-osr").append(svg.documentElement);
-          }),
+//        $.get("assets/svg/flip_today.svg", function(svg) {
+//            $("#flip-today").append(svg.documentElement);
+//          }),
+//        $.get("assets/svg/flip_osr.svg", function(svg) {
+//            $("#flip-osr").append(svg.documentElement);
+//          }),
 //        $.get("assets/svg/endrings.svg", function(svg) {
 //            $("#endring").append(svg.documentElement);
 //          }),
@@ -28,9 +28,9 @@ $(document).ready(function() {
 //        $.get("assets/svg/oGrid2.svg", function(svg) {
 //            $("#oGrid2").append(svg.documentElement);
 //          }),
-        $.get("assets/svg/ogrid2_mobile.svg", function(svg) {
-            $("#ogrid2-mobile").append(svg.documentElement);
-          })
+//        $.get("assets/svg/ogrid2_mobile.svg", function(svg) {
+//            $("#ogrid2-mobile").append(svg.documentElement);
+//          })
 //        $.get("assets/svg/panels.svg", function(svg) {
 //            $("#panels").append(svg.documentElement);
 //          })
@@ -829,19 +829,19 @@ $(document).ready(function() {
         
         .add(TweenMax.to('#oGrid2 #ogrid2-whole', 8, {opacity:0.5, ease:Linear.easeNone }), 135)
         
-        .set('#discover', {className:"-=active"}, 174)
-        .set('#people', {className:"-=active"}, 174)
-        .set('#benefits', {className:"+=active"}, 174)
-        .set('#scene2-3 .slide-list', {className:"+=white a"}, 174)
+        .set('#discover', {className:"-=active"}, 144)
+        .set('#people', {className:"-=active"}, 144)
+        .set('#benefits', {className:"+=active"}, 144)
+        .set('#scene2-3 .slide-list', {className:"+=white a"}, 144)
         
-        .add(TweenMax.to('#discover', 8, { y:'+=58' }), 174)
-        .add(TweenMax.to('#people', 8, { y:'+=58' }), 174)
-        .add(TweenMax.to('#benefits', 8, { y:'+=58' }), 174)
+        .add(TweenMax.to('#discover', 8, { y:'+=58' }), 144)
+        .add(TweenMax.to('#people', 8, { y:'+=58' }), 144)
+        .add(TweenMax.to('#benefits', 8, { y:'+=58' }), 144)
         
         
         var scene3 = new ScrollMagic.Scene( {
             triggerElement: '#scene3',
-            duration: 6400,
+            duration: 5400,
 //            triggerHook: "onEnter",
             triggerHook: 0.2,
             //offset: $(window).height() * 10.5 - 100,
