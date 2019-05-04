@@ -2861,10 +2861,7 @@ li a {
     font-family: "IBM Plex Mono", monospace;
     font-size: 36px;
     font-weight: 400;
-    text-underline-position: under;
-    color: #1a80ff;
-/*    text-underline-position: auto;*/
-/*    text-decoration: none;*/
+
 }
     
 #cta-grid {
