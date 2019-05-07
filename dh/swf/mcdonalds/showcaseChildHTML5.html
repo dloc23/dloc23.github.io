@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CreateJS export from showcaseChildHTML5</title>
+
+<script src="http://code.createjs.com/easeljs-0.6.0.min.js"></script>
+<script src="http://code.createjs.com/tweenjs-0.4.0.min.js"></script>
+<script src="http://code.createjs.com/movieclip-0.6.0.min.js"></script>
+<script src="http://code.createjs.com/preloadjs-0.3.0.min.js"></script>
+<script src="showcaseChildHTML5.js"></script>
+
+<script>
+var canvas, stage, exportRoot;
+
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var manifest = [
+		{src:"images/bg.png", id:"bg"},
+		{src:"images/cta1.png", id:"cta1"},
+		{src:"images/cta2.png", id:"cta2"},
+		{src:"images/i1.png", id:"i1"},
+		{src:"images/i2.png", id:"i2"},
+		{src:"images/i3.png", id:"i3"},
+		{src:"images/i4.png", id:"i4"},
+		{src:"images/i5.png", id:"i5"},
+		{src:"images/legal.png", id:"legal"},
+		{src:"images/logocopy.png", id:"logocopy"},
+		{src:"images/thumb1.png", id:"thumb1"},
+		{src:"images/thumb2.png", id:"thumb2"},
+		{src:"images/type1.png", id:"type1"},
+		{src:"images/type2.png", id:"type2"},
+		{src:"images/type3.png", id:"type3"}
+	];
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete() {
+	exportRoot = new lib.showcaseChildHTML5();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(24);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+</head>
+
+<body onload="init();" style="background-color:#D4D4D4">
+	<canvas id="canvas" width="970" height="250" style="background-color:#ffffff"></canvas>
+</body>
+</html>
