@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tourframework>
+	<header>
+		<maintitle width="100">
+			<subtitle><![CDATA[Quick tour]]></subtitle>
+			<title><![CDATA[Cisco WebEx Meetings]]></title>
+		</maintitle>
+		<ctapromos>
+			<promo width="142" externallink="http://sales.liveperson.net/hc/3308761/?cmd=file&file=visitorWantsToChat&site=3308761&byhref=1&SESSIONVAR!skill=us-sales-english&imageUrl=http://sales.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/General/1a">
+				<header><![CDATA[Questions?]]></header>
+				<body><![CDATA[Chat online now.<br/>Or call 877-509-3239]]></body>
+			</promo>
+			<promo width="124" externallink="http://www.webex.com/go/qt_buy">
+				<header><![CDATA[Buy Now]]></header>
+				<body><![CDATA[Get unlimited meetings for as low as $59/month.]]></body>
+			</promo>
+			<promo width="135" externallink="http://www.webex.com/go/qt_freetrial">
+				<header><![CDATA[Try it Free]]></header>
+				<body><![CDATA[Use WebEx free for 14 days.]]></body>
+			</promo>
+		</ctapromos>
+	</header>
+	<leftblock bottomlogoleft="images/webexciscologo.png" bottomlogoright="images/ciscologo.png" externalLinkLeft="http://www.webex.com/" externalLinkRight="http://www.cisco.com/">
+		<textcopy>
+			<header><![CDATA[Share what's on your screen with anyone, anywhere -- live.]]></header>
+			<body><![CDATA[Get everyone on the same page with WebEx. Everyone sees the same thing as you talk! WebEx is great for:<br/><br/><ul><li>Team collaboration</li><li>Sales presentations</li><li>Lead-generating webinars</li><li>Online training</li><li>Any kind of meeting</li></ul>]]></body>
+		</textcopy>
+		<mainmenu showMenuButtons="false">
+			<navitem id="idForCSS1" file="EndUserTour.swf" name="WebEx for the Enterprise" xmlfile="xmls/end_user.xml" />
+		</mainmenu>
+		<linkmenu>
+			<!--friend icon="envelope.gif" externallink="http://www.ebay.com"><![CDATA[Send to a friend]]></friend-->
+			<!--cc icon="cc.gif"><![CDATA[View with Subtitles]]></cc-->
+		</linkmenu>
+	</leftblock>
+	<copyright>
+		<![CDATA[©1992-2009 WebEx Communications, Inc. All rights reserved.]]>
+	</copyright>
+</tourframework>

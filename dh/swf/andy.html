@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<!-- <html lang="en" style="width: 1200px; height: 1200px;"> -->
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>WebEx Meeting Center Tour</title>
+		<script type="text/javascript" src="swfobject.js"></script>
+		<style type="text/css">
+			body
+			{
+				background-image:url(images/bg.jpg);
+				margin:0;
+			}
+
+			#WebExMeetingCenterTourContainer
+			{
+				width: 1050px;
+				margin:0 auto;
+			}
+		</style>
+	</head>
+	<body>
+	<!-- <body style="width: 1200px; height: 1200px;"> -->
+		<div id="WebExMeetingCenterTourContainer"><font color="#FFFFFF">You need the Flash Player version 9.0.0.0 or higher and a JavaScript enabled browser to view this site</font></div>
+		<script type="text/javascript">
+			// <!--
+			var ignoredParams = {src: 1, bgcolor: 1};
+			var params = String('src="FrameworkLoader.swf" quality="high" bgcolor="#ffffff" ').split(" ");
+			var swf = new SWFObject("FrameworkLoader.swf", "WebExMeetingCenterTour", "1050", "700", "9.0.0.0", "#ffffff");
+			swf.addParam("align", "middle");
+			swf.addVariable("_tourPath", "Framework.swf?_xmlPath=xmls/framework.xml");
+			for(var i = 0; i < params.length; i++)
+			{
+				var paramName = params[i].split("=")[0];
+				var paramValue = params[i].split("\"")[1];
+				
+				if(ignoredParams[paramName] != 1 && paramName != "")
+				{
+					swf.addParam(paramName, paramValue);
+				}
+			}
+			swf.write("WebExMeetingCenterTourContainer");
+			// -->
+		</script>
+	</body>
+</html>

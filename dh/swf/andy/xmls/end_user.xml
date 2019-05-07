@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<main>
+	<!-- Add these tags to the chapters for localization.           -->
+	<!-- 'object' is the name of the object in the movieclip.       -->
+	<!-- 'src' is the address of the image.                         -->
+	<!-- 'link' is the address to navigate to when clicked.         -->
+	<!-- 'target' specifies where to open link: '_blank' for new window and '_self' for same window. -->
+	<!-- 'newString' is the string that will replace the old string.-->
+	<!-- <image object="" src="" link=""/>                          -->
+	<!-- <string object="" newString="" link=""/>                   -->
+	<movie src="videos/end_user.flv" width="599" height="512" useTicks="false" stopAtEnd="true" hoverColor="0xFFFFFF" normalColor="0x000000"/>
+	<chapter name="frame1_0" startTime="0:00:00" endTime="0:06:00">
+		<shift startTime="0:00:00" deltaX="93"/>
+		<caption startTime="0:00:00" endTime="0:06:00"><![CDATA[I count on my team every day to help me come up will brilliant ideas for taking care of business.]]></caption>
+	</chapter>
+	<chapter name="frame1_01" startTime="0:06:00" endTime="0:13:00">
+		<image object="map" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<shift startTime="0:06:00" deltaX="0"/>
+		<caption startTime="0:06:00" endTime="0:13:00"><![CDATA[But we're all in different places, so meeting face-to-face isn't an option. For years, this has meant team meetings that looked like this]]></caption>
+	</chapter>
+	<chapter name="frame1_02a" startTime="0:13:00" endTime="0:15:00">
+		<image object="map" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:13:00" endTime="0:15:00"><![CDATA[...everyone viewing different pages of the document I emailed, if they even got it. And following up with even more confusing phone calls.]]></caption>
+	</chapter>
+	<chapter name="frame1_02b" startTime="0:15:00" endTime="0:23:00">
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:15:00" endTime="0:21:00"><![CDATA[...everyone viewing different pages of the document I emailed, if they even got it. And following up with even more confusing phone calls.]]></caption>
+		<caption startTime="0:21:00" endTime="0:23:00"><![CDATA[Then I found an easy way to get everyone on the same page. WebEx.]]></caption>
+	</chapter>
+	<chapter name="frame1_03a" startTime="0:23:00" endTime="0:26:50">
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="logo_1" src=""/>
+		<image object="logo_2" src=""/>
+		<image object="logo_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:23:00" endTime="0:26:50"><![CDATA[Then I found an easy way to get everyone on the same page. WebEx.]]></caption>
+	</chapter>
+	<chapter name="frame1_03b" startTime="0:26:50" endTime="0:27:00">
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="logo_1" src=""/>
+		<image object="logo_2" src=""/>
+		<image object="logo_3" src=""/>
+		<image object="pop_1" src=""/>
+		<image object="pop_2" src=""/>
+		<image object="pop_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:26:50" endTime="0:27:00"><![CDATA[With WebEx, everyone sees the same thing on their computer screens at the same time while they're on a call together.]]></caption>
+	</chapter>
+	<chapter name="frame2_01a" startTime="0:27:00" endTime="0:32:00">
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="pie_only_left_1" src=""/>
+		<image object="pie_only_left_2" src=""/>
+		<image object="pie_only_left_3" src=""/>
+		<image object="pie_only_right_1" src=""/>
+		<image object="pie_only_right_2" src=""/>
+		<image object="pie_only_right_3" src=""/>
+		<image object="half_1" src=""/>
+		<image object="half_2" src=""/>
+		<image object="half_3" src=""/>
+		<image object="half_4" src=""/>
+		<image object="half_5" src=""/>
+		<image object="half_6" src=""/>
+		<image object="pop_1" src=""/>
+		<image object="pop_2" src=""/>
+		<image object="pop_3" src=""/>
+		<image object="orange_1" src=""/>
+		<image object="orange_2" src=""/>
+		<image object="orange_3" src=""/>
+		<image object="red_1" src=""/>
+		<image object="red_2" src=""/>
+		<image object="red_3" src=""/>
+		<image object="yellow_1" src=""/>
+		<image object="yellow_2" src=""/>
+		<image object="yellow_3" src=""/>
+		<image object="green_1" src=""/>
+		<image object="green_2" src=""/>
+		<image object="green_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:27:00" endTime="0:32:00"><![CDATA[With WebEx, everyone sees the same thing on their computer screens at the same time while they're on a call together.]]></caption>
+	</chapter>
+	<chapter name="frame2_01b" startTime="0:32:00" endTime="0:33:00">
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="pie_only_left_1" src=""/>
+		<image object="pie_only_left_2" src=""/>
+		<image object="pie_only_left_3" src=""/>
+		<image object="pie_only_right_1" src=""/>
+		<image object="pie_only_right_2" src=""/>
+		<image object="pie_only_right_3" src=""/>
+		<image object="half_1" src=""/>
+		<image object="half_2" src=""/>
+		<image object="half_3" src=""/>
+		<image object="half_4" src=""/>
+		<image object="half_5" src=""/>
+		<image object="half_6" src=""/>
+		<image object="pop_1" src=""/>
+		<image object="pop_2" src=""/>
+		<image object="pop_3" src=""/>
+		<image object="pres_1" src=""/>
+		<image object="pres_2" src=""/>
+		<image object="pres_3" src=""/>
+		<image object="orange_1" src=""/>
+		<image object="orange_2" src=""/>
+		<image object="orange_3" src=""/>
+		<image object="red_1" src=""/>
+		<image object="red_2" src=""/>
+		<image object="red_3" src=""/>
+		<image object="yellow_1" src=""/>
+		<image object="yellow_2" src=""/>
+		<image object="yellow_3" src=""/>
+		<image object="green_1" src=""/>
+		<image object="green_2" src=""/>
+		<image object="green_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:32:00" endTime="0:33:00"><![CDATA[Presentations]]></caption>
+	</chapter>
+	<chapter name="frame2_01c" startTime="0:33:00" endTime="0:34:00">
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="pres_1" src=""/>
+		<image object="pres_2" src=""/>
+		<image object="pres_3" src=""/>
+		<image object="doc_1" src=""/>
+		<image object="doc_2" src=""/>
+		<image object="doc_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:33:00" endTime="0:34:00"><![CDATA[Documents]]></caption>
+	</chapter>
+	<chapter name="frame2_01d" startTime="0:34:00" endTime="0:35:00">
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="draw_1" src=""/>
+		<image object="draw_2" src=""/>
+		<image object="draw_3" src=""/>
+		<image object="doc_1" src=""/>
+		<image object="doc_2" src=""/>
+		<image object="doc_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:34:00" endTime="0:35:000"><![CDATA[Drawings]]></caption>
+	</chapter>
+	<chapter name="frame2_01e" startTime="0:35:00" endTime="0:36:00">
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="draw_1" src=""/>
+		<image object="draw_2" src=""/>
+		<image object="draw_3" src=""/>
+		<image object="appl_1" src=""/>
+		<image object="appl_2" src=""/>
+		<image object="appl_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:35:00" endTime="0:36:00"><![CDATA[Even applications]]></caption>
+	</chapter>
+	<chapter name="frame2_02" startTime="0:36:00" endTime="1:02:00">
+		<shift startTime="0:36:00" deltaX="93"/>
+		<image object="wax_1" src=""/>
+		<image object="wax_2" src=""/>
+		<image object="wax_3" src=""/>
+		<image object="appl_1" src=""/>
+		<image object="appl_2" src=""/>
+		<image object="appl_3" src=""/>
+		<image object="man_mobile" src=""/>
+		<image object="man_cafe" src=""/>
+		<image object="woman_desk" src=""/>
+		<caption startTime="0:36:00" endTime="0:51:00"><![CDATA[Whether we're sharing information or brainstorming, WebEx helps us do it better. It's about interacting, in real time, to get more done, faster than ever before and it can change the way you do business.]]></caption>
+		<caption startTime="0:51:00" endTime="1:02:00"><![CDATA[Now, you can bring people together any time, from wherever they are. Make sales calls, deliver training, and work together like you do in person without the costs and hassles of travel.]]></caption>
+	</chapter>
+	<chapter name="frame2_04a" startTime="1:02:00" endTime="1:04:00">
+		<shift startTime="1:02:10" deltaX="0"/>
+		<image object="wax" src=""/>
+		<image object="excel" src=""/>
+		<caption startTime="1:02:00" endTime="1:04:00"><![CDATA[Share, edit, and enhance files, live. Or develop and refine ideas on the fly.]]></caption>
+	</chapter>
+	<chapter name="frame2_04b" startTime="1:04:00" endTime="1:09:00">
+		<image object="wax" src=""/>
+		<image object="excel" src=""/>
+		<image object="excel_select" src=""/>
+		<image object="hand" src=""/>
+		<caption startTime="1:04:00" endTime="1:09:00"><![CDATA[Share, edit, and enhance files, live. Or develop and refine ideas on the fly.]]></caption>
+	</chapter>
+	<chapter name="frame2_05a" startTime="1:09:00" endTime="1:12:00">
+		<image object="wax" src=""/>
+		<image object="excel" src=""/>
+		<image object="desktop" src=""/>
+		<image object="excel_select" src=""/>
+		<image object="hand" src=""/>
+		<caption startTime="1:09:00" endTime="1:12:00"><![CDATA[WebEx is easy. Launch a session with a single click right from your desktop or schedule a session ahead of time.]]></caption>
+	</chapter>
+	<chapter name="frame2_05b" startTime="1:12:00" endTime="1:17:00">
+		<image object="cursor" src=""/>
+		<image object="hover" src=""/>
+		<image object="desktop" src=""/>
+		<image object="one_click" src=""/>
+		<caption startTime="1:12:00" endTime="1:17:00"><![CDATA[WebEx is easy. Launch a session with a single click right from your desktop or schedule a session ahead of time.]]></caption>
+	</chapter>
+	<chapter name="frame2_06" startTime="1:17:00" endTime="1:19:00">
+		<image object="wax" src=""/>
+		<image object="outlook" src=""/>
+		<image object="cursor" src=""/>
+		<image object="desktop" src=""/>
+		<image object="one_click" src=""/>
+		<caption startTime="1:17:00" endTime="1:19:00"><![CDATA[You can even book it with Outlook like a regular meeting.]]></caption>
+	</chapter>
+	<chapter name="frame3_01a" startTime="1:19:00" endTime="1:25:50">
+		<image object="unix" src=""/>
+		<image object="linix" src=""/>
+		<image object="solaris" src=""/>
+		<image object="mac" src=""/>
+		<image object="windows" src=""/>
+		<image object="cursor" src=""/>
+		<image object="wax" src=""/>
+		<image object="outlook" src=""/>
+		<image object="desktop" src=""/>
+		<image object="one_click" src=""/>
+		<caption startTime="1:19:00" endTime="1:25:50"><![CDATA[Participants can join just as easily, from anywhere, on any platform.]]></caption>
+	</chapter>
+	<chapter name="frame3_01b" startTime="1:25:50" endTime="1:26:30">
+		<image object="unix" src=""/>
+		<image object="linix" src=""/>
+		<image object="solaris" src=""/>
+		<image object="mac" src=""/>
+		<image object="windows" src=""/>
+		<caption startTime="1:25:50" endTime="1:26:30"><![CDATA[Windows]]></caption>
+	</chapter>
+	<chapter name="frame3_01c" startTime="1:26:30" endTime="1:27:10">
+		<image object="unix" src=""/>
+		<image object="linix" src=""/>
+		<image object="solaris" src=""/>
+		<image object="mac" src=""/>
+		<image object="windows" src=""/>
+		<caption startTime="1:26:30" endTime="1:27:10"><![CDATA[Mac]]></caption>
+	</chapter>
+	<chapter name="frame3_01d" startTime="1:27:10" endTime="1:27:90">
+		<image object="unix" src=""/>
+		<image object="linix" src=""/>
+		<image object="solaris" src=""/>
+		<image object="mac" src=""/>
+		<image object="windows" src=""/>
+		<caption startTime="1:27:10" endTime="1:27:90"><![CDATA[Solaris]]></caption>
+	</chapter>
+	<chapter name="frame3_01e" startTime="1:27:90" endTime="1:28:70">
+		<image object="unix" src=""/>
+		<image object="linix" src=""/>
+		<image object="solaris" src=""/>
+		<image object="mac" src=""/>
+		<image object="windows" src=""/>
+		<caption startTime="1:27:90" endTime="1:28:70"><![CDATA[Linux]]></caption>
+	</chapter>
+	<chapter name="frame3_01f" startTime="1:28:70" endTime="1:29:50">
+		<image object="unix" src=""/>
+		<image object="linix" src=""/>
+		<image object="solaris" src=""/>
+		<image object="mac" src=""/>
+		<image object="windows" src=""/>
+		<caption startTime="1:28:70" endTime="1:29:50"><![CDATA[Unix]]></caption>
+	</chapter>
+	<chapter name="frame3_01g" startTime="1:29:50" endTime="1:33:50">
+		<image object="smart_phone" src=""/>
+		<image object="unix" src=""/>
+		<image object="linix" src=""/>
+		<image object="solaris" src=""/>
+		<image object="mac" src=""/>
+		<image object="windows" src=""/>
+		<caption startTime="1:29:50" endTime="1:33:50"><![CDATA[And now, 3G enabled smart phones.]]></caption>
+	</chapter>
+	<chapter name="frame3_02a" startTime="1:33:50" endTime="1:35:50">
+		<image object="hand" src=""/>
+		<image object="smart_phone" src=""/>
+		<string object="one" newString=""/>
+		<string object="link_text" newString=""/>
+		<string object="link_text_ref" newString=""/>
+		<caption startTime="1:33:50" endTime="1:35:50"><![CDATA[They don't need to have a WebEx subscription. They just click a link,]]></caption>
+	</chapter>
+	<chapter name="frame3_02b" startTime="1:35:50" endTime="1:37:00">
+		<image object="line" src=""/>
+		<image object="password" src=""/>
+		<image object="hand" src=""/>
+		<string object="input" newString=""/>
+		<string object="one" newString=""/>
+		<string object="two" newString=""/>
+		<string object="link_text" newString=""/>
+		<string object="link_text_ref" newString=""/>
+		<caption startTime="1:35:50" endTime="1:37:00"><![CDATA[enter a password,]]></caption>
+	</chapter>
+	<chapter name="frame3_02c" startTime="1:37:00" endTime="1:42:50">
+		<image object="ip_phone" src=""/>
+		<image object="line" src=""/>
+		<image object="password" src=""/>
+		<image object="hand" src=""/>
+		<string object="three" newString=""/>
+		<string object="input" newString=""/>
+		<string object="one" newString=""/>
+		<string object="two" newString=""/>
+		<string object="link_text" newString=""/>
+		<string object="link_text_ref" newString=""/>
+		<caption startTime="1:37:00" endTime="1:42:50"><![CDATA[connect to the phone conference, and they're in the meeting. It's that fast and easy.]]></caption>
+	</chapter>
+	<chapter name="frame3_03a" startTime="1:42:50" endTime="1:45:50">
+		<image object="wax" src=""/>
+		<image object="slide_1" src=""/>
+		<image object="ip_phone" src=""/>
+		<image object="line" src=""/>
+		<image object="password" src=""/>
+		<image object="hand" src=""/>
+		<string object="three" newString=""/>
+		<string object="input" newString=""/>
+		<string object="one" newString=""/>
+		<string object="two" newString=""/>
+		<string object="link_text" newString=""/>
+		<string object="link_text_ref" newString=""/>
+		<caption startTime="1:42:50" endTime="1:45:50"><![CDATA[You're set to deliver presentations.]]></caption>
+	</chapter>
+	<chapter name="frame3_03b" startTime="1:45:50" endTime="1:49:50">
+		<image object="wax" src=""/>
+		<image object="square_1" src=""/>
+		<image object="square_2" src=""/>
+		<image object="square_3" src=""/>
+		<image object="square_4" src=""/>
+		<image object="square_5" src=""/>
+		<string object="text_write_1" newString=""/>
+		<string object="text_write_2" newString=""/>
+		<image object="type_1" src=""/>
+		<image object="type_2" src=""/>
+		<image object="hand" src=""/>
+		<image object="green_line" src=""/>
+		<image object="rounded_square" src=""/>
+		<image object="brainstorm_1" src=""/>
+		<caption startTime="1:45:50" endTime="1:49:50"><![CDATA[Toss around ideas and add notes that everyone can see.]]></caption>
+	</chapter>
+	<chapter name="frame3_04a" startTime="1:49:50" endTime="1:51:50">
+		<image object="wax" src=""/>
+		<image object="scroll" src=""/>
+		<image object="square_1" src=""/>
+		<image object="body" src=""/>
+		<image object="spreadsheet_1" src=""/>
+		<image object="hand" src=""/>
+		<caption startTime="1:49:50" endTime="1:51:50"><![CDATA[Review documents or spreadsheets together.]]></caption>
+	</chapter>
+	<chapter name="frame3_04b" startTime="1:51:50" endTime="1:55:50">
+		<image object="select" src=""/>
+		<image object="hand" src=""/>
+		<image object="wax" src=""/>
+		<image object="icon_ui" src=""/>
+		<image object="make_presenter" src=""/>
+		<image object="spreadsheet_big" src=""/>
+		<image object="scroll" src=""/>
+		<image object="square_1" src=""/>
+		<image object="body" src=""/>
+		<image object="spreadsheet_zoom" src=""/>
+		<caption startTime="1:51:50" endTime="1:55:50"><![CDATA[Even pass control to another participant during the session]]></caption>
+	</chapter>
+	<chapter name="frame3_04c" startTime="1:55:50" endTime="1:57:50">
+		<image object="excel_select" src=""/>
+		<image object="hand" src=""/>
+		<image object="wax" src=""/>
+		<image object="icon_ui" src=""/>
+		<image object="scroll" src=""/>
+		<image object="edits" src=""/>
+		<image object="square_1" src=""/>
+		<image object="body" src=""/>
+		<image object="spreadsheet_zoomout" src=""/>
+		<caption startTime="1:55:50" endTime="1:57:50"><![CDATA[so they can present or make edits.]]></caption>
+	</chapter>
+	<chapter name="frame3_05" startTime="1:57:50" endTime="2:02:50">
+		<image object="hand" src=""/>
+		<image object="record_hover" src=""/>
+		<image object="record_bar" src=""/>
+		<image object="dark_screen" src=""/>
+		<image object="wax" src=""/>
+		<image object="excel_select" src=""/>
+		<image object="spreadsheet_record" src=""/>
+		<caption startTime="1:57:50" endTime="2:02:50"><![CDATA[Someone can't make the meeting? No problem. Just record it for them to review later.]]></caption>
+	</chapter>
+	<chapter name="frame3_06" startTime="2:02:50" endTime="2:06:00">
+		<image object="hand" src=""/>
+		<image object="record_hover" src=""/>
+		<image object="record_bar" src=""/>
+		<image object="dark_screen" src=""/>
+		<image object="wax" src=""/>
+		<image object="excel_select" src=""/>
+		<image object="spreadsheet_record" src=""/>
+		<caption startTime="2:02:50" endTime="2:06:00"><![CDATA[WebEx is great for collaborative meetings,]]></caption>
+	</chapter>
+	<chapter name="frame3_06a" startTime="2:06:00" endTime="2:07:50">
+		<string object="collaborative" newString=""/>
+		<caption startTime="2:06:00" endTime="2:07:50"><![CDATA[WebEx is great for collaborative meetings,]]></caption>
+	</chapter>
+	<chapter name="frame3_06b" startTime="2:07:00" endTime="2:08:00">
+		<string object="collaborative" newString=""/>
+		<string object="sales" newString=""/>
+		<caption startTime="2:07:00" endTime="2:08:00"><![CDATA[sales presentations,]]></caption>
+	</chapter>
+	<chapter name="frame3_06c" startTime="2:08:00" endTime="2:09:50">
+		<string object="collaborative" newString=""/>
+		<string object="sales" newString=""/>
+		<string object="live_online" newString=""/>
+		<caption startTime="2:08:00" endTime="2:09:50"><![CDATA[live online training,]]></caption>
+	</chapter>
+	<chapter name="frame3_06d" startTime="2:09:50" endTime="2:11:00">
+		<string object="collaborative" newString=""/>
+		<string object="sales" newString=""/>
+		<string object="live_online" newString=""/>
+		<string object="marketing" newString=""/>
+		<caption startTime="2:09:50" endTime="2:11:00"><![CDATA[marketing webinars,]]></caption>
+	</chapter>
+	<chapter name="frame3_06e" startTime="2:11:00" endTime="2:15:00">
+		<string object="collaborative" newString=""/>
+		<string object="sales" newString=""/>
+		<string object="live_online" newString=""/>
+		<string object="marketing" newString=""/>
+		<string object="consulting" newString=""/>
+		<caption startTime="2:11:00" endTime="2:15:00"><![CDATA[consulting, any time you need to get together to share ideas.]]></caption>
+	</chapter>
+	<chapter name="frame4_01" startTime="2:15:00" endTime="2:17:50">
+		<string object="collaborative" newString=""/>
+		<string object="sales" newString=""/>
+		<string object="live_online" newString=""/>
+		<string object="marketing" newString=""/>
+		<string object="consulting" newString=""/>
+		<caption startTime="2:15:00" endTime="2:16:00"><![CDATA[consulting, any time you need to get together to share ideas.]]></caption>
+		<caption startTime="2:16:00" endTime="2:17:50"><![CDATA[Best of all, WebEx is]]></caption>
+	</chapter>
+	<chapter name="frame4_01a" startTime="2:17:50" endTime="2:18:00">
+		<string object="simple" newString=""/>
+		<caption startTime="2:17:50" endTime="2:18:00"><![CDATA[simple,]]></caption>
+	</chapter>
+	<chapter name="frame4_01b" startTime="2:18:00" endTime="2:18:80">
+		<string object="simple" newString=""/>
+		<string object="secure" newString=""/>
+		<caption startTime="2:18:00" endTime="2:18:80"><![CDATA[secure,]]></caption>
+	</chapter>
+	<chapter name="frame4_01c" startTime="2:18:80" endTime="2:25:00">
+		<string object="simple" newString=""/>
+		<string object="secure" newString=""/>
+		<string object="affordable" newString=""/>
+		<caption startTime="2:18:80" endTime="2:22:00"><![CDATA[and very affordable.]]></caption>
+		<caption startTime="2:22:00" endTime="2:25:00"><![CDATA[Get together as often as you need using WebEx for one low monthly fee.]]></caption>
+	</chapter>
+	<chapter name="frame4_02" startTime="2:25:00" endTime="2:31:00">
+		<string object="simple" newString=""/>
+		<string object="secure" newString=""/>
+		<string object="affordable" newString=""/>
+		<caption startTime="2:25:00" endTime="2:26:00"><![CDATA[Get together as often as you need using WebEx for one low monthly fee.]]></caption>
+		<caption startTime="2:26:00" endTime="2:31:00"><![CDATA[Because it's a web-based service, you can access it from anywhere, whenever you need.]]></caption>
+	</chapter>
+	<chapter name="frame4_02a" startTime="2:31:00" endTime="2:36:00">
+		<string object="cisco" newString=""/>
+		<caption startTime="2:31:00" endTime="2:36:00"><![CDATA[And it's from Cisco, so you know it's reliable.]]></caption>
+	</chapter>
+	<chapter name="frame4_03" startTime="2:36:00" endTime="2:42:00">
+		<string object="cisco" newString=""/>
+		<string object="call_to_action" newString=""/>
+		<caption startTime="2:36:00" endTime="2:43:00"><![CDATA[Ready to get everyone on the same page? See for yourself what WebEx can do for you. Try it free today.]]></caption>
+	</chapter>
+	<chapter name="frame4_04" startTime="2:42:00" endTime="2:44:00">
+		<image object="arrow" src=""/>
+		<string object="call_to_action" newString="" src="" link="http://www.webex.com/go/qt_freetrial" target="_blank"/>
+		<caption startTime="2:43:00" endTime="2:44:00"><![CDATA[Ready to get everyone on the same page? See for yourself what WebEx can do for you. Try it free today.]]></caption>
+	</chapter>
+</main>
