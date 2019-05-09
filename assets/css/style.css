@@ -1,26 +1,3 @@
-/*
-html,
-body
-{
-    overflow-x: hidden;
-}
-*/
-
-/*
-.grid-fluid,
-.animation-container,
-.hero
- {
-    overflow-x: hidden;
-}
-*/
-
-/*
-.only-mobile {
-    overflow-x: hidden;
-}
-*/
-
 /*#anim1-container,*/
 #hero-container,
 #intro-scene-trigger,
@@ -54,6 +31,8 @@ body
 
 {
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    
 }
 
 
