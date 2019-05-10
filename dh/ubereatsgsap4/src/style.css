@@ -1,0 +1,369 @@
+body,
+pre {
+	/* background-color: rgb(235, 6, 6); */
+	color: #fff;
+}
+
+@font-face {
+    font-family: "Uber Move";
+    font-weight: 300;
+    src: url(https://about.ubereats.com/assets/fonts/UberMove-Light.woff2) format("woff2"),url(https://about.ubereats.com/assets/fonts/UberMove-Light.woff) format("woff"),url(https://about.ubereats.com/assets/fonts/UberMove-Light.eot) format("eot")
+}
+
+@font-face {
+    font-family: "Uber Move";
+    font-weight: 400;
+    src: url(/assets/fonts/UberMove-Regular.woff2) format("woff2"),url(/assets/fonts/UberMove-Regular.woff) format("woff"),url(/assets/fonts/UberMove-Regular.eot) format("eot")
+}
+
+@font-face {
+    font-family: "Uber Move";
+    font-weight: 500;
+    src: url(/assets/fonts/UberMove-Medium.woff2) format("woff2"),url(/assets/fonts/UberMove-Medium.woff) format("woff"),url(/assets/fonts/UberMove-Medium.eot) format("eot")
+}
+
+@font-face {
+    font-family: "Uber Move";
+    font-weight: 700;
+    src: url(https://about.ubereats.com/assets/fonts/UberMove-Bold.woff2) format("woff2"),url(https://about.ubereats.com/assets/fonts/UberMove-Bold.woff) format("woff"),url(https://about.ubereats.com/assets/fonts/UberMove-Bold.eot) format("eot")
+}
+
+@font-face {
+    font-family: "Uber Move Text";
+    font-weight: 300;
+    src: url(/assets/fonts/UberMoveText-Light.woff2) format("woff2"),url(/assets/fonts/UberMoveText-Light.woff) format("woff"),url(/assets/fonts/UberMoveText-Light.eot) format("eot")
+}
+
+@font-face {
+    font-family: "Uber Move Text";
+    font-weight: 400;
+    src: url(/assets/fonts/UberMoveText-Regular.woff2) format("woff2"),url(/assets/fonts/UberMoveText-Regular.woff) format("woff"),url(/assets/fonts/UberMoveText-Regular.eot) format("eot")
+}
+
+@font-face {
+    font-family: "Uber Move Text";
+    font-weight: 500;
+    src: url(/assets/fonts/UberMoveText-Medium.woff2) format("woff2"),url(/assets/fonts/UberMoveText-Medium.woff) format("woff"),url(/assets/fonts/UberMoveText-Medium.eot) format("eot")
+}
+
+@font-face {
+    font-family: "Uber Move Text";
+    font-weight: 700;
+    src: url(/assets/fonts/UberMoveText-Bold.woff2) format("woff2"),url(/assets/fonts/UberMoveText-Bold.woff) format("woff"),url(/assets/fonts/UberMoveText-Bold.eot) format("eot")
+}
+
+@font-face {
+    font-family: DINNextLTArabic;
+    font-weight: 200;
+    src: url(/assets/fonts/DINNextLTArabic-UltraLight.ttf)
+}
+
+@font-face {
+    font-family: DINNextLTArabic;
+    font-weight: 300;
+    src: url(/assets/fonts/DINNextLTArabic-Light.ttf)
+}
+
+@font-face {
+    font-family: DINNextLTArabic;
+    font-weight: 400;
+    src: url(/assets/fonts/DINNextLTArabic-Regular.ttf)
+}
+
+@font-face {
+    font-family: DINNextLTArabic;
+    font-weight: 500;
+    src: url(/assets/fonts/DINNextLTArabic-Medium.ttf)
+}
+
+.ubereats--about .section--about-hero .about-hero__title {
+    font-family: "Uber Move","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+hr {
+	/* border-color: #fff; */
+}
+
+.route-row {
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	background-color: #5FB709;
+	/* align-content: center; */
+}
+
+.left-1 {
+	font-size: 1.4rem;
+}
+
+.home-prop {
+	color: black;
+	font-size: 2rem;
+}
+
+.rightleft {
+	y: 200px;
+	color: red;
+}
+
+.pizza {
+	width: 40%;
+	margin: 0;
+}
+
+.font-test {
+	font-family: "Uber Move","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.d1plate {
+	background-image: url(./assets/img/bg4.png);
+	background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+	max-width: 100% auto;
+	background-color: white;
+	max-height: 450px;
+}
+
+.d2plate {
+	background-image: url(./assets/img/bg5.png);
+	background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+	max-width: 100% auto;
+	background-color: aqua;
+	max-height: 450px;
+	/* opacity: .8; */
+}
+
+.d3plate {
+	background-image: url(./assets/img/bg3.jpg);
+	background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+	max-width: 100% auto;
+	background-color: white;
+	max-height: 450px;
+}
+
+.dheight {
+	height: 600px;
+	width: 100%;
+}
+.div1b {
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+.div2b {
+	height: 200px;
+	background-color: white;
+}
+.div3b {
+	/* opacity: .2; */
+	height: 200px;
+	background-color: rgb(117, 120, 134);
+	/* background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); */
+	/* background-image: repeating-radial-gradient(lightgrey 10%, rgb(71, 71, 69) 4%, lightgrey 12%); */
+	/* background-image: linear-gradient(to right, rgba(255,0,0,0.8), rgb(0, 0, 0), rgba(255,0,0,0.8)); */
+	background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+	max-width: 100% auto;
+
+}
+
+.gsapman img {
+	height: 40%;
+}
+
+  .logo-in {
+	animation: logo-in .3s linear;
+	/* height: 20vmin; */
+	font-weight: 800;
+	font-size: 4rem;
+	padding-right: 2%;
+	padding-top: 23.6%;
+	align-content: center;
+	pointer-events: none;
+	color: white;
+	/* opacity: 0.6; */
+	
+  }
+  @keyframes logo-in {
+
+	from {
+		-webkit-transform: translate3d(-50%, 0, 0);
+		transform: translate3d(-50%, 0, 0);
+		visibility: visible;
+	  }
+	
+	  to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	  }
+
+  }
+
+  .font-logo {
+	animation: font-logo-spin .6s linear;
+	/* height: 20vmin; */
+	font-weight: 800;
+	font-size: 4rem;
+	padding-right: 2.2%;
+	padding-top: 0;
+	align-content: center;
+	pointer-events: none;
+	color: white;
+	opacity: 0.6;
+	
+  }
+  @keyframes font-logo-spin {
+	from {
+		opacity: 0;
+		-webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 500px, 0);
+		transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 500px, 0);
+		-webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+		animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	  }
+	
+	  60% {
+		opacity: 1;
+		-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+		transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+		-webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+		animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+	  }
+  }
+
+  .font2-logo {
+	animation: font2-logo-spin .4s linear;
+	font-weight: 800;
+	font-size: 5rem;
+	/* height: 20vmin; */
+	align-content: center;
+	pointer-events: none;
+	color: white;
+	opacity: 0.6;
+	
+  }
+  @keyframes font2-logo-spin {
+	from {
+		opacity: 0;
+		-webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 500px, 0);
+		transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 500px, 0);
+		-webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+		animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	  }
+	
+	  60% {
+		opacity: 1;
+		-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+		transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+		-webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+		animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+	  }
+  }
+
+  .font3-logo {
+	animation: font3-logo-spin .4s linear;
+	font-weight: 800;
+	font-size: 4rem;
+	/* height: 20vmin; */
+	align-content: center;
+	pointer-events: none;
+	color: white;
+	opacity: 0.6;
+	
+  }
+  @keyframes font3-logo-spin {
+	/* from {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	  }
+	
+	  to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	  } */
+
+	  from {
+		opacity: 0;
+		-webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 500px, 0);
+		transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 500px, 0);
+		-webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+		animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	  }
+	
+	  60% {
+		opacity: 1;
+		-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+		transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+		-webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+		animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+	  }
+  }
+
+
+  .hello{
+	animation: hello-spin 2s linear;
+	animation-delay: .5s;
+	height: 20vmin;
+	align-content: center;
+	pointer-events: none;
+	opacity: 0.4;;
+  }
+  /* @keyframes hello-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  } */
+
+  @keyframes hello-spin {
+	from,
+	  50%,
+	  
+  	to {
+    opacity: 1;
+  	}
+
+  	25%, 75% {
+    opacity: 0;
+  	}
+  }
+
+.gsap-btn {
+	background-color: black;
+	color: #fff;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* a:hover,
+.gsap-btn:hover,
+.gsap-btn:active,
+.gsap-btn:focus {
+	background-color: #88ce02;
+	color: #fff;
+} */
+
+a:hover,
+.gsap-btn:hover
+{
+	background-color: white;
+	color: black;
+}
