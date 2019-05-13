@@ -1404,7 +1404,7 @@ li {
     .hero h1 {
         font-size: 38px;
         line-height: 40px;
-        padding-left: 14%;
+        padding-left: 18%;
         padding-right: 0px;
         margin-left: 0px;
     }
@@ -1413,7 +1413,7 @@ li {
         font-size: 20px;
         font-weight: 400;
         line-height: 24px;
-        padding-left: 26%;
+        padding-left: 30%;
     }
     
     #service-h1-container {
@@ -1505,6 +1505,176 @@ li {
         background-repeat: no-repeat;
         background-position: center center;
         max-width: 100% auto;
+    }
+    
+    #first_panel {
+        padding-left: 223px;
+    }
+
+    #second_panel {
+        padding-left: 323px;
+    }
+
+    #third_panel {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .dcard {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+    }
+
+    .dcard-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+
+    .dcard-img-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1.42rem;
+    }
+    .dcard-img {
+        width: 100%;
+        border-radius: calc(0.25rem - 1px);
+    }
+
+    .dborder-0 {
+        border: 0 !important;
+    }
+
+    .dtext-muted {
+        color: #6c757d !important;
+    }
+
+    .card-img {
+        margin-top: 3.29rem;
+    }
+
+    .card-img-overlay {
+        padding-top: 6.43rem;
+    }
+
+    #card-para {
+        background: white;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-right: 1.43rem;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        padding-top: 2.3rem;
+        padding-bottom: 2.86rem;
+        margin-top: -1.6rem;
+    }
+
+    #card-h6 {
+        color: #424352;
+        background: none;
+
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: left;
+
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        margin-top: 1.2rem;
+        padding-top: 1.43rem;
+        padding-left: 2.3rem;
+        padding-bottom: 10px;
+    }
+
+    #panel_1,
+    #panel_2,
+    #panel_3 {
+        border-radius: 0;
+        width: 326px;
+        background-color: rgba(255, 255, 255, 1);
+
+        background: none;
+        margin-top: -5rem;
+    }
+
+    #panel-card-h3 {
+        background: white;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+    }
+
+    #panel1-card-h3-last,
+    #panel2-card-h3-last {
+        background: white;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+    /*    padding-bottom: 20px;*/
+    }
+
+    #panel1-card-h3-second {
+        background: white;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 2.4rem;
+        margin-left: -1.43rem;
+        padding-left: 2.3rem;
+    }
+
+    #panel-card-h3-first {
+        background: white;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+        margin-top: -.7rem;
+    }
+
+    #panel-card-h3-second {
+        background: white;
+        font-size: 26px;
+        line-height: 2rem;
+        font-weight: 300;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+    }
+
+    #panel-card-h3-third {
+        background: white;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+        padding-top: 1.14rem;
+        padding-bottom: 1.14rem;
+        margin-top: -1.14rem;
     }
     
     #card-man-container {
@@ -1629,13 +1799,457 @@ li {
         color: #1a80ff;
     /*    text-underline-position: auto;*/
     /*    text-decoration: none;*/
-}
-    
-    
-
+    }
 }
 /*_________________________________  768  ___________________________________*/
 @media (max-width: 768px) {
+    
+    .hero {
+        background-image: url('../img/bg-image-nosquares.jpg');
+        background-size: cover;
+        background-size:100% auto;
+        background-repeat: no-repeat;
+        background-position: top center;
+        max-width: 100% auto;
+    /*    height:1000px;*/
+
+    }
+
+    #squares-left-container {
+        padding-left: 320px;
+        padding-top: 180px;
+        width: 220px;
+    }
+
+    #squares-right-container {
+        width: 400px;
+        margin-left: -280px;
+        margin-top: 14%;
+    }
+
+    #flip-today-container {
+    }
+
+    #flip-today {
+    }
+
+    #ogrid-wrapper {
+    }
+
+    #oGrid {
+        margin-left: 32%;
+/*        margin-right: auto;*/
+        margin-top: 23%;
+        padding-left: 0;
+        width: 32%;
+    }
+    .hero-container-header {
+        padding-top: 18%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        line-height: 40px;
+        padding-left: 18%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-left: 30%;
+    }
+    
+    #service-h1-container {
+        margin-left: 7%;
+    }
+
+    .service {
+        padding-left: 2%;
+    }
+
+    .service h1 {
+        font-size: 52px;
+    }
+
+    .today {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .today p {
+        font-size: 20px;
+        line-height: 2.3rem;
+        padding-bottom: 4rem;
+        padding-left: 0rem;
+        margin-right: -9rem;
+    }
+
+    #osrChart {
+        width: 880px;
+    }
+
+    #osr-container {
+        padding-left: 57%;
+        padding-top: 34%;
+    }
+
+    #flip-osr-conatainer {
+    }
+    #flip-osr {
+    }
+
+    .slide-list-container {
+        padding-left: 2%;
+        padding-top: 12%;
+    }
+    
+    .slide-list {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+        list-style-type: none;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+    #panels {
+        width: 446px;
+    }
+
+    #panels-container {
+        padding-top: 260px;
+        padding-left: 9%;
+    }
+    
+    #oGrid2 {
+        width: 680px;
+    }
+
+    #oGrid2-padding {
+        padding-left: 16%;
+        padding-top: 8%;
+        padding-bottom: 0px;
+    }
+
+    #ogrid2-mobile {
+        width: 0px;
+        height: 0px;
+    }
+
+    #ogrid2-mobile-container {
+        padding-left: 0px;
+    }
+
+    #hero-container2 {
+        background-image: url('../img/bg-image2.jpg');
+        background-size: cover;
+        background-size:100% auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        max-width: 100% auto;
+    }
+    
+    #first_panel {
+        padding-left: 223px;
+    }
+
+    #second_panel {
+        padding-left: 323px;
+    }
+
+    #third_panel {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .dcard {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+    }
+
+    .dcard-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+
+    .dcard-img-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1.42rem;
+    }
+    .dcard-img {
+        width: 100%;
+        border-radius: calc(0.25rem - 1px);
+    }
+
+    .dborder-0 {
+        border: 0 !important;
+    }
+
+    .dtext-muted {
+        color: #6c757d !important;
+    }
+
+    .card-img {
+        margin-top: 3.29rem;
+    }
+
+    .card-img-overlay {
+        padding-top: 6.43rem;
+    }
+
+    #card-para {
+        background: white;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-right: 1.43rem;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        padding-top: 2.3rem;
+        padding-bottom: 2.86rem;
+        margin-top: -1.6rem;
+    }
+
+    #card-h6 {
+        color: #424352;
+        background: none;
+
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: left;
+
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        margin-top: 1.2rem;
+        padding-top: 1.43rem;
+        padding-left: 2.3rem;
+        padding-bottom: 10px;
+    }
+
+    #panel_1,
+    #panel_2,
+    #panel_3 {
+        border-radius: 0;
+        width: 326px;
+        background-color: rgba(255, 255, 255, 1);
+
+        background: none;
+        margin-top: -5rem;
+    }
+
+    #panel-card-h3 {
+        background: white;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+    }
+
+    #panel1-card-h3-last,
+    #panel2-card-h3-last {
+        background: white;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+    /*    padding-bottom: 20px;*/
+    }
+
+    #panel1-card-h3-second {
+        background: white;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 2.4rem;
+        margin-left: -1.43rem;
+        padding-left: 2.3rem;
+    }
+
+    #panel-card-h3-first {
+        background: white;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+        margin-top: -.7rem;
+    }
+
+    #panel-card-h3-second {
+        background: white;
+        font-size: 26px;
+        line-height: 2rem;
+        font-weight: 300;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+    }
+
+    #panel-card-h3-third {
+        background: white;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 2rem;
+        margin-left: -1.43rem;
+        margin-right: -1.43rem;
+        padding-left: 2.3rem;
+        padding-top: 1.14rem;
+        padding-bottom: 1.14rem;
+        margin-top: -1.14rem;
+    }
+    
+    #card-man-container {
+        padding-top: 36%;
+        padding-left: 25%;
+    }
+
+    #card-man2-container {
+        padding-top: 46%;
+        padding-left: 14%;
+    }
+
+    #card-man {
+        width: 360px;  
+    }
+
+    #man-pic {
+        width: 300px;
+    }
+
+    .card-man-h5-1 {
+        padding-top: 2rem;
+        padding-bottom: .8rem;
+        font-size: 26px;
+    }
+
+    .card-man-h5-2 {
+        font-size: 26px;
+        padding-bottom: 0;
+    }
+
+    #card-man h6 {
+        color:#4f5f6c;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 0px;
+        padding-bottom: .4rem;
+        margin-top: 1rem;
+    }
+
+    #card-man p {
+        color:#4f5f6c;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 8px;
+        padding-bottom: .4rem;
+    }
+
+    #card-blockquote {
+        font-family: "IBM Plex Mono", monospace;
+        color:#4f5f6c;
+        font-size: 10px;
+        font-weight: 300;
+        padding-top: .8rem;
+        margin-left: 0.4rem;
+    }
+    
+    #card-ebook-container {
+        border-color: white;
+        width: 420px;
+        height: 18rem;
+        margin-top: -2%;
+        margin-left: -18%;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-pad {
+        padding-left: 0px;
+        padding-top: 4.5rem;
+    }
+
+    #card-ebook-body {
+        padding-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-h6 {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 1rem;
+        padding-bottom: .5rem;
+        color: #acaaa8;
+    }
+
+    #card-ebook-h3-1 {
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 0px;
+        color:#0e1871;
+        line-height: 36px;
+    }
+
+    #card-ebook-h3-2 {
+        font-size: 26px;
+        font-weight: 500;
+        color: #1A80FF;
+        padding-bottom: 1.4rem;
+    }
+
+    #card-ebook-p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color:#4f5f6c;
+        padding-bottom: 1.6rem;
+    }
+
+    #card-ebook-link-container {
+        padding-top: 0rem;
+    }
+
+    #ebook-text-underline {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+        font-weight: 400;
+        text-underline-position: under;
+        color: #1a80ff;
+    /*    text-underline-position: auto;*/
+    /*    text-decoration: none;*/
+    }
+
+}  
 }
 /*_________________________________  576  ___________________________________*/
 @media (max-width: 576px) {
