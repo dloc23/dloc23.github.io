@@ -2694,7 +2694,7 @@ li {
     
     #service-h1-container {
         padding-bottom: 20%;
-        margin-top: 0%;
+        margin-top: 2%;
     }
     
     .service {
@@ -3047,7 +3047,7 @@ li {
     #oGrid {
         margin-left: 22%;
         margin-right: 0px;
-        margin-top: 260px;
+        margin-top: 240px;
         margin-bottom: 0;
         padding-left: 0;
         width: 320px;
@@ -3078,7 +3078,7 @@ li {
     
     #service-h1-container {
         padding-bottom: 20%;
-        margin-top: 0%;
+        margin-top: 2%;
     }
     
     .service {
@@ -3087,8 +3087,8 @@ li {
     }
 
     .service h1 {
-        font-size: 56px;
-        line-height: 52px;
+        font-size: 46px;
+        line-height: 50px;
 
     }
     
@@ -3111,7 +3111,7 @@ li {
     
     #flip-osr-container {
         margin-left: -.96rem;
-        padding-top: 0px;
+        padding-top: 30px;
         padding-left: 0px;
 /*        margin-left: 23%;*/
     }
