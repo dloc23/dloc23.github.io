@@ -326,7 +326,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#flip-osr-head2', 0, { opacity: 0, x:'-=200' }), 0)
         
         
-            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x:'-=200', y:"+=82" }), 0)
+            .add(TweenMax.to('#flip-osr-p1', 0, {  opacity: 0, x:'-=200', y:"+=62" }), 0)
         
         
             .add(TweenMax.to('#flip-osr-p2', 0, {  opacity: 0, x:'-=300' }), 0)
@@ -386,7 +386,7 @@ $(document).ready(function() {
         
         
       
-            .add(TweenMax.to('#osrChart', 0, { scale: 0.9, x: "-=292", y:"-=23" }), 0)
+            .add(TweenMax.to('#osrChart', 0, { scale: 0.8, x: "-=292", y:"-=23" }), 0)
             .add(TweenMax.to('#osrChart', 4, { opacity:1, y:"-=323", ease: Linear.easeNone }), 6)
             
             
@@ -695,7 +695,7 @@ $(document).ready(function() {
             .add(TweenMax.to('#ogrid2-mobile', 24, { opacity: 1, y:'-=237'}), 260)
         
             .add(TweenMax.to('#ogrid2-mobile-text', 0, { opacity: 0 }), 0)
-            .add(TweenMax.to('#ogrid2-mobile-text', 1, { opacity: 0, y:"+=100" }), 267)
+            .add(TweenMax.to('#ogrid2-mobile-text', 1, { opacity: 0, y:"+=105" }), 267)
             .add(TweenMax.to('#ogrid2-mobile-text', 8, { opacity: 1, y:"-=80", ease: Linear.easeOut }), 268)
             
         
