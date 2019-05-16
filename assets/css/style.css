@@ -1368,6 +1368,32 @@ li {
 /*_________________________________  992  ___________________________________*/
 @media (max-width: 992px) {
     
+    #first_panel {
+        padding-left: 0;
+        margin-left: 60px;
+    }
+
+    #second_panel {
+        padding-left: 0;
+        margin-left: 30px;
+    }
+
+    #third_panel {
+        padding-left: 180px;
+    }
+
+    
+    #panel_1,
+    #panel_2,
+    #panel_3 {
+        border-radius: 0;
+        width: 326px;
+        background-color: rgba(255, 255, 255, 1);
+
+        background: none;
+        margin-top: -5rem;
+    }
+    
     .hero {
         background-image: url('../img/bg-image-nosquares.jpg');
         background-size: cover;
