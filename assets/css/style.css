@@ -2661,9 +2661,9 @@ li {
     }
     
     #oGrid {
-        margin-left: 22%;
+        margin-left: 22.5%;
         margin-right: 0px;
-        margin-top: 260px;
+        margin-top: 250px;
         margin-bottom: 0;
         padding-left: 0;
         width: 320px;
@@ -2703,9 +2703,13 @@ li {
     }
 
     .service h1 {
-        font-size: 56px;
-        line-height: 52px;
-
+        font-size: 52px;
+        line-height: 54px;
+        padding-left: .3rem;
+    }
+    
+    .busb {
+        margin-top: -.6rem;
     }
     
     .slide-list {
@@ -2744,7 +2748,7 @@ li {
     
     #osr-container {
         margin-left: 100%;
-        margin-top: 246px;
+        margin-top: 13rem;
         padding-top: 100%;
     }
     
@@ -2788,26 +2792,26 @@ li {
     }
 
     #card-man-container {
-        margin-left: 20px;
-        margin-top: 60px;
+        margin-left: 1.8rem;
+        margin-top: 3.4rem;
         padding-left: 0%;
     }
     
     #card-man {
         padding-right: 15px;
         padding-left: 10px;
-        width: 300px;  
+        width: 280px;  
     }
 
     .card-man-h5-1 {
         padding-top: 4rem;
         padding-bottom: .2rem;
-        font-size: 26px;
+        font-size: 24px;
         line-height: 36px;
     }
     
     .card-man-h5-2 {
-        font-size: 26px;
+        font-size: 24px;
         line-height: 36px;
         padding-bottom: 0;
     }
@@ -2833,7 +2837,7 @@ li {
         font-weight: 300;
         font-size: .8rem;
         line-height: 1.2rem;
-        padding-top: 8px;
+        padding-top: .4rem;
         padding-bottom: .4rem;
     }
 
@@ -2843,7 +2847,7 @@ li {
         font-size: 9px;
         font-weight: 300;
         padding-top: .2rem;
-        padding-bottom: 3rem;
+        padding-bottom: 2.6rem;
     }
     
     #card-man2-container {
@@ -2859,8 +2863,8 @@ li {
     }
 
     #man-pic {
-        width: 246px;
-        padding-left: 36px;
+        width: 212px;
+        padding-left: 3.4rem;
     }
 
     /*  END CARD MAN 375 */
