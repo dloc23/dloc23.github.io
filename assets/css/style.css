@@ -557,7 +557,7 @@ li {
 }
 
 #third_panel {
-    margin-left: 0px;
+    padding-left: 80px;
 }
 
 .dcard {
@@ -1174,6 +1174,18 @@ li {
     .slide-list-container {
         padding-left: 2%;
         padding-top: 8%;
+    }
+    
+    #first_panel {
+        padding-left: 346px;
+    }
+
+    #second_panel {
+        padding-left: 346px;
+    }
+
+    #third_panel {
+        padding-left: 140px;
     }
 
     #panels {
