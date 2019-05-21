@@ -1,42 +1,12 @@
-/*#anim1-container,*/
 #hero-container,
 #intro-scene-trigger,
 #scene1-pin,
 #scene2
-/*#scene1-2-trigger*/
-/*
-#scene1,
-#scene1-trigger,
-#service-h1-container,
-#scene1-2-trigger,
-,
-#scene2-3,
-#scene3,
-#scene3-2-trigger,
-#hero-container2,
-#scene3-3-trigger,
-#trigger1,
-#pin1,
-#trigger2,
-#pin2 
-*/
-
-/*MAVENLINK.COM
-.home-page,.product-overview {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
-*/
-
 
 {
     overflow-x: hidden;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;  
 }
-
-
-
 
 #flip-today {
     height: 0px;
@@ -49,11 +19,6 @@
 #ogrid2-mobile {
     height: 0px;
 }
-
-
-
-
-
 
 
 #today-margin {
@@ -108,8 +73,6 @@ h5 {
 li {
     color: #adb8c9;
 }
-
-
 
 
 .spacer-container.h-100 {
@@ -212,15 +175,9 @@ li {
 #panels-container {
     z-index: 100;
 }
-/*???
-#intro-scene-trigger {
-    z-index: 70;
-}
-*/
 #hero-container2 {
     z-index: -1;
 }
-
 .container {
     text-align: center;
     width: 100%;
@@ -336,20 +293,13 @@ li {
     background-repeat: no-repeat;
     background-position: top center;
     max-width: 100% auto;
-/*    height:1000px;*/
 
 }
 
 #squares-left-container {
-/*    margin-bottom: 400px;*/
-/*    padding-bottom: 200px;*/
-/*    margin-left: 20px;*/
     padding-left: 320px;
     padding-top: 360px;
-/*    margin-bottom: 80px;*/
-/*    left: 20%;*/
     width: 360px;
-/*    height: 800px;*/
 }
 
 #squares-right-container {
@@ -359,32 +309,20 @@ li {
 }
 
 #flip-today-container {
-/*    width: 400px;*/
-/*    padding-left: 135px;*/
 }
 
 #flip-today {
-/*    width: 400px;*/
 }
 
 #ogrid-wrapper {
-/*    text-align: center;*/
 }
 
 #oGrid {
-/*
-    width: 325px;
-    margin-top: 14%;
-    align-items: center;
-    display: block;
-*/
     margin-left: auto;
     margin-right: auto;
     margin-top: 23%;
     padding-left: 0;
     width: 38%;
-/*    width: 420px;*/
-/*    height: auto;*/
 }
 
 .hero-container-header {
@@ -416,8 +354,6 @@ li {
     font-size: 76px;
 }
 
-
-
 .today {
     padding-left: 0px;
     padding-right: 0px;
@@ -433,7 +369,6 @@ li {
 
 #osrChart {
     width: 1360px;
-/*    width: 50%;*/
 }
 
 #osr-container {
@@ -442,10 +377,8 @@ li {
 }
 
 #flip-osr-conatainer {
-/*        width: 360px;*/
     }
 #flip-osr {
-/*        width: 360px;*/
     }
 
 .slide-list-container {
@@ -488,19 +421,9 @@ li {
     background-repeat: no-repeat;
     background-position: center center;
     max-width: 100% auto;
-/*    height: 1278px;*/
-/*
-    margin: 0;
-    padding:0;
-*/
 }
 
 #hero2-img {
-/*
-    padding-top: 60px;
-    max-width: 100% auto;
-    width: 1200px;
-*/
 }
 
 .slide-list {
@@ -671,7 +594,6 @@ li {
     margin-left: -1.43rem;
     margin-right: -1.43rem;
     padding-left: 2.3rem;
-/*    padding-bottom: 20px;*/
 }
 
 #panel1-card-h3-second {
@@ -716,8 +638,6 @@ li {
     padding-bottom: 1.14rem;
     margin-top: -1.14rem;
 }
-
-
 
 /*  CARD MAN*/
 /*-------------------------------------------------------------------------*/
@@ -790,7 +710,6 @@ li {
 }
 
 #endring-wrapper {
-
     padding: 0px;
     margin-bottom: -1.1%;
     height: auto:
@@ -865,15 +784,9 @@ li {
     font-weight: 400;
     text-underline-position: under;
     color: #1a80ff;
-/*    text-underline-position: auto;*/
-/*    text-decoration: none;*/
 }
 
 #ebook-text-underline:hover {
-/*
-    text-decoration: underline;
-    text-underline-position: auto;
-*/
     color: #00216E;
 }
 
@@ -885,7 +798,6 @@ li {
     padding-left: 16.66%;
     padding-top: 2rem;
     padding-bottom: 3rem;
-/*    align-content: center;*/
 }
 
 #card-cta-pic {
@@ -925,7 +837,6 @@ li {
         background-repeat: no-repeat;
         background-position: top center;
         max-width: 100% auto;
-    /*    height:1000px;*/
 
     }
 
@@ -952,7 +863,6 @@ li {
 
     #oGrid {
         margin-left: 28%;
-/*        margin-right: auto;*/
         margin-top: 20%;
         padding-left: 0;
         width: 38%;
@@ -1073,8 +983,6 @@ li {
         padding-right: 1rem;
     }
 
-
-
 }
 /*_________________________________  1280  ___________________________________*/
 @media (max-width: 1280px) {
@@ -1093,8 +1001,6 @@ li {
         background-repeat: no-repeat;
         background-position: top center;
         max-width: 100% auto;
-    /*    height:1000px;*/
-
     }
 
     #squares-left-container {
@@ -1120,7 +1026,6 @@ li {
 
     #oGrid {
         margin-left: 28%;
-/*        margin-right: auto;*/
         margin-top: 26%;
         padding-left: 0;
         width: 36%;
@@ -1320,7 +1225,6 @@ li {
     }
 
     #card-ebook-pad {
-    /*    margin-left: 50px;*/
         padding-left: 0px;
         padding-top: 7.5rem;
     }
@@ -1372,18 +1276,13 @@ li {
         font-weight: 400;
         text-underline-position: under;
         color: #1a80ff;
-    /*    text-underline-position: auto;*/
-    /*    text-decoration: none;*/
-}
-
-    
+    }
 
 }
 /*_________________________________  992  ___________________________________*/
 @media (max-width: 992px) {
     
     #endring-wrapper {
-
         padding: 0px;
         margin-bottom: -1.7%;
         height: auto:
@@ -1403,7 +1302,6 @@ li {
         padding-left: 180px;
     }
 
-    
     #panel_1,
     #panel_2,
     #panel_3 {
@@ -1422,7 +1320,6 @@ li {
         background-repeat: no-repeat;
         background-position: top center;
         max-width: 100% auto;
-    /*    height:1000px;*/
 
     }
 
@@ -1449,7 +1346,6 @@ li {
 
     #oGrid {
         margin-left: 32%;
-/*        margin-right: auto;*/
         margin-top: 23%;
         padding-left: 0;
         width: 32%;
@@ -1690,7 +1586,6 @@ li {
         margin-left: -1.43rem;
         margin-right: -1.43rem;
         padding-left: 2.3rem;
-    /*    padding-bottom: 20px;*/
     }
 
     #panel1-card-h3-second {
@@ -1856,8 +1751,6 @@ li {
         font-weight: 400;
         text-underline-position: under;
         color: #1a80ff;
-    /*    text-underline-position: auto;*/
-    /*    text-decoration: none;*/
     }
 }
 /*_________________________________  768  ___________________________________*/
@@ -1870,8 +1763,6 @@ li {
         background-repeat: no-repeat;
         background-position: top center;
         max-width: 100% auto;
-    /*    height:1000px;*/
-
     }
 
     #squares-left-container {
@@ -1897,7 +1788,6 @@ li {
 
     #oGrid {
         margin-left: 32%;
-/*        margin-right: auto;*/
         margin-top: 23%;
         padding-left: 0;
         width: 32%;
@@ -2138,7 +2028,6 @@ li {
         margin-left: -1.43rem;
         margin-right: -1.43rem;
         padding-left: 2.3rem;
-    /*    padding-bottom: 20px;*/
     }
 
     #panel1-card-h3-second {
@@ -2304,14 +2193,8 @@ li {
         font-weight: 400;
         text-underline-position: under;
         color: #1a80ff;
-    /*    text-underline-position: auto;*/
-    /*    text-decoration: none;*/
-    }
 
-}  
-}
-/*_________________________________  576  ___________________________________*/
-@media (max-width: 576px) {
+    }  
 }
 /*_________________________________  IPHONE PLUS 414  ___________________________________*/
 @media screen and (max-width: 768px) {
@@ -2401,9 +2284,7 @@ li {
     #flip-today-container {
         margin-left: -3rem;
         padding-left: 0%;
-        
         width: 724px;
-/*        left: 0px;*/
     }
     
     #flip-today {
@@ -2415,18 +2296,11 @@ li {
         margin-left: -1.4rem;
         padding-top: 0px;
         padding-left: 0px;
-/*        margin-left: 23%;*/
     }
     
     #flip-osr {
         width: 375px;
     }
-    
-/*CHANGE WIDTH FOR IPHONE VS ANDROID
-    #flip-osr {
-        width: 360px;
-    }
-*/
     
     #osr-container {
         margin-left: 91%;
@@ -2460,13 +2334,12 @@ li {
     }
     
     #hero-container2 {
-/*        background-image: url('../img/bg-image2-m.jpg');*/
         background-image: url('../img/bg-image2-m-sm.jpg');
-        }
+    }
     
     #pin1 {
-    background: white;
-    height: 120vh;
+        background: white;
+        height: 120vh;
     }
 
     #card-man-container {
@@ -2545,144 +2418,131 @@ li {
         padding-left: 36px;
     }
 
-#trigger2 {
-    padding-right: 0px;
-    background-color: white;
-/*    height: 200vh;*/
-}
+    #trigger2 {
+        padding-right: 0px;
+        background-color: white;
+    }
 
-#ring-grid {
-/*    background-color: hotpink;*/
-    background-image: url('../svg/endrings-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: auto;
+    #ring-grid {
+        background-image: url('../svg/endrings-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: auto;
+
+        background-color: #0F2146;
+        height: 70vh;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
     
+    #endring-bg {
+    }    
     
-    background-color: #0F2146;
-    height: 70vh;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 30px;
-}
+    #card-ebook-pad {
+        padding-left: 0px;
+        margin-top: -3rem;
+        padding-top: 6rem;
+    }
+
+    #card-ebook-container {
+        border-color: rgba(0, 0, 0, 0.2);;
+        width: 300px;
+        left: 7%;
+        bottom: 10%;
+        height: 23rem;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-body {
+        margin-top: -16px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-left: .6rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-h6 {
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-bottom: 1rem;
+        color: #acaaa8;
+    }
+
+    #card-ebook-h3-1 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 0px;
+        color:#0e1871;
+        line-height: 42px;
+    }
+
+    #card-ebook-h3-2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: #1A80FF;
+        padding-bottom: 1.4rem;
+    }
+
+    #card-ebook-p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        color:#4f5f6c;
+        padding-bottom: 1rem;
+    }
+
+    #card-ebook-link-container {
+        padding-top: 1rem;
+    }
+
+    #ebook-text-underline {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+        font-weight: 400;
+        text-underline-position: under;
+        color: #1a80ff;
+    }
+
+    #cta-grid {
+        margin-top: -460px;
+    }
+
+    #card-cta-pic-container {
+        margin-top: -100px;
+        padding-left: 16.66%;
+        padding-top: 6rem;
+        padding-bottom: 9rem;
+    }
+
+    #card-cta-pic {
+    }
+
+    #card-cta-container-mobile {
+    }
+
+    #card-cta-mobile {
+    }
+
+    #card-cta-pic-container-mobile {
+        margin: 0;
+        padding: 0;
+    }
+
+    #card-cta-pic-mobile {
+        width: 1px;
+    }
+
+    #card-cta-pic-mobile {
+        margin-left: -24px;
+        padding-top: 40px;
+        padding-left: 0px;
+        width: 286px;
+    }
     
-    
-#endring-bg {
-}    
-    
-#card-ebook-pad {
-/*    margin-left: 50px;*/
-    padding-left: 0px;
-    margin-top: -3rem;
-    padding-top: 6rem;
-}
-
-
-#card-ebook-container {
-    border-color: rgba(0, 0, 0, 0.2);;
-    width: 300px;
-    left: 7%;
-    bottom: 10%;
-    height: 23rem;
-    padding: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-/*    padding-top: 200px;*/
-}
-    
-#card-ebook-body {
-    margin-top: -16px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-left: .6rem;
-    padding-right: 1rem;
-}
-
-#card-ebook-h6 {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 0px;
-    padding-bottom: 1rem;
-    color: #acaaa8;
-}
-
-#card-ebook-h3-1 {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 0px;
-    color:#0e1871;
-    line-height: 42px;
-}
-
-#card-ebook-h3-2 {
-    font-size: 32px;
-    font-weight: 500;
-    color: #1A80FF;
-    padding-bottom: 1.4rem;
-}
-
-#card-ebook-p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 26px;
-    color:#4f5f6c;
-    padding-bottom: 1rem;
-}
-
-#card-ebook-link-container {
-    padding-top: 1rem;
-}
-
-#ebook-text-underline {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 16px;
-    font-weight: 400;
-    text-underline-position: under;
-    color: #1a80ff;
-/*    text-underline-position: auto;*/
-/*    text-decoration: none;*/
-}
-    
-#cta-grid {
-    margin-top: -460px;
-}
-
-#card-cta-pic-container {
-    margin-top: -100px;
-    padding-left: 16.66%;
-    padding-top: 6rem;
-    padding-bottom: 9rem;
-}
-
-#card-cta-pic {
-}
-
-#card-cta-container-mobile {
-}
-
-#card-cta-mobile {
-}
-
-#card-cta-pic-container-mobile {
-    margin: 0;
-    padding: 0;
-}
-
-#card-cta-pic-mobile {
-    width: 1px;
-}
-
-    
-#card-cta-pic-mobile {
-/*    margin-right: 10px;*/
-    margin-left: -24px;
-    padding-top: 40px;
-    padding-left: 0px;
-    width: 286px;
-}
-
-  
-
 }  
 /*_________________________________  END IPHONE PLUS 414  ___________________________________*/
 
@@ -2778,9 +2638,7 @@ li {
     #flip-today-container {
         margin-left: -3rem;
         padding-left: 0%;
-        
         width: 724px;
-/*        left: 0px;*/
     }
     
     #flip-today {
@@ -2792,19 +2650,12 @@ li {
         margin-left: -1.4rem;
         padding-top: 30px;
         padding-left: 0px;
-/*        margin-left: 23%;*/
     }
     
     #flip-osr {
         width: 375px;
     }
-    
-/*CHANGE WIDTH FOR IPHONE VS ANDROID
-    #flip-osr {
-        width: 360px;
-    }
-*/
-    
+
     #osr-container {
         margin-left: 100%;
         margin-top: 13rem;
@@ -2837,11 +2688,9 @@ li {
     }
     
     #hero-container2 {
-/*        background-image: url('../img/bg-image2-m.jpg');*/
         background-image: url('../img/bg-image2-m-sm.jpg');
-        }
-
-    
+    }
+   
     /*  START CARD MAN 375 */
 /*-------------------------------------------------------------------------*/
     
@@ -2931,146 +2780,133 @@ li {
     /*  START END SCREEN 375 */
 /*-------------------------------------------------------------------------*/
 
-#trigger2 {
-    padding-right: 0px;
-    background-color: white;
-/*    height: 200vh;*/
-}
+    #trigger2 {
+        padding-right: 0px;
+        background-color: white;
+    }
 
-#ring-grid {
-/*    background-color: hotpink;*/
-    background-image: url('../svg/endrings-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: auto;
+    #ring-grid {
+        background-image: url('../svg/endrings-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: auto;
+
+        background-color: #0F2146;
+        height: 70vh;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    #endring-bg {
+    }    
+
+    #card-ebook-pad {
+        padding-left: 0px;
+        margin-top: -3rem;
+        padding-top: 6rem;
+    }
+
+    #card-ebook-container {
+        border-color: rgba(0, 0, 0, 0.2);;
+        width: 290px;
+        left: 28%;
+        bottom: 10%;
+        height: 23rem;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-body {
+        margin-top: -16px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-left: .6rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-h6 {
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-bottom: 1rem;
+        color: #acaaa8;
+    }
+
+    #card-ebook-h3-1 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 0px;
+        color:#0e1871;
+        line-height: 42px;
+    }
+
+    #card-ebook-h3-2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: #1A80FF;
+        padding-bottom: 1.4rem;
+    }
+
+    #card-ebook-p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        color:#4f5f6c;
+        padding-bottom: 1rem;
+    }
+
+    #card-ebook-link-container {
+        padding-top: 1rem;
+    }
+
+    #ebook-text-underline {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+        font-weight: 400;
+        text-underline-position: under;
+        color: #1a80ff;
+    }
     
-    
-    background-color: #0F2146;
-    height: 70vh;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 30px;
-}
-    
-    
-#endring-bg {
-}    
-    
-#card-ebook-pad {
-/*    margin-left: 50px;*/
-    padding-left: 0px;
-    margin-top: -3rem;
-    padding-top: 6rem;
-}
+    #cta-grid {
+        margin-top: -460px;
+    }
 
+    #card-cta-pic-container {
+        margin-top: -100px;
+        padding-left: 16.66%;
+        padding-top: 6rem;
+        padding-bottom: 9rem;
+    }
 
-#card-ebook-container {
-    border-color: rgba(0, 0, 0, 0.2);;
-    width: 290px;
-    left: 28%;
-    bottom: 10%;
-    height: 23rem;
-    padding: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-/*    padding-top: 200px;*/
-}
-    
-#card-ebook-body {
-    margin-top: -16px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-left: .6rem;
-    padding-right: 1rem;
-}
+    #card-cta-pic {
+    }
 
-#card-ebook-h6 {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 0px;
-    padding-bottom: 1rem;
-    color: #acaaa8;
-}
+    #card-cta-container-mobile {
+    }
 
-#card-ebook-h3-1 {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 0px;
-    color:#0e1871;
-    line-height: 42px;
-}
+    #card-cta-mobile {
+    }
 
-#card-ebook-h3-2 {
-    font-size: 32px;
-    font-weight: 500;
-    color: #1A80FF;
-    padding-bottom: 1.4rem;
-}
+    #card-cta-pic-container-mobile {
+        margin: 0;
+        padding: 0;
+    }
 
-#card-ebook-p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 26px;
-    color:#4f5f6c;
-    padding-bottom: 1rem;
-}
+    #card-cta-pic-mobile {
+        width: 1px;
+    }
 
-#card-ebook-link-container {
-    padding-top: 1rem;
-}
-
-#ebook-text-underline {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 16px;
-    font-weight: 400;
-    text-underline-position: under;
-    color: #1a80ff;
-/*    text-underline-position: auto;*/
-/*    text-decoration: none;*/
-}
-    
-#cta-grid {
-    margin-top: -460px;
-}
-
-#card-cta-pic-container {
-    margin-top: -100px;
-    padding-left: 16.66%;
-    padding-top: 6rem;
-    padding-bottom: 9rem;
-}
-
-#card-cta-pic {
-}
-
-#card-cta-container-mobile {
-}
-
-#card-cta-mobile {
-}
-
-#card-cta-pic-container-mobile {
-    margin: 0;
-    padding: 0;
-}
-
-#card-cta-pic-mobile {
-    width: 1px;
-}
-
-    
-#card-cta-pic-mobile {
-/*    margin-right: 10px;*/
-    margin-left: -24px;
-    padding-top: 40px;
-    padding-left: 0px;
-    width: 286px;
-}
+    #card-cta-pic-mobile {
+        margin-left: -24px;
+        padding-top: 40px;
+        padding-left: 0px;
+        width: 286px;
+    }
     
     /*  END END SCREEN 375 */
 /*-------------------------------------------------------------------------*/
-
-  
 }  
 /*_________________________________  END IPHONE 375  ___________________________________*/
 
@@ -3162,9 +2998,7 @@ li {
     #flip-today-container {
         margin-left: -3.6rem;
         padding-left: 0%;
-        
         width: 724px;
-/*        left: 0px;*/
     }
     
     #flip-today {
@@ -3176,18 +3010,11 @@ li {
         margin-left: -.96rem;
         padding-top: 30px;
         padding-left: 0px;
-/*        margin-left: 23%;*/
     }
     
     #flip-osr {
         width: 346px;
     }
-    
-/*CHANGE WIDTH FOR IPHONE VS ANDROID
-    #flip-osr {
-        width: 360px;
-    }
-*/
     
     #osr-container {
         margin-left: 109.5%;
@@ -3221,13 +3048,12 @@ li {
     }
     
     #hero-container2 {
-/*        background-image: url('../img/bg-image2-m.jpg');*/
         background-image: url('../img/bg-image2-m-sm.jpg');
-        }
+    }
     
     #pin1 {
-    background: white;
-    height: 120vh;
+        background: white;
+        height: 120vh;
     }
 
     #card-man-container {
@@ -3307,148 +3133,136 @@ li {
         padding-left: 36px;
     }
 
-#trigger2 {
-    padding-right: 0px;
-    background-color: white;
-/*    height: 200vh;*/
-}
+    #trigger2 {
+        padding-right: 0px;
+        background-color: white;
+    }
 
-#ring-grid {
-/*    background-color: hotpink;*/
-    background-image: url('../svg/endrings-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: auto;
+    #ring-grid {
+        background-image: url('../svg/endrings-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: auto;
+
+        background-color: #0F2146;
+        height: 70vh;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    #endring-bg {
+    }    
+
+    #card-ebook-pad {
+        padding-left: 0px;
+        margin-top: -3rem;
+        padding-top: 6rem;
+    }
+
+    #card-ebook-container {
+        border-color: rgba(0, 0, 0, 0.2);;
+        width: 270px;
+        left: 29.5%;
+        bottom: 10%;
+        height: 23rem;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-body {
+        margin-top: -16px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-left: .6rem;
+        padding-right: 1rem;
+    }
+
+    #card-ebook-h6 {
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-bottom: 1rem;
+        color: #acaaa8;
+    }
+
+    #card-ebook-h3-1 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 0px;
+        color:#0e1871;
+        line-height: 42px;
+    }
+
+    #card-ebook-h3-2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: #1A80FF;
+        padding-bottom: 1.4rem;
+    }
+
+    #card-ebook-p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        color:#4f5f6c;
+        padding-bottom: 1rem;
+    }
+
+    #card-ebook-link-container {
+        padding-top: 1rem;
+    }
+
+    #ebook-text-underline {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+        font-weight: 400;
+        text-underline-position: under;
+        color: #1a80ff;
+    }
+
+    #ebook-text-underline:hover {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+        font-weight: 400;
+    }
     
-    
-    background-color: #0F2146;
-    height: 70vh;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 30px;
-}
-    
-    
-#endring-bg {
-}    
-    
-#card-ebook-pad {
-/*    margin-left: 50px;*/
-    padding-left: 0px;
-    margin-top: -3rem;
-    padding-top: 6rem;
-}
+    #cta-grid {
+        margin-top: -460px;
+    }
 
+    #card-cta-pic-container {
+        margin-top: -130px;
+        padding-left: 16.66%;
+        padding-top: 6rem;
+        padding-bottom: 9rem;
+    }
 
-#card-ebook-container {
-    border-color: rgba(0, 0, 0, 0.2);;
-    width: 270px;
-    left: 29.5%;
-    bottom: 10%;
-    height: 23rem;
-    padding: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-/*    padding-top: 200px;*/
-}
-    
-#card-ebook-body {
-    margin-top: -16px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-left: .6rem;
-    padding-right: 1rem;
-}
+    #card-cta-pic {
+    }
 
-#card-ebook-h6 {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 0px;
-    padding-bottom: 1rem;
-    color: #acaaa8;
-}
+    #card-cta-container-mobile {
+    }
 
-#card-ebook-h3-1 {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 0px;
-    color:#0e1871;
-    line-height: 42px;
-}
+    #card-cta-mobile {
+    }
 
-#card-ebook-h3-2 {
-    font-size: 32px;
-    font-weight: 500;
-    color: #1A80FF;
-    padding-bottom: 1.4rem;
-}
+    #card-cta-pic-container-mobile {
+        margin: 0;
+        padding: 0;
+    }
 
-#card-ebook-p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 26px;
-    color:#4f5f6c;
-    padding-bottom: 1rem;
-}
+    #card-cta-pic-mobile {
+        width: 1px;
+    }
 
-#card-ebook-link-container {
-    padding-top: 1rem;
-}
-
-#ebook-text-underline {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 16px;
-    font-weight: 400;
-    text-underline-position: under;
-    color: #1a80ff;
-/*    text-underline-position: auto;*/
-/*    text-decoration: none;*/
-}
-    
-#ebook-text-underline:hover {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 16px;
-    font-weight: 400;
-
-}
-    
-#cta-grid {
-    margin-top: -460px;
-}
-
-#card-cta-pic-container {
-    margin-top: -130px;
-    padding-left: 16.66%;
-    padding-top: 6rem;
-    padding-bottom: 9rem;
-}
-
-#card-cta-pic {
-}
-
-#card-cta-container-mobile {
-}
-
-#card-cta-mobile {
-}
-
-#card-cta-pic-container-mobile {
-    margin: 0;
-    padding: 0;
-}
-
-#card-cta-pic-mobile {
-    width: 1px;
-}
-
-    
-#card-cta-pic-mobile {
-/*    margin-right: 10px;*/
-    margin-left: -24px;
-    padding-top: 40px;
-    padding-left: 0px;
-    width: 286px;
-}
+    #card-cta-pic-mobile {
+        margin-left: -24px;
+        padding-top: 40px;
+        padding-left: 0px;
+        width: 286px;
+    }
    
 }
 /*_________________________________  END ANDROID 360  ___________________________________*/
