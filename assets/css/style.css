@@ -401,7 +401,7 @@ li {
 
 #oGrid2-padding {
     padding-left: 18%;
-    padding-top: 80px;
+    padding-top: 120px;
     padding-bottom: 0px;
 }
 
@@ -711,7 +711,7 @@ li {
 
 #endring-wrapper {
     padding: 0px;
-    margin-bottom: -1.1%;
+    margin-bottom: -2px;
     height: auto:
 }
 
@@ -826,7 +826,7 @@ li {
     #endring-wrapper {
 
     padding: 0px;
-    margin-bottom: -1.1%;
+    margin-bottom: -2px;
     height: auto:
 }
     
@@ -1113,7 +1113,7 @@ li {
 
     #panels-container {
         padding-top: 200px;
-        padding-left: 6%;
+        padding-left: 11%;
     }
     
     #oGrid2 {
@@ -1266,17 +1266,17 @@ li {
         padding-bottom: 1.6rem;
     }
 
-    #card-ebook-link-container {
-        padding-top: 1rem;
-    }
+#ebook-text-underline {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    text-underline-position: under;
+    color: #1a80ff;
+}
 
-    #ebook-text-underline {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 20px;
-        font-weight: 400;
-        text-underline-position: under;
-        color: #1a80ff;
-    }
+#ebook-text-underline:hover {
+    color: #00216E;
+}
 
 }
 /*_________________________________  992  ___________________________________*/
@@ -1284,7 +1284,7 @@ li {
     
     #endring-wrapper {
         padding: 0px;
-        margin-bottom: -1.7%;
+        margin-bottom: -2px;
         height: auto:
     }
     
@@ -1743,11 +1743,13 @@ li {
 
     #card-ebook-link-container {
         padding-top: 0rem;
+        font-size: 12px;
+        font-weight: 400;
     }
 
     #ebook-text-underline {
         font-family: "IBM Plex Mono", monospace;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         text-underline-position: under;
         color: #1a80ff;
