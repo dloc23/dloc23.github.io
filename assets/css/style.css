@@ -1259,16 +1259,16 @@ li {
     }
 
     #card-ebook-p {
-        font-size: 16px;
-        font-weight: 300;
+        font-size: 15px;
+        font-weight: 400;
         line-height: 26px;
         color:#4f5f6c;
-        padding-bottom: 1.6rem;
+        padding-bottom: 1.8rem;
     }
 
 #ebook-text-underline {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     text-underline-position: under;
     color: #1a80ff;
