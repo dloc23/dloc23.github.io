@@ -806,10 +806,14 @@ li {
 }
 
 #card-cta-pic {
-    width: 100%;
+    width: 80%;
+    padding: 1%;
+    padding-left: 8%;
+
 }
 
 #card-cta-container-mobile {
+/*    margin: 20%;*/
 }
 
 #card-cta-mobile {
