@@ -301,9 +301,9 @@ li {
 }
 
 #squares-left-container {
-    padding-left: 320px;
-    padding-top: 360px;
-    width: 360px;
+    padding-left: 300px;
+    padding-top: 300px;
+    width: 690px;
 }
 
 #squares-right-container {
@@ -396,7 +396,7 @@ li {
 
 #panels-container {
     padding-top: 200px;
-    padding-left: 18%;
+    padding-left: 21%;
 }
 
 #oGrid2 {
@@ -437,6 +437,7 @@ li {
     list-style-type: none;
     cursor: pointer;
     cursor: hand;
+    padding-top: 14%;
 }
 
 
@@ -817,7 +818,6 @@ li {
 }
 
 #card-cta-container-mobile {
-/*    margin: 20%;*/
 }
 
 #card-cta-mobile {
@@ -855,7 +855,7 @@ li {
     #squares-left-container {
         padding-left: 320px;
         padding-top: 280px;
-        width: 320px;
+        width: 650px;
     }
 
     #squares-right-container {
@@ -945,6 +945,10 @@ li {
         padding-left: 2%;
         padding-top: 4%;
     }
+    
+    .slide-list {
+        padding-top: 13%;
+}
 
     #panels {
         width: 623px;
@@ -952,7 +956,7 @@ li {
 
     #panels-container {
         padding-top: 200px;
-        padding-left: 17%;
+        padding-left: 19%;
     }
     
     #oGrid2 {
@@ -1016,9 +1020,9 @@ li {
     }
 
     #squares-left-container {
-        padding-left: 320px;
+        padding-left: 300px;
         padding-top: 250px;
-        width: 280px;
+        width: 600px;
     }
 
     #squares-right-container {
@@ -1038,12 +1042,12 @@ li {
 
     #oGrid {
         margin-left: 28%;
-        margin-top: 26%;
+        margin-top: 19%;
         padding-left: 0;
         width: 36%;
     }
     .hero-container-header {
-        padding-top: 21%;
+        padding-top: 14%;
         padding-right: 0px;
         margin-left: 0px;
     }
@@ -1107,6 +1111,10 @@ li {
         padding-top: 8%;
     }
     
+    .slide-list {
+        padding-top: 11%;
+}
+    
     #first_panel {
         padding-left: 346px;
     }
@@ -1125,7 +1133,7 @@ li {
 
     #panels-container {
         padding-top: 200px;
-        padding-left: 11%;
+        padding-left: 13%;
     }
     
     #oGrid2 {
@@ -1336,9 +1344,9 @@ li {
     }
 
     #squares-left-container {
-        padding-left: 320px;
-        padding-top: 180px;
-        width: 220px;
+        padding-left: 290px;
+        padding-top: 190px;
+        width: 520px;
     }
 
     #squares-right-container {
