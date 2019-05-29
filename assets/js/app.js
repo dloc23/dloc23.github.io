@@ -1,7 +1,16 @@
 $(document).ready(function() {
+    
+    var newHeight;
+    
+    $(window).on('resize', function(){
+            var win = $(this);
+            newHeight = $(window).height();
+            console.log( newHeight );
+        });
+    
     $.when().then(init);
     
-    function init() {
+    function init() {              
         
     var animController = new ScrollMagic.Controller();
     var sceneArray = [];
@@ -240,16 +249,19 @@ $(document).ready(function() {
             
             .add(TweenMax.from('#project-management', 4, {opacity:0, y:'+=80', ease: Linear.easeNone}), 38)
             .add(TweenMax.from('#blue-ring', 4, {opacity:0, ease: Linear.easeNone}), 42)
-            
-            .add(TweenMax.to('#panel2-head', 4, { opacity: 1, x:"-=554", ease: Linear.easeNone }), 44)
-            .add(TweenMax.to('#panel2-box', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 45)
-            .add(TweenMax.to('#panel2-para', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 45)
 
             .add(TweenMax.to('#discover', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 42)
             .add(TweenMax.to('#people', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 43)
             .add(TweenMax.to('#benefits', 4, { opacity: 1, x:'+=110', ease: Linear.easeNone }), 44)
 
-            .add(TweenMax.to('#osrChart', 4, {  scale: 0.82, x:'-=160', y:'+=56' }), 44)
+            
+            // Add Pause
+            .add(TweenMax.to('#osrChart', 4, {  scale: 0.82, x:'-=160', y:'+=56' }), 64)
+        
+            .add(TweenMax.to('#panel2-head', 4, { opacity: 1, x:"-=554", ease: Linear.easeNone }), 64)
+            .add(TweenMax.to('#panel2-box', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 65)
+            .add(TweenMax.to('#panel2-para', 3, { opacity: 1, x:"-=196", ease: Linear.easeNone }), 65)
+            // End Add Pause
         
             .add(TweenMax.to('#dots-bl', 4, {opacity:0, ease: Linear.easeIn}), 84)
             .add(TweenMax.to('#dots-br', 4, {opacity:0, ease: Linear.easeIn}), 84)
@@ -274,18 +286,20 @@ $(document).ready(function() {
             .add(TweenMax.to('#business-intelligence-text', 3, { stroke:'rgba(0,0,0, .4)', }), 85)
             .add(TweenMax.to('#business-intelligence-line', 3, {scaleX: 1.3, ease: Linear.easeNone}), 85)
             .add(TweenMax.to('#business-intelligence', 3, {y:'-=61', ease: Linear.easeNone}), 85)
-        
-            .add(TweenMax.to('#panel2-head', 2, { opacity: 0, x:"+=150", ease: Linear.easeNone }), 82)
-            .add(TweenMax.to('#panel2-box', 3, { opacity: 0, ease: Linear.easeNone }), 81)
-            .add(TweenMax.to('#panel2-para', 2, { opacity: 0, x:"+=200", ease: Linear.easeNone }), 83)
+            
+            // Add Pause
+            .add(TweenMax.to('#panel2-head', 2, { opacity: 0, x:"+=150", ease: Linear.easeNone }), 88)
+            .add(TweenMax.to('#panel2-box', 3, { opacity: 0, ease: Linear.easeNone }), 87)
+            .add(TweenMax.to('#panel2-para', 2, { opacity: 0, x:"+=200", ease: Linear.easeNone }), 89)
         
             .add(TweenMax.to('#panel3-head2', 0, { opacity: 0, x:"+=150", ease: Linear.easeNone }), 0)
-            .add(TweenMax.to('#panel3-head', 3, { opacity: 1, x:"-=300", ease: Linear.easeNone }), 82)
-            .add(TweenMax.to('#panel3-head2', 4, { opacity: 1, x:"-=150", ease: Linear.easeNone }), 84)
-            .add(TweenMax.to('#panel3-div', 4, { opacity: 1, y:"", ease: Linear.easeNone }), 84)
-            .add(TweenMax.to('#dots1', 4, { opacity: 1, ease: Linear.easeNone }), 84)
+            .add(TweenMax.to('#panel3-head', 3, { opacity: 1, x:"-=300", ease: Linear.easeNone }), 88)
+            .add(TweenMax.to('#panel3-head2', 4, { opacity: 1, x:"-=150", ease: Linear.easeNone }), 90)
+            .add(TweenMax.to('#panel3-div', 4, { opacity: 1, y:"", ease: Linear.easeNone }), 90)
+            .add(TweenMax.to('#dots1', 4, { opacity: 1, ease: Linear.easeNone }), 90)
             .add(TweenMax.to('#panel3-pg1', 0, { scale: 1, x:"+=154", y:"+=46"}), 0)
-            .add(TweenMax.to('#panel3-pg1', 4, { opacity: 1, x:"-=150" }), 86)
+            .add(TweenMax.to('#panel3-pg1', 4, { opacity: 1, x:"-=150" }), 92)
+            // End Add Pause
     
             .add(TweenMax.to('#purple-label-white-box', 4, { y:"+=61", opacity:0, ease: Linear.easeNone }), 118)
             .add(TweenMax.to('#label-purple-highlight', 4, { y:"+=61", opacity:0, ease: Linear.easeNone }), 118)
@@ -552,15 +566,22 @@ $(document).ready(function() {
         .add(TweenMax.to('#girl-card3', 1, { opacity: 0, y:"+=100" }), 0)
         .add(TweenMax.to('#girl-card3', 8, { opacity: 1 }), 112)
         
-        .add(TweenMax.to('#oGrid2 #service-leader', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 94)
-        .add(TweenMax.to('#oGrid2 #resource-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 102)
-        .add(TweenMax.to('#oGrid2 #project-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 110)
-        .add(TweenMax.to('#oGrid2 #contributor', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 118)
-        .add(TweenMax.to('#oGrid2 #executive', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 124)
+//        .add(TweenMax.to('#oGrid2 #service-leader', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 94)
+//        .add(TweenMax.to('#oGrid2 #resource-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 102)
+//        .add(TweenMax.to('#oGrid2 #project-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 110)
+//        .add(TweenMax.to('#oGrid2 #contributor', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 118)
+//        .add(TweenMax.to('#oGrid2 #executive', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 124)
         
-        .add(TweenMax.to('#oGrid2 #header', 8, {y:'-=1650', opacity:0, ease: Linear.easeNone}), 132)
+        .add(TweenMax.to('#oGrid2 #service-leader', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 112)
+        .add(TweenMax.to('#oGrid2 #resource-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 112)
+        .add(TweenMax.to('#oGrid2 #project-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 112)
+        .add(TweenMax.to('#oGrid2 #contributor', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 112)
+        .add(TweenMax.to('#oGrid2 #executive', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 112)
+        .add(TweenMax.to('#oGrid2 #header', 8, {y:'-=1650', opacity:0, ease: Linear.easeNone}), 112)
         
-        .add(TweenMax.staggerTo('#oGrid2 #ogrid2-outter-whole, #oGrid2 #osr-label', 4, {opacity:0, ease: Linear.easeNone}), 120)
+        .add(TweenMax.to('#oGrid2 #ogrid2-outter-whole, #oGrid2 #osr-label', 8, {opacity:0, ease: Linear.easeNone}), 112)
+        .add(TweenMax.to('#oGrid2 #osr-label', 4, {opacity:0, ease: Linear.easeNone}), 116)
+        
         
         .add(TweenMax.to('#oGrid2 #ogrid2-bl path, #oGrid2 #ogrid2-tl path, #oGrid2 #ogrid2-br path, #oGrid2 #ogrid2-tr path, #oGrid2 #ogrid2-top path', 8, { stroke: '#ffffff', ease: Linear.easeNone }), 135)
         
@@ -574,12 +595,16 @@ $(document).ready(function() {
         .add(TweenMax.to('#discover', 8, { y:'+=58' }), 144)
         .add(TweenMax.to('#people', 8, { y:'+=58' }), 144)
         .add(TweenMax.to('#benefits', 8, { y:'+=58' }), 144)
+       
         
         var scene3 = new ScrollMagic.Scene( {
             triggerElement: '#scene3',
             duration: 5400,
             triggerHook: 0.2,
-            offset: 7350  // transition of graph animation to people animation
+            //offset: 7350  // transition of graph animation to people animation
+            offset: $(window).height() * 7.5 // position the hero image up or down
+            //offset: newHeight * 7.5
+            
         })
         .setTween(s3tl)
         .addTo(animController);
@@ -648,38 +673,41 @@ $(document).ready(function() {
             
         var controller = new ScrollMagic.Controller();
 
-            var timeline = new TimelineMax();
-            var tween1 = TweenMax.from("#card-man", 1, { opacity: 0, y:'+=40', delay: 0.4 });
-            var tween2 = TweenMax.from("#card-man2", 1, { opacity: 0, delay: 0 });
-
-            timeline.add(tween1).add(tween2);
+//            var timeline = new TimelineMax();
+//            var tween1 = TweenMax.to("#card-man", 0.2, { opacity: 1,  delay: 0.2 });
+//            var tween2 = TweenMax.to("#card-man2", 0.2, { opacity: 1, delay: 0 });
+//
+//            timeline.add(tween1).add(tween2);
 
         var scene = new ScrollMagic.Scene({
 
             triggerElement: "#trigger1", 
-            duration: 1800,
-            offset: 450 })
+            duration: $(window).height() + 200,
+//            triggerHook: 0,
+//            offset: 450 })
+            offset: ($(window).height() / 2)
+            })
             .setPin("#pin1")
-            .setTween(timeline)
+//            .setTween(timeline)
             .addTo(controller);
 
                 var controller = new ScrollMagic.Controller();
         
-                var timeline2 = new TimelineMax();
-                    var tween11 = TweenMax.from("#card-ebook-container", .4, { opacity: 0, y:'+=40', delay: 0.1 });
-                    var tween12 = TweenMax.from("#card-cta-pic", .4, { opacity: 0, y:'+=40', delay: .1 });
-                    var tween13 = TweenMax.staggerTo(
-                            [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
-                            1.2,
-                            { opacity: 0.5,
-                             //delay: 1,
-                             repeat: -1,
-                             yoyo: true,
-                             ease: Circ.easeInOut },
-                            .3
-                        );
-
-                timeline2.add(tween11).add(tween12);
+//                var timeline2 = new TimelineMax();
+//                    var tween11 = TweenMax.from("#card-ebook-container", .4, { opacity: 0, y:'+=40', delay: 0.1 });
+//                    var tween12 = TweenMax.from("#card-cta-pic", .4, { opacity: 0, y:'+=40', delay: .1 });
+//                    var tween13 = TweenMax.staggerTo(
+//                            [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
+//                            1.2,
+//                            { opacity: 0.5,
+//                             //delay: 1,
+//                             repeat: -1,
+//                             yoyo: true,
+//                             ease: Circ.easeInOut },
+//                            .3
+//                        );
+//
+//                timeline2.add(tween11).add(tween12);
 
         var scene = new ScrollMagic.Scene({
                     
@@ -688,7 +716,7 @@ $(document).ready(function() {
             offset: 0 })
 
             .setPin("#pin2")
-            .setTween(timeline2)
+            //.setTween(timeline2)
             .addTo(controller);
 
         animController.scrollTo(function (newpos) {
