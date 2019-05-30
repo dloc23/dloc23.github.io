@@ -325,6 +325,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 23%;
+    margin-left: 25%;
     padding-left: 0;
     width: 38%;
 }
@@ -340,7 +341,7 @@ li {
     line-height: 60px;
     padding-left: 24%;
     padding-right: 0px;
-    margin-left: 0px;
+    margin-left: -6%;
 }
 
 .hero h2 {
@@ -348,14 +349,16 @@ li {
     font-weight: 400;
     line-height: 32px;
     padding-left: 35%;
+    margin-left: -1%;
 }
 
 .service {
-    padding-left: 1%;
+    padding-left: 0px;
 }
 
 .service h1 {
-    font-size: 76px;
+    font-size: 72px;
+    margin-left: -60px;
 }
 
 .today {
