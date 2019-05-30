@@ -601,6 +601,10 @@ li {
     padding-left: 2.3rem;
 }
 
+#panel1-card-h3-last {
+    padding-bottom: .7em;
+}
+
 #panel1-card-h3-second {
     background: white;
     font-weight: 300;
@@ -647,31 +651,45 @@ li {
 /*  CARD MAN*/
 /*-------------------------------------------------------------------------*/
 #pin1 {
-    background: white;
+    background: #f5f7f9;
+}
+
+
+.svp-quote-wrapper .quotation-mark-wrapper {
+    width: 65px;
+    padding-left: 3rem;
+    padding-top: 2.6rem;
+}
+
+.svp-quote-wrapper .quotation-mark-wrapper .quoatation-mark-0 {
+    fill: #d1e6ff;
 }
 
 #card-man-container {
-    padding-top: 16%;
+    padding-top: 12.5%;
     padding-left: 25%;
 }
 
-#card-man2-container {
-    padding-top: 25%;
-    padding-left: 10%;
-}
-
 #card-man {
-    width: 740px;  
+    width: 860px;
+    background: white;
 }
 
-#man-pic {
-    width: 480px;
+#card-man-body {
+    border-style: solid;
+    border-color: #1a80ff;
+    border-left-width: 6px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 12px 12px 20px -6px #A8A8A8;
+    padding-right: 4.4em;
 }
 
 .card-man-h5-1 {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-        font-size: 40px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
     }
     
 .card-man-h5-2 {
@@ -694,31 +712,43 @@ li {
     font-weight: 200;
     font-size: 22px;
     line-height: 40px;
-    padding-top: 8px;
-    padding-bottom: .4rem;
+    margin-top: -.3em;
+    padding-left: 3rem;
+    padding-top: 0em;
+    padding-bottom: 0rem;
 }
 
 #card-man-span {
     font-weight: 400;
 }
 
+#man-img {
+    margin-left: -5.3em;
+    margin-top: 2.3em;
+    padding-bottom: 3em;
+}
+
 #card-blockquote {
     font-family: "IBM Plex Mono", monospace;
-    color: black;
+    color: #484848;
     font-size: 15px;
     font-weight: 300;
-    padding-top: 1.4rem;
-    padding-bottom: 0em;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0.3em;
     margin-left: 0.4rem;
+    margin-top: -10.4em;
 }
 #card-blockquote2 {
     font-family: "IBM Plex Mono", monospace;
     color:#4f5f6c;
     font-size: 15px;
     font-weight: 200;
+    padding-left: 3rem;
     padding-top: 0rem;
-    padding-bottom: 0em;
+    padding-bottom: 3.6em;
     margin-left: 0.4rem;
+    margin-top: .6em;
 }
 /*  END CARD MAN*/
 /*-------------------------------------------------------------------------*/
@@ -1006,10 +1036,6 @@ li {
         padding-left: 25%;
     }
 
-    #card-man2-container {
-        padding-top: 24%;
-        padding-left: 14%;
-    }
     
     #card-ebook-container {
         border-color: white;
