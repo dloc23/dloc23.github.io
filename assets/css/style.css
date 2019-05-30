@@ -336,9 +336,9 @@ li {
 }
 
 .hero h1 {
-    font-size: 64px;
-    line-height: 64px;
-    padding-left: 19%;
+    font-size: 58px;
+    line-height: 60px;
+    padding-left: 24%;
     padding-right: 0px;
     margin-left: 0px;
 }
@@ -347,7 +347,7 @@ li {
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
-    padding-left: 31%;
+    padding-left: 35%;
 }
 
 .service {
@@ -661,7 +661,7 @@ li {
 }
 
 #card-man {
-    width: 480px;  
+    width: 740px;  
 }
 
 #man-pic {
@@ -691,19 +691,33 @@ li {
 
 #card-man p {
     color:#4f5f6c;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 28px;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 40px;
     padding-top: 8px;
     padding-bottom: .4rem;
 }
 
+#card-man-span {
+    font-weight: 400;
+}
+
 #card-blockquote {
     font-family: "IBM Plex Mono", monospace;
-    color:#4f5f6c;
-    font-size: 13px;
+    color: black;
+    font-size: 15px;
     font-weight: 300;
     padding-top: 1.4rem;
+    padding-bottom: 0em;
+    margin-left: 0.4rem;
+}
+#card-blockquote2 {
+    font-family: "IBM Plex Mono", monospace;
+    color:#4f5f6c;
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 0rem;
+    padding-bottom: 0em;
     margin-left: 0.4rem;
 }
 /*  END CARD MAN*/
@@ -888,9 +902,9 @@ li {
     }
 
     .hero h1 {
-        font-size: 60px;
-        line-height: 64px;
-        padding-left: 16%;
+        font-size: 56px;
+        line-height: 58px;
+        padding-left: 21%;
         padding-right: 0px;
         margin-left: 0px;
     }
@@ -899,7 +913,7 @@ li {
         font-size: 28px;
         font-weight: 400;
         line-height: 32px;
-        padding-left: 29%;
+        padding-left: 33%;
     }
     
     #service-h1-container {
@@ -1057,14 +1071,14 @@ li {
         width: 36%;
     }
     .hero-container-header {
-        padding-top: 14%;
+        padding-top: 16%;
         padding-right: 0px;
         margin-left: 0px;
     }
 
     .hero h1 {
-        font-size: 52px;
-        line-height: 56px;
+        font-size: 50px;
+        line-height: 52px;
         padding-left: 20%;
         padding-right: 0px;
         margin-left: 0px;
@@ -1074,7 +1088,7 @@ li {
         font-size: 24px;
         font-weight: 400;
         line-height: 32px;
-        padding-left: 33%;
+        padding-left: 32%;
     }
     
     #service-h1-container {
