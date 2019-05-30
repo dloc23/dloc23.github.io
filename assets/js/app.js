@@ -592,9 +592,9 @@ $(document).ready(function() {
         .set('#benefits', {className:"+=active"}, 144)
         .set('#scene2-3 .slide-list', {className:"+=white a"}, 144)
         
-        .add(TweenMax.to('#discover', 8, { y:'+=58' }), 144)
-        .add(TweenMax.to('#people', 8, { y:'+=58' }), 144)
-        .add(TweenMax.to('#benefits', 8, { y:'+=58' }), 144)
+//        .add(TweenMax.to('#discover', 8, { y:'+=58' }), 144)
+//        .add(TweenMax.to('#people', 8, { y:'+=58' }), 144)
+//        .add(TweenMax.to('#benefits', 8, { y:'+=58' }), 144)
        
         
         var scene3 = new ScrollMagic.Scene( {
