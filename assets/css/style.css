@@ -393,7 +393,7 @@ li {
 
 .slide-list-container {
     padding-left: 23px;
-    padding-top: 4%;
+/*    padding-top: 0%;*/
 }
 
 #panels {
@@ -678,7 +678,7 @@ li {
     background-color: #EDF5FC;
     margin-top: -40%;
     padding-top: 0%;
-    padding-left: 18%;
+    padding-left: 22%;
 }
 
 #card-man {
@@ -767,7 +767,9 @@ li {
 /*-------------------------------------------------------------------------*/
 #ring-grid {
     background-color: #0F2046;
-    margin-top: -12%;
+/*    background-color: red;*/
+/*    margin-top: 100px;*/
+    height: 100vh;
 }
 
 #endring-bg {
@@ -1003,7 +1005,7 @@ li {
 
     .slide-list-container {
         padding-left: 2%;
-        padding-top: 4%;
+/*        padding-top: 4%;*/
     }
     
     .slide-list {
@@ -1158,10 +1160,12 @@ li {
 /*  CARD MAN*/
 /*-------------------------------------------------------------------------*/
     
-    #ring-grid {
-        background-color: #0F2046;
-        margin-top: -23%;
-    }
+#ring-grid {
+    background-color: #0F2046;
+/*    background-color: red;*/
+/*    margin-top: 100px;*/
+    height: 100vh;
+}
 
     #card-ebook-container {
         border-color: white;
@@ -1284,7 +1288,7 @@ li {
 
     .slide-list-container {
         padding-left: 2%;
-        padding-top: 8%;
+/*        padding-top: 8%;*/
     }
     
     .slide-list {
@@ -1447,19 +1451,14 @@ li {
         margin-left: 0.4rem;
         margin-top: .6em;
     }
+
     
-/*  CARD MAN*/
-/*-------------------------------------------------------------------------*/
-    
-    #ring-grid {
-        background-color: #0F2046;
-        margin-top: -3%;
-    }
-    
-    #ring-grid {
-        background-color: #0F2046;
-        margin-top: -23%;
-    }
+#ring-grid {
+    background-color: #0F2046;
+/*    background-color: red;*/
+/*    margin-top: 100px;*/
+    height: 100vh;
+}
 
     #card-ebook-container {
         border-color: white;
