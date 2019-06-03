@@ -524,7 +524,7 @@ $(document).ready(function() {
     var scene2_3 = new ScrollMagic.Scene( {
         triggerElement: '#scene2-3',
         duration: '2100%', // KEEP NAV ON LEFT
-        triggerHook: 0.2
+        triggerHook: 0.3
     })  
         .setPin('#scene2-3-pin')    
         .addTo(animController)
@@ -663,6 +663,9 @@ $(document).ready(function() {
         
         var scene3_3 = new ScrollMagic.Scene( {
         triggerElement: '#hero-container2',
+            
+            //setPin: "#theman",
+            
         duration: '1400%',
         triggerHook: 0.1,
         offset: 0
@@ -671,27 +674,27 @@ $(document).ready(function() {
     .setTween(s3_1tl)
     .addTo(animController);
             
-        var controller = new ScrollMagic.Controller();
-
-            //var timeline = new TimelineMax();
-            //var tween1 = TweenMax.from("#card-man-container", 1, { opacity: 0, scale: 4, delay: 0 });
-            //var tween2 = TweenMax.to("#card-man2", 0.2, { opacity: 1, delay: 0 });
-
-            //timeline.add(tween1).add(tween2);
-            //timeline.add(tween1);
-
-        var scene = new ScrollMagic.Scene({
-
-            triggerElement: "#trigger2", 
-            duration: $(window).height(),
-            //duration: 100,
-            triggerHook: 0,
-            offset: 450,
-            //offset: ($(window).height() / 2)
-            })
-            .setPin("#pin1")
-//            .setTween(timeline)
-            .addTo(controller);
+//        var controller = new ScrollMagic.Controller();
+//
+//            //var timeline = new TimelineMax();
+//            //var tween1 = TweenMax.from("#card-man-container", 1, { opacity: 0, scale: 4, delay: 0 });
+//            //var tween2 = TweenMax.to("#card-man2", 0.2, { opacity: 1, delay: 0 });
+//
+//            //timeline.add(tween1).add(tween2);
+//            //timeline.add(tween1);
+//
+//        var scene = new ScrollMagic.Scene({
+//
+//            triggerElement: "#trigger2", 
+//            duration: $(window).height(),
+//            //duration: 100,
+//            triggerHook: 0,
+//            offset: 450,
+//            //offset: ($(window).height() / 2)
+//            })
+//            .setPin("#pin1")
+////            .setTween(timeline)
+//            .addTo(controller);
         
         
         
@@ -715,11 +718,11 @@ $(document).ready(function() {
 
         var scene = new ScrollMagic.Scene({
                     
-            triggerElement: "#trigger2",
+            triggerElement: "#cta-grid",
             duration: 0,
             offset: 0 })
 
-            //.setPin("#pin2")
+            //.setPin("#ring-grid")
             //.setTween(timeline2)
             .addTo(controller);
 
