@@ -2708,7 +2708,7 @@ li {
     }    
     
     #card-ebook-pad {
-        padding-left: 0px;
+        padding-left: 13%;
         margin-top: -3rem;
         padding-top: 6rem;
     }
@@ -2720,7 +2720,7 @@ li {
         bottom: 10%;
         height: 23rem;
         padding: 1rem;
-        padding-left: 1rem;
+        padding-left: rem;
         padding-right: 1rem;
     }
 
