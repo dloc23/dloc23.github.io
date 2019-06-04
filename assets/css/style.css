@@ -758,7 +758,7 @@ li {
 
 #ring-grid {
     background-color: #0F2046;
-    height: 90vh;
+    height: 100vh;
 }
 
 #endring-bg {
@@ -2630,91 +2630,65 @@ li {
     #hero-container2 {
         background-image: url('../img/bg-image2-m-sm.jpg');
     }
-    
-    #pin1 {
-        background: white;
-        height: 120vh;
-    }
 
     #card-man-container {
-        margin-left: 20px;
-        margin-top: 60px;
+        margin-left: 78px;
         padding-left: 0%;
+        margin-top: -50%;
+        margin-bottom: 20%;
     }
     
     #card-man {
         padding-right: 15px;
-        padding-left: 10px;
-        width: 300px;  
-    }
-
-    .card-man-h5-1 {
-        padding-top: 4rem;
-        padding-bottom: .2rem;
-        font-size: 26px;
-        line-height: 36px;
+        padding-left: 0px;
+        width: 280px;  
     }
     
-    .card-man-h5-2 {
-        font-size: 26px;
-        line-height: 36px;
-        padding-bottom: 0;
-    }
-
-    #card-man h3 {
-        font-size: 26px;
-        color: #1A80FF;
-        line-height: 1.4rem;
-        padding-bottom: 1.2rem;
-    }
-
-    #card-man h6 {
-        color:#4f5f6c;
-        font-weight: 300;
-        font-size: 1.2rem;
-        margin-bottom: 0px;
-        margin-top: .8rem;
-        padding-bottom: .6rem;
-    }
+    #card-man-body {
+        border-style: solid;
+        border-color: #1a80ff;
+        border-left-width: 4px;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 6px 6px 20px 6px #A8A8A8;
+/*        box-shadow: none;*/
+        padding-right: 1rem;
+}
 
     #card-man p {
         color:#4f5f6c;
-        font-weight: 300;
+        font-weight: 200;
         font-size: .8rem;
         line-height: 1.2rem;
         padding-top: 8px;
-        padding-bottom: .4rem;
+        padding-bottom: .1rem;
+        padding-left: 2rem;
+    }
+    
+    #man-img {
+        width: 80px;
+        padding-left: 10px;
     }
 
     #card-blockquote {
         font-family: "IBM Plex Mono", monospace;
         color:#4f5f6c;
-        font-size: 9px;
+        font-size: 11px;
         font-weight: 300;
         padding-top: .2rem;
-        padding-bottom: 3rem;
+        padding-bottom: 0rem;
+        padding-left: 2rem;
     }
     
-    #card-man2-container {
-        width: 100%;
-        background-color: white;
-        padding-top: 0%;
-        padding-left: 4%;
-        padding-right: 0%;
-        padding-bottom: 0px;
-    }
-    
-    #man-pic-container {
-    }
-
-    #man-pic {
-        width: 246px;
-        padding-left: 36px;
-    }
-
-    #trigger2 {
-        padding-right: 0px;
-        background-color: white;
+        #card-blockquote2 {
+        font-family: "IBM Plex Mono", monospace;
+        color:#4f5f6c;
+        font-size: 11px;
+        font-weight: 300;
+        padding-top: .2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
     }
 
     #ring-grid {
@@ -2987,86 +2961,66 @@ li {
    
     /*  START CARD MAN 375 */
 /*-------------------------------------------------------------------------*/
-    
-    #pin1 {
-    background: white;
-    height: 120vh;
-    }
 
     #card-man-container {
-        margin-left: 1.8rem;
-        margin-top: 3.4rem;
+        margin-left: 60px;
         padding-left: 0%;
+        margin-top: -50%;
+        margin-bottom: 20%;
     }
     
     #card-man {
         padding-right: 15px;
-        padding-left: 10px;
-        width: 280px;  
-    }
-
-    .card-man-h5-1 {
-        padding-top: 4rem;
-        padding-bottom: .2rem;
-        font-size: 24px;
-        line-height: 36px;
+        padding-left: 0px;
+        width: 270px;  
     }
     
-    .card-man-h5-2 {
-        font-size: 24px;
-        line-height: 36px;
-        padding-bottom: 0;
-    }
-
-    #card-man h3 {
-        font-size: 26px;
-        color: #1A80FF;
-        line-height: 1.4rem;
-        padding-bottom: 1.2rem;
-    }
-
-    #card-man h6 {
-        color:#4f5f6c;
-        font-weight: 300;
-        font-size: 1.2rem;
-        margin-bottom: 0px;
-        margin-top: .8rem;
-        padding-bottom: .6rem;
-    }
+    #card-man-body {
+        border-style: solid;
+        border-color: #1a80ff;
+        border-left-width: 4px;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 4px 4px 18px 8px #D3D3D3;
+/*        box-shadow: none;*/
+        padding-right: 1rem;
+}
 
     #card-man p {
         color:#4f5f6c;
-        font-weight: 300;
+        font-weight: 200;
         font-size: .8rem;
         line-height: 1.2rem;
-        padding-top: .4rem;
-        padding-bottom: .4rem;
+        padding-top: 8px;
+        padding-bottom: .1rem;
+        padding-left: 2rem;
+        padding-right: .8rem;
+    }
+    
+    #man-img {
+        width: 70px;
+        padding-left: 18px;
     }
 
     #card-blockquote {
         font-family: "IBM Plex Mono", monospace;
         color:#4f5f6c;
-        font-size: 9px;
+        font-size: 11px;
         font-weight: 300;
         padding-top: .2rem;
-        padding-bottom: 2.6rem;
+        padding-bottom: 0rem;
+        padding-left: 2rem;
     }
     
-    #card-man2-container {
-        width: 100%;
-        background-color: white;
-        padding-top: 0%;
-        padding-left: 4%;
-        padding-right: 0%;
-        padding-bottom: 0px;
-    }
-    
-    #man-pic-container {
-    }
-
-    #man-pic {
-        width: 212px;
-        padding-left: 3.4rem;
+        #card-blockquote2 {
+        font-family: "IBM Plex Mono", monospace;
+        color:#4f5f6c;
+        font-size: 11px;
+        font-weight: 300;
+        padding-top: .2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
     }
 
     /*  END CARD MAN 375 */
@@ -3409,27 +3363,65 @@ li {
         padding-bottom: 3rem;
     }
     
-    #card-man2-container {
-        width: 100%;
-        background-color: white;
-        margin-top: -5%;
-        padding-top: 0%;
-        padding-left: 2%;
-        padding-right: 0%;
-        padding-bottom: 0px;
+    #card-man-container {
+        margin-left: 60px;
+        padding-left: 0%;
+        margin-top: -50%;
+        margin-bottom: 20%;
     }
     
-    #man-pic-container {
+    #card-man {
+        padding-right: 15px;
+        padding-left: 0px;
+        width: 270px;  
+    }
+    
+    #card-man-body {
+        border-style: solid;
+        border-color: #1a80ff;
+        border-left-width: 4px;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 4px 4px 18px 8px #D3D3D3;
+/*        box-shadow: none;*/
+        padding-right: 1rem;
+}
+
+    #card-man p {
+        color:#4f5f6c;
+        font-weight: 200;
+        font-size: .8rem;
+        line-height: 1.2rem;
+        padding-top: 8px;
+        padding-bottom: .1rem;
+        padding-left: 2rem;
+        padding-right: .8rem;
+    }
+    
+    #man-img {
+        width: 70px;
+        padding-left: 18px;
     }
 
-    #man-pic {
-        width: 236px;
-        padding-left: 36px;
+    #card-blockquote {
+        font-family: "IBM Plex Mono", monospace;
+        color:#4f5f6c;
+        font-size: 11px;
+        font-weight: 300;
+        padding-top: .2rem;
+        padding-bottom: 0rem;
+        padding-left: 2rem;
     }
-
-    #trigger2 {
-        padding-right: 0px;
-        background-color: white;
+    
+        #card-blockquote2 {
+        font-family: "IBM Plex Mono", monospace;
+        color:#4f5f6c;
+        font-size: 11px;
+        font-weight: 300;
+        padding-top: .2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
     }
 
     #ring-grid {
