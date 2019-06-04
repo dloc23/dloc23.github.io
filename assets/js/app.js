@@ -566,6 +566,7 @@ $(document).ready(function() {
         .add(TweenMax.to('#girl-card3', 1, { opacity: 0, y:"+=100" }), 0)
         .add(TweenMax.to('#girl-card3', 8, { opacity: 1 }), 112)
         
+        //Stagger pics out
 //        .add(TweenMax.to('#oGrid2 #service-leader', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 94)
 //        .add(TweenMax.to('#oGrid2 #resource-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 102)
 //        .add(TweenMax.to('#oGrid2 #project-manager', 8, {opacity:0, y:"-=850", ease: Linear.easeNone}), 110)
@@ -592,6 +593,7 @@ $(document).ready(function() {
         .set('#benefits', {className:"+=active"}, 144)
         .set('#scene2-3 .slide-list', {className:"+=white a"}, 144)
         
+        //Push nav down
 //        .add(TweenMax.to('#discover', 8, { y:'+=58' }), 144)
 //        .add(TweenMax.to('#people', 8, { y:'+=58' }), 144)
 //        .add(TweenMax.to('#benefits', 8, { y:'+=58' }), 144)
@@ -599,11 +601,11 @@ $(document).ready(function() {
         
         var scene3 = new ScrollMagic.Scene( {
             triggerElement: '#scene3',
-            duration: 5400,
-            triggerHook: 0.2,
+            //duration: 5400,
+            duration: $(window).height() * 5.9, //End Panels scene, Let the man-card screen not flicker
+            triggerHook: 0.3,
             //offset: 7350  // transition of graph animation to people animation
             offset: $(window).height() * 7.5 // position the hero image up or down
-            //offset: newHeight * 7.5
             
         })
         .setTween(s3tl)
@@ -674,45 +676,19 @@ $(document).ready(function() {
     .setTween(s3_1tl)
     .addTo(animController);
             
-//        var controller = new ScrollMagic.Controller();
-//
-//            //var timeline = new TimelineMax();
-//            //var tween1 = TweenMax.from("#card-man-container", 1, { opacity: 0, scale: 4, delay: 0 });
-//            //var tween2 = TweenMax.to("#card-man2", 0.2, { opacity: 1, delay: 0 });
-//
-//            //timeline.add(tween1).add(tween2);
-//            //timeline.add(tween1);
-//
-//        var scene = new ScrollMagic.Scene({
-//
-//            triggerElement: "#trigger2", 
-//            duration: $(window).height(),
-//            //duration: 100,
-//            triggerHook: 0,
-//            offset: 450,
-//            //offset: ($(window).height() / 2)
-//            })
-//            .setPin("#pin1")
-////            .setTween(timeline)
-//            .addTo(controller);
-        
-        
-        
 
         var controller = new ScrollMagic.Controller();
         var timeline2 = new TimelineMax();
-            //var tween11 = TweenMax.from("#card-ebook-container", .4, { opacity: 0, y:'+=40', delay: 0.1 });
-            //var tween12 = TweenMax.from("#card-cta-pic", .4, { opacity: 0, y:'+=40', delay: .1 });
-            var tween13 = TweenMax.staggerTo(
-                    [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
-                    1.2,
-                    { opacity: 0.5,
-                     //delay: 1,
-                     repeat: -1,
-                     yoyo: true,
-                     ease: Circ.easeInOut },
-                    .3
-                );
+        var tween13 = TweenMax.staggerTo(
+                [ '#endring-green', '#endring-purple', '#endring-red', '#star', '#white-stuff', '#inner-path', '#blueball' ],
+                1.2,
+                { opacity: 0.5,
+                 //delay: 1,
+                 repeat: -1,
+                 yoyo: true,
+                 ease: Circ.easeInOut },
+                .3
+            );
 
         timeline2.add(tween13);
 
@@ -722,10 +698,9 @@ $(document).ready(function() {
             duration: 0,
             offset: 0 })
 
-            //.setPin("#ring-grid")
-            //.setTween(timeline2)
             .addTo(controller);
-
+        
+        // NAV !Important
         animController.scrollTo(function (newpos) {
             TweenMax.to(window, 0.8, {scrollTo: {y: newpos}});
         });
