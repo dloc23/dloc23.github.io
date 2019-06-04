@@ -121,18 +121,6 @@ li {
     height: 60vh;
 }
 
-#pin1 {
-/*    background-color: #03236c;*/
-/*    height: 0vh;*/
-}
-
-/*
-#svp-quote-wrapper {
-    height: 20px;
-}
-*/
-
-
 /* Colors */
 .bg-white {
     color: #f5f7f9;
@@ -674,13 +662,6 @@ li {
     fill: #d1e6ff;
 }
 
-#card-man-container {
-    background-color: #EDF5FC;
-    margin-top: -40%;
-    padding-top: 0%;
-    padding-left: 22%;
-}
-
 #card-man {
     width: 860px;
     background: white;
@@ -761,14 +742,21 @@ li {
     margin-left: 0.4rem;
     margin-top: .6em;
 }
+
+#card-man-container {
+    background-color: #EDF5FC;
+    margin-top: -40%;
+    padding-left: 22%;
+}
 /*  END CARD MAN*/
 /*-------------------------------------------------------------------------*/
 
-/*-------------------------------------------------------------------------*/
+#man-spacer {
+    background-color: #EDF5FC;    
+}
+
 #ring-grid {
     background-color: #0F2046;
-/*    background-color: red;*/
-/*    margin-top: 100px;*/
     height: 100vh;
 }
 
@@ -1069,13 +1057,6 @@ li {
         fill: #d1e6ff;
     }
 
-    #card-man-container {
-        background-color: #EDF5FC;
-        margin-top: -50%;
-        padding-top: 0%;
-        padding-left: 18%;
-    }
-
     #card-man {
         width: 860px;
         background: white;
@@ -1157,13 +1138,20 @@ li {
         margin-top: .6em;
     }
     
-/*  CARD MAN*/
+#card-man-container {
+    background-color: #EDF5FC;
+    margin-top: -47%;
+    padding-left: 22%;
+}
+/*  END CARD MAN*/
 /*-------------------------------------------------------------------------*/
-    
+
+#man-spacer {
+    background-color: #EDF5FC;    
+}
+
 #ring-grid {
     background-color: #0F2046;
-/*    background-color: red;*/
-/*    margin-top: 100px;*/
     height: 100vh;
 }
 
@@ -1364,13 +1352,6 @@ li {
         fill: #d1e6ff;
     }
 
-    #card-man-container {
-        background-color: #EDF5FC;
-        margin-top: -60%;
-        padding-top: 0%;
-        padding-left: 18%;
-    }
-
     #card-man {
         width: 860px;
         background: white;
@@ -1453,10 +1434,20 @@ li {
     }
 
     
+#card-man-container {
+    background-color: #EDF5FC;
+    margin-top: -52%;
+    padding-left: 16%;
+}
+/*  END CARD MAN*/
+/*-------------------------------------------------------------------------*/
+
+#man-spacer {
+    background-color: #EDF5FC;    
+}
+
 #ring-grid {
     background-color: #0F2046;
-/*    background-color: red;*/
-/*    margin-top: 100px;*/
     height: 100vh;
 }
 
@@ -1888,11 +1879,6 @@ li {
         padding-bottom: 1.14rem;
         margin-top: -1.14rem;
     }
-    
-#card-man-container {
-    padding-top: 12.5%;
-    padding-left: 18%;
-}
 
 #card-man {
     width: 720px;
@@ -1974,7 +1960,22 @@ li {
     margin-left: 0.4rem;
     margin-top: .6em;
 }
+#card-man-container {
+    background-color: #EDF5FC;
+    margin-top: -68%;
+    padding-left: 16%;
+}
 /*  END CARD MAN*/
+/*-------------------------------------------------------------------------*/
+
+#man-spacer {
+    background-color: #EDF5FC;    
+}
+
+#ring-grid {
+    background-color: #0F2046;
+    height: 100vh;
+}
     
     #card-ebook-container {
         border-color: white;
