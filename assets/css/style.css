@@ -2047,8 +2047,39 @@ li {
         color: #1a80ff;
     }
 }
-/*_________________________________  768  ___________________________________*/
+/*_________________________________  768 IPAD -- VERY NARROW WINDOW ___________________________________*/
 @media (max-width: 768px) {
+    
+    #endring-wrapper {
+        padding: 0px;
+        margin-bottom: -4px;
+        height: auto;
+    }
+    
+    #first_panel {
+        padding-left: 0;
+        margin-left: 60px;
+    }
+
+    #second_panel {
+        padding-left: 0;
+        margin-left: 30px;
+    }
+
+    #third_panel {
+        padding-left: 180px;
+    }
+
+    #panel_1,
+    #panel_2,
+    #panel_3 {
+        border-radius: 0;
+        width: 326px;
+        background-color: rgba(255, 255, 255, 1);
+
+        background: none;
+        margin-top: -5rem;
+    }
     
     .hero {
         background-image: url('../img/bg-image-nosquares.jpg');
@@ -2057,12 +2088,13 @@ li {
         background-repeat: no-repeat;
         background-position: top center;
         max-width: 100% auto;
+
     }
 
     #squares-left-container {
-        padding-left: 320px;
-        padding-top: 180px;
-        width: 220px;
+        padding-left: 290px;
+        padding-top: 190px;
+        width: 520px;
     }
 
     #squares-right-container {
@@ -2133,11 +2165,11 @@ li {
     }
 
     #osrChart {
-        width: 880px;
+        width: 790px;
     }
 
     #osr-container {
-        padding-left: 57%;
+        padding-left: 54%;
         padding-top: 34%;
     }
 
@@ -2148,7 +2180,7 @@ li {
 
     .slide-list-container {
         padding-left: 2%;
-        padding-top: 12%;
+        padding-top: 4%;
     }
     
     .slide-list {
@@ -2158,7 +2190,6 @@ li {
         text-align: left;
         list-style-type: none;
         cursor: pointer;
-        cursor: hand;
     }
 
     #panels {
@@ -2166,8 +2197,9 @@ li {
     }
 
     #panels-container {
-        padding-top: 260px;
-        padding-left: 9%;
+        /*    padding-top: 200px;*/
+        padding-top: 26%;
+        padding-left: 1%;
     }
     
     #oGrid2 {
@@ -2366,63 +2398,103 @@ li {
         padding-bottom: 1.14rem;
         margin-top: -1.14rem;
     }
+
+#card-man {
+    width: 720px;
+    background: white;
+}
+
+#card-man-body {
+    border-style: solid;
+    border-color: #1a80ff;
+    border-left-width: 6px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 12px 12px 20px -6px #A8A8A8;
+    padding-right: 4.4em;
+}
+
+.card-man-h5-1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+    }
     
-    #card-man-container {
-        padding-top: 36%;
-        padding-left: 25%;
-    }
-
-    #card-man2-container {
-        padding-top: 46%;
-        padding-left: 14%;
-    }
-
-    #card-man {
-        width: 360px;  
-    }
-
-    #man-pic {
-        width: 300px;
-    }
-
-    .card-man-h5-1 {
-        padding-top: 2rem;
-        padding-bottom: .8rem;
-        font-size: 26px;
-    }
-
-    .card-man-h5-2 {
-        font-size: 26px;
+.card-man-h5-2 {
+        font-size: 40px;
+        margin-top: -.7rem;
         padding-bottom: 0;
     }
 
-    #card-man h6 {
-        color:#4f5f6c;
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 24px;
-        margin-bottom: 0px;
-        padding-bottom: .4rem;
-        margin-top: 1rem;
-    }
+#card-man h6 {
+    color:#4f5f6c;
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 0px;
+    padding-bottom: .4rem;
+    margin-top: 2rem;
+}
 
-    #card-man p {
-        color:#4f5f6c;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 18px;
-        padding-top: 8px;
-        padding-bottom: .4rem;
-    }
+#card-man p {
+    color:#4f5f6c;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: -.3em;
+    padding-left: 3rem;
+    padding-top: 0em;
+    padding-bottom: 0rem;
+}
 
-    #card-blockquote {
-        font-family: "IBM Plex Mono", monospace;
-        color:#4f5f6c;
-        font-size: 10px;
-        font-weight: 300;
-        padding-top: .8rem;
-        margin-left: 0.4rem;
-    }
+#card-man-span {
+    font-weight: 400;
+}
+
+#man-img {
+    margin-left: -5.3em;
+    margin-top: 2.3em;
+    padding-bottom: 3em;
+}
+
+#card-blockquote {
+    font-family: "IBM Plex Mono", monospace;
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0.3em;
+    margin-left: 0.4rem;
+    margin-top: -10.4em;
+}
+#card-blockquote2 {
+    font-family: "IBM Plex Mono", monospace;
+    color:#4f5f6c;
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 3.6em;
+    margin-left: 0.4rem;
+    margin-top: .6em;
+}
+#card-man-container {
+    background-color: #EDF5FC;
+    margin-top: -68%;
+    padding-left: 16%;
+}
+/*  END CARD MAN*/
+/*-------------------------------------------------------------------------*/
+
+#man-spacer {
+    background-color: #EDF5FC;    
+}
+
+#ring-grid {
+    background-color: #0F2046;
+    height: 80vh;
+}
     
     #card-ebook-container {
         border-color: white;
@@ -2479,19 +2551,21 @@ li {
 
     #card-ebook-link-container {
         padding-top: 0rem;
+        font-size: 12px;
+        font-weight: 400;
     }
 
     #ebook-text-underline {
         font-family: "IBM Plex Mono", monospace;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         text-underline-position: under;
         color: #1a80ff;
-
-    }  
+    }
 }
+
 /*_________________________________  IPHONE PLUS 414  ___________________________________*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
 
     .not-mobile {
         display: block;
