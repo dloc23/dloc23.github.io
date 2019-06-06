@@ -1304,7 +1304,7 @@ li {
     #panels-container {
         /*    padding-top: 200px;*/
         padding-top: 13%;
-        padding-left: 19%;
+        padding-left: 10%;
     }
     
     #oGrid2 {
@@ -2806,7 +2806,7 @@ li {
 
     #card-cta-pic-mobile {
         margin-left: -24px;
-        padding-top: 40px;
+/*        padding-top: 40px;*/
         padding-left: 0px;
         width: 286px;
     }
@@ -3028,11 +3028,6 @@ li {
     /*  START END SCREEN 375 */
 /*-------------------------------------------------------------------------*/
 
-    #trigger2 {
-        padding-right: 0px;
-        background-color: white;
-    }
-
     #ring-grid {
         background-image: url('../svg/endrings-mobile.svg');
         background-repeat: no-repeat;
@@ -3143,15 +3138,17 @@ li {
     }
 
     #card-cta-pic-mobile {
-        width: 1px;
-    }
-
-    #card-cta-pic-mobile {
         margin-left: -24px;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-left: 0px;
         width: 286px;
     }
+    
+/*
+    #cta-grid {
+        height: 10vh;
+    }
+*/
     
     /*  END END SCREEN 375 */
 /*-------------------------------------------------------------------------*/
@@ -3545,7 +3542,7 @@ li {
 
     #card-cta-pic-mobile {
         margin-left: -24px;
-        padding-top: 40px;
+/*        padding-top: 40px;*/
         padding-left: 0px;
         width: 286px;
     }
