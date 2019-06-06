@@ -1649,11 +1649,11 @@ li {
     }
 
     #osrChart {
-        width: 880px;
+        width: 790px;
     }
 
     #osr-container {
-        padding-left: 57%;
+        padding-left: 54%;
         padding-top: 34%;
     }
 
@@ -1664,7 +1664,7 @@ li {
 
     .slide-list-container {
         padding-left: 2%;
-        padding-top: 12%;
+        padding-top: 4%;
     }
     
     .slide-list {
@@ -1683,7 +1683,7 @@ li {
     #panels-container {
         /*    padding-top: 200px;*/
         padding-top: 26%;
-        padding-left: 12%;
+        padding-left: 2%;
     }
     
     #oGrid2 {
