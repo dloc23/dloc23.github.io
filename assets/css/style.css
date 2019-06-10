@@ -2533,11 +2533,8 @@ li {
         color: #1a80ff;
     }
 }
- 
-}
 /*_________________________________  IPHONE PLUS 414 -- OR EXTREMELY NARROW COMPUTER WIDTH  ___________________________________*/
 @media screen and (max-width: 500px) {
-
     .not-mobile {
         display: block;
         visibility: hidden;
@@ -2569,16 +2566,16 @@ li {
     }
     
     #oGrid {
-        margin-left: 22%;
+        margin-left: 22.5%;
         margin-right: 0px;
-        margin-top: 280px;
+        margin-top: 250px;
         margin-bottom: 0;
         padding-left: 0;
         width: 320px;
     }
     
     .hero-container-header {
-        padding-top: 12%;
+        padding-top: 8%;
         padding-left: 16px;
         margin-right: 0px;
         padding-right: 0;
@@ -2602,18 +2599,22 @@ li {
     
     #service-h1-container {
         padding-bottom: 20%;
-        margin-top: 0%;
+        margin-top: 2%;
     }
     
     .service {
-        padding-left: 18%;
+        padding-left: 21%;
         padding-bottom: 200px;
     }
 
     .service h1 {
-        font-size: 56px;
-        line-height: 52px;
-
+        font-size: 48px;
+        line-height: 50px;
+        padding-left: 0rem;
+    }
+    
+    .busb {
+        margin-top: -.6rem;
     }
     
     .slide-list {
@@ -2633,23 +2634,23 @@ li {
     
     #flip-osr-container {
         margin-left: -1.4rem;
-        padding-top: 0px;
+        padding-top: 30px;
         padding-left: 0px;
     }
     
     #flip-osr {
         width: 375px;
     }
-    
+
     #osr-container {
-        margin-left: 91%;
-        margin-top: 246px;
+        margin-left: 100%;
+        margin-top: 13rem;
         padding-top: 100%;
     }
     
     #osrChart {
         padding-top: 20%;
-        width: 486px;
+        width: 480px;
     }
     
     #oGrid2-padding {
@@ -2675,9 +2676,12 @@ li {
     #hero-container2 {
         background-image: url('../img/bg-image2-m-sm.jpg');
     }
+   
+    /*  START CARD MAN 375 */
+/*-------------------------------------------------------------------------*/
 
     #card-man-container {
-        margin-left: 78px;
+        margin-left: 60px;
         padding-left: 0%;
         margin-top: -50%;
         margin-bottom: 20%;
@@ -2686,7 +2690,7 @@ li {
     #card-man {
         padding-right: 15px;
         padding-left: 0px;
-        width: 280px;  
+        width: 270px;  
     }
     
     #card-man-body {
@@ -2696,7 +2700,7 @@ li {
         border-top: none;
         border-right: none;
         border-bottom: none;
-        box-shadow: 6px 6px 20px 6px #A8A8A8;
+        box-shadow: 4px 4px 18px 8px #D3D3D3;
 /*        box-shadow: none;*/
         padding-right: 1rem;
 }
@@ -2709,11 +2713,12 @@ li {
         padding-top: 8px;
         padding-bottom: .1rem;
         padding-left: 2rem;
+        padding-right: .8rem;
     }
     
     #man-img {
-        width: 80px;
-        padding-left: 10px;
+        width: 70px;
+        padding-left: 18px;
     }
 
     #card-blockquote {
@@ -2736,6 +2741,11 @@ li {
         padding-left: 2rem;
     }
 
+    /*  END CARD MAN 375 */
+/*-------------------------------------------------------------------------*/
+    /*  START END SCREEN 375 */
+/*-------------------------------------------------------------------------*/
+
     #ring-grid {
         background-image: url('../svg/endrings-mobile.svg');
         background-repeat: no-repeat;
@@ -2748,24 +2758,24 @@ li {
         padding-top: 0px;
         padding-bottom: 30px;
     }
-    
+
     #endring-bg {
     }    
-    
+
     #card-ebook-pad {
-        padding-left: 54px;
+        padding-left: 0px;
         margin-top: -3rem;
         padding-top: 6rem;
     }
 
     #card-ebook-container {
         border-color: rgba(0, 0, 0, 0.2);;
-        width: 300px;
-        left: 7%;
+        width: 290px;
+        left: 28%;
         bottom: 10%;
         height: 23rem;
         padding: 1rem;
-        padding-left: rem;
+        padding-left: 1rem;
         padding-right: 1rem;
     }
 
@@ -2819,13 +2829,13 @@ li {
         text-underline-position: under;
         color: #1a80ff;
     }
-
+    
     #cta-grid {
         margin-top: -460px;
     }
 
     #card-cta-pic-container {
-        margin-top: 0px;
+        margin-top: -130px;
         padding-left: 16.66%;
         padding-top: 6rem;
         padding-bottom: 9rem;
@@ -2846,17 +2856,12 @@ li {
     }
 
     #card-cta-pic-mobile {
-        width: 1px;
-    }
-
-    #card-cta-pic-mobile {
         margin-left: -24px;
-/*        padding-top: 40px;*/
+        padding-top: 0px;
         padding-left: 0px;
         width: 286px;
     }
-    
-}  
+}
 /*_________________________________  IPHONE 375  ___________________________________*/
 @media screen and (max-width: 375px) {
     
