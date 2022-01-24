@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <title>GreenSock</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <style>
+
+      #mask {
+         position: absolute;
+         width: 489px;
+         height: 275px;
+         left: -100%;
+         right: -100%;
+         margin-left: auto;
+         margin-right: auto;
+         top: -100%;
+         bottom: -100%;
+         margin-top: auto;
+         margin-bottom: auto;
+         clip: rect(auto, auto, auto, auto);
+      }
+
+      #image {
+         width: 100%;
+         height: auto;
+      }
+
+    </style>
+
+    <script>
+
+      var mask = document.getElementById("mask");
+      var maskW = mask.offsetWidth + "px";
+      var maskH = mask.offsetHeight + "px";
+      var halfMaskH = Math.floor(mask.offsetHeight * 0.5) + "px";
+         
+      var tl = new gsap.timeline({ repeat: -1 });
+         
+      // Appear from left
+      tl.fromTo(mask, 1.0,
+      { clip: `rect(auto, 0px, ${maskH}, auto)` },
+      { clip: `rect(auto, ${maskW}, ${maskH}, auto)`, ease: "power2.inOut" }, 0.0);
+         
+      // Disappear to right
+      tl.fromTo(mask, 1.0,
+      { clip: `rect(auto, ${maskW}, ${maskH}, 0)` },
+      { clip: `rect(auto, ${maskW}, ${maskH}, ${maskW})`, ease: "power2.inOut" }, 1.0);
+         
+      // Appear to bottom
+      tl.fromTo(mask, 1.0,
+      { clip: `rect(auto, auto, 0px, auto)` },
+      { clip: `rect(auto, auto, ${maskH}, auto)`, ease: "power2.inOut" }, 2.0);
+         
+      // Disappear from top
+      tl.fromTo(mask, 1.0,
+      { clip: `rect(0px, auto, ${maskH}, auto)` },
+      { clip: `rect(${maskH}, auto, ${maskH}, auto)`, ease: "power2.inOut" }, 3.0);
+
+      // Appear from center
+      tl.fromTo(mask, 1.0,
+            { clip: `rect(${halfMaskH}, auto, ${halfMaskH}, auto)` },
+            { clip: `rect(0px, auto, ${maskH}, auto)`, ease: "power3.out" }, 4.0);
+
+      // Disappear to center
+      tl.fromTo(mask, 1.0,
+            { clip: `rect(0px, auto, ${maskH}, auto)` },
+            { clip: `rect(${halfMaskH}, auto, ${halfMaskH}, auto)`, ease: "power3.out" }, 5.0);
+
+    </script>
+
+  </head>
+  <body>
+
+   <div id="mask">
+      <img id="image" src="https://timurgafarov.ru/storage/car.jpg">
+      <!-- <img id="image" src="cobra.jpg"> -->
+    </div>
+   
+</body>
+</html>
